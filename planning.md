@@ -1,369 +1,419 @@
-# Project 1 Planning: The Unofficial Guide
+# Mule Intelligence — Project 1
 
-> Write this document before you write any pipeline code.
-> Your spec and architecture diagram are what you'll use to direct AI tools (Claude, Copilot, etc.) to generate your implementation — the more specific they are, the more useful the generated code will be.
-> Update the Retrieval Approach and Chunking Strategy sections if you change your approach during implementation.
-> Update this file before starting any stretch features.
+Mule Intelligence is a citation-first retrieval-augmented generation system for Colby College athletics.
+
+The application collects official Colby Athletics schedules, rosters, and cumulative statistics, converts them into structured records, embeds them in a persistent ChromaDB vector store, retrieves relevant evidence, and uses Groq to generate grounded answers with source citations.
+
+The current corpus covers:
+
+* Football
+* Men's soccer
+* Women's soccer
+* Men's basketball
+* Women's basketball
+
+The system currently contains **15 source documents** and **793 structure-aware chunks**.
 
 ---
 
 ## Domain
 
-I chose **Mule Intelligence**, a retrieval-augmented assistant for Colby College athletics. The system is designed to answer questions about Colby teams, schedules, results, rosters, awards, athletics resources, official sports news, and related media using official Colby Athletics and NESCAC-connected source documents.
+Mule Intelligence covers Colby College athletics information, including schedules, opponents, locations, season records, player profiles, roster attributes, and individual statistics.
 
-This knowledge is valuable because Colby athletics information is spread across many separate official pages: team schedules, rosters, story archives, awards pages, photo galleries, department resources, and student-athlete support pages. A student, athlete, family member, fan, alum, journalist, or recruit may need to search multiple pages to answer one question. For example, asking about a team’s season may require the schedule page, roster page, recap articles, and award pages.
+This information is valuable because it is spread across many team-specific pages and formats. A user may need to navigate separate schedule, roster, and statistics pages to answer a single question. Mule Intelligence creates one conversational interface over those official sources while preserving links back to the original pages.
 
-The prototype will focus on Colby Athletics because that keeps the project specific, testable, and useful. However, the architecture will be designed to scale later to the rest of the NESCAC. Each source and chunk will carry metadata such as `school`, `sport`, `season`, `document_type`, `source_url`, `source_id`, and `date_accessed`, so adding another NESCAC school later should mostly mean adding new source registry entries rather than rewriting the full RAG pipeline.
+Examples of supported questions include:
 
-The long-term product vision is a live, citation-first NESCAC sports intelligence assistant. The Project 1 version will launch with Colby as the validated first school and will include a refresh-friendly scraping plan so the system does not become outdated after one season.
+* When does Colby football play Bowdoin?
+* What position does Sean Trinder play?
+* Who led Colby football in receiving yards?
+* Who led men's soccer in points?
+* Who led men's basketball in scoring?
+* What was the men's basketball season record?
 
----
-
-## Documents
-
-The initial corpus will use verified official Colby Athletics pages. A source registry will store each URL and its metadata so the scraper can refresh the documents without changing the ingestion code.
-
-| #  | Source                            | Description                                                                                                                | URL or location                                                            |
-| -- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| 1  | Colby Athletics Official Website  | Main athletics hub with team navigation, athletics resources, stories, scoreboard, galleries, and official links           | https://colbyathletics.com/                                                |
-| 2  | Colby Football Schedule           | Current football schedule page with season selector, record, opponents, locations, results, box scores, and recaps         | https://colbyathletics.com/sports/football/schedule                        |
-| 3  | Colby Football Roster             | Current football roster with player names, numbers, positions, class years, hometowns, heights, weights, and profile links | https://colbyathletics.com/sports/football/roster                          |
-| 4  | Colby Football Story Archives     | Football news and game recap archive                                                                                       | https://colbyathletics.com/sports/football/archives                        |
-| 5  | Colby Men's Soccer Schedule       | Current men's soccer schedule and results page                                                                             | https://colbyathletics.com/sports/mens-soccer/schedule                     |
-| 6  | Colby Men's Soccer Roster         | Current men's soccer roster and player profile source                                                                      | https://colbyathletics.com/sports/mens-soccer/roster                       |
-| 7  | Colby Women's Soccer Schedule     | Current women's soccer schedule and results page                                                                           | https://colbyathletics.com/sports/womens-soccer/schedule                   |
-| 8  | Colby Women's Soccer Roster       | Current women's soccer roster and player profile source                                                                    | https://colbyathletics.com/sports/womens-soccer/roster                     |
-| 9  | Colby Men's Basketball Schedule   | Current men's basketball schedule, record, opponents, and results                                                          | https://colbyathletics.com/sports/mens-basketball/schedule                 |
-| 10 | Colby Women's Basketball Schedule | Current women's basketball schedule, record, opponents, and results                                                        | https://colbyathletics.com/sports/womens-basketball/schedule               |
-| 11 | Colby All-NESCAC Awards           | Historical conference award information for Colby athletes across sports                                                   | https://colbyathletics.com/sports/2022/7/27/all-nescac.aspx                |
-| 12 | Colby Student Athlete Wellbeing   | Official athletics support and wellbeing information                                                                       | https://colbyathletics.com/sports/2022/8/22/student-athlete-wellbeing.aspx |
-| 13 | Colby Athletics Galleries         | Official athletics photo gallery index                                                                                     | https://colbyathletics.com/galleries/                                      |
-
-The collection process will be automated through a source registry and scraper rather than relying entirely on manual copy-and-paste. Each source entry will specify:
-
-* source id
-* source name
-* source URL
-* school
-* sport
-* season, when applicable
-* document type
-* whether images should be collected
-* refresh frequency
-* last successful retrieval time
-
-The scraper will save cleaned textual content for RAG ingestion and a separate structured metadata record for source attribution, freshness, and image presentation.
-
-Example source registry entry:
-
-```json
-{
-  "id": "colby-football-schedule",
-  "title": "Colby Football Schedule",
-  "url": "https://colbyathletics.com/sports/football/schedule",
-  "school": "Colby College",
-  "sport": "Football",
-  "season": "current",
-  "document_type": "schedule",
-  "collect_images": true,
-  "refresh_frequency": "daily"
-}
-```
+The assistant is designed to refuse questions that cannot be supported by the available documents rather than inventing an answer.
 
 ---
 
-## Multimedia and Image Plan
+## Document Sources
 
-Mule Intelligence will be designed as a multimedia RAG assistant. Its factual answers will continue to come from retrieved text documents, but relevant official images may be displayed beside an answer when the retrieved source includes useful visual content.
+The corpus is generated automatically from official Colby Athletics pages.
 
-For each meaningful image, the scraper will attempt to collect:
+| #  | Source                                                 | Type       | URL or file path                                                    |
+| -- | ------------------------------------------------------ | ---------- | ------------------------------------------------------------------- |
+| 1  | Colby Football Schedule                                | Schedule   | `https://colbyathletics.com/sports/football/schedule`               |
+| 2  | Colby Football Roster                                  | Roster     | `https://colbyathletics.com/sports/football/roster`                 |
+| 3  | 2025 Colby Football Cumulative Statistics              | Statistics | `https://colbyathletics.com/sports/football/stats/2025`             |
+| 4  | Colby Men's Soccer Schedule                            | Schedule   | `https://colbyathletics.com/sports/mens-soccer/schedule`            |
+| 5  | Colby Men's Soccer Roster                              | Roster     | `https://colbyathletics.com/sports/mens-soccer/roster`              |
+| 6  | 2025 Colby Men's Soccer Cumulative Statistics          | Statistics | `https://colbyathletics.com/sports/mens-soccer/stats/2025`          |
+| 7  | Colby Women's Soccer Schedule                          | Schedule   | `https://colbyathletics.com/sports/womens-soccer/schedule`          |
+| 8  | Colby Women's Soccer Roster                            | Roster     | `https://colbyathletics.com/sports/womens-soccer/roster`            |
+| 9  | 2025 Colby Women's Soccer Cumulative Statistics        | Statistics | `https://colbyathletics.com/sports/womens-soccer/stats/2025`        |
+| 10 | Colby Men's Basketball Schedule                        | Schedule   | `https://colbyathletics.com/sports/mens-basketball/schedule`        |
+| 11 | Colby Men's Basketball Roster                          | Roster     | `https://colbyathletics.com/sports/mens-basketball/roster`          |
+| 12 | 2025-26 Colby Men's Basketball Cumulative Statistics   | Statistics | `https://colbyathletics.com/sports/mens-basketball/stats/2025-26`   |
+| 13 | Colby Women's Basketball Schedule                      | Schedule   | `https://colbyathletics.com/sports/womens-basketball/schedule`      |
+| 14 | Colby Women's Basketball Roster                        | Roster     | `https://colbyathletics.com/sports/womens-basketball/roster`        |
+| 15 | 2025-26 Colby Women's Basketball Cumulative Statistics | Statistics | `https://colbyathletics.com/sports/womens-basketball/stats/2025-26` |
 
-* image URL
-* alt text
-* caption
-* photographer or image credit, when available
-* source page URL
-* associated school
-* associated sport
-* associated team, athlete, game, or article
-* date collected
-
-The scraper will ignore likely decorative assets such as site logos repeated on every page, social-media icons, navigation images, advertisements, tracking images, and very small thumbnails.
-
-Images will be linked to their parent source document through metadata. The initial retrieval system will remain text-based. When a text document or chunk is retrieved, the interface may display an image associated with that source.
-
-```text
-User question
-        |
-        v
-Text retrieval finds relevant document chunks
-        |
-        v
-Retrieved chunk metadata identifies its source
-        |
-        v
-Image metadata store finds images associated with that source
-        |
-        v
-Answer is displayed with citations and an optional relevant image
-```
-
-The system will preserve the original source page and image URL instead of presenting an image as independently owned content. Image credits will be shown when the source provides them.
-
-A future multimodal version could use an image-text embedding model such as CLIP to search images by visual meaning. That feature is outside the required Project 1 text-RAG pipeline and will only be attempted after ingestion, retrieval, generation, citations, and evaluation are working correctly.
+The scraper stores generated text documents in `documents/` and collected image metadata in `media/image_metadata.json`.
 
 ---
 
 ## Chunking Strategy
 
-**Chunk size:** Structure-aware chunks for schedules and rosters. Fixed-size chunks of approximately 700 characters with 150-character overlap are reserved for future prose sources such as news articles, recaps, and resource pages.
+**Chunk size:** Structure-aware chunks are used for the current schedule, roster, and statistics documents. Fixed-size chunks of approximately 700 characters are available for future prose sources.
 
-**Overlap:** No overlap is used for the current structured schedule and roster records because each game or athlete is kept as a complete, self-contained chunk. Future prose documents will use approximately 150 characters of overlap to reduce information loss at chunk boundaries.
+**Overlap:** Structured records do not use overlap because each game, athlete, or statistical row remains intact. Future prose documents use approximately 150 characters of overlap.
+
+**Why these choices fit the documents:**
+
+The source corpus contains structured tables and records rather than only continuous prose. Fixed-size splitting could separate a player from their position, a game from its date, or a statistical value from the athlete it describes.
+
+The chunking pipeline therefore uses document-specific behavior:
+
+* Each roster athlete becomes one complete chunk.
+* Each schedule page begins with a season-summary chunk.
+* Each scheduled game becomes one complete chunk.
+* Each supported statistics row becomes one complete chunk.
+* Every chunk retains source title, source ID, source URL, school, sport, season, document type, file name, and chunk index.
+* Source context is prepended before embedding so individual records remain connected to their school, sport, season, and page.
 
 **Final chunk count:** 793 chunks across 15 documents.
 
-**Reasoning:**
-
-The current source corpus contains schedule, roster, and cumulative statistics pages for football, men's soccer, women's soccer, men's basketball, and women's basketball. Because these pages contain structured records rather than continuous prose, using only fixed-size character chunks could separate related facts such as an opponent from its game date, a player's name from their position, or an athlete from their statistical totals.
-
-The chunking pipeline therefore processes each document according to its type:
-
-* Each roster player becomes one individual chunk.
-* Each schedule page begins with one season-summary chunk.
-* Each scheduled game becomes one individual chunk.
-* Each statistics row becomes one individual chunk, preserving the table category, athlete, season, sport, and all available statistical fields.
-* Every chunk retains metadata from its source document, including the source title, source ID, source URL, school, sport, season, document type, file name, and chunk index.
-
-For example, one roster chunk contains all available information for a single athlete:
-
-```text
-Record type: athlete
-Player: Sean Trinder
-Jersey number: 0
-Position: WR
-Academic year: So.
-Height: 6'1"
-Weight: 200 lbs
-Hometown: Fair Haven, N.J.
-High school: Rumson Fair Haven Regional
-Profile URL: https://colbyathletics.com/sports/football/roster/sean-trinder/9043
-```
-
-A schedule chunk keeps the information for one game together, including its date, time, opponent, conference designation when present, location, and score when the game has already been played.
-
-Before chunking, the automated ingestion pipeline removes repeated navigation text, footer content, ad-blocker notices, duplicate links, `Box Score` and `Recap` labels, repeated locations, and other unrelated site-wide text. It also detects the season shown on the official page and stores that value in the document metadata.
-
-Image metadata is stored separately rather than embedded directly inside the text chunks. Text chunks and image records share a `source_id`, allowing the interface to associate a retrieved source with relevant images later without treating images as textual evidence.
-
-If future versions add prose-heavy sources such as game recaps, athletics news, awards articles, or student-athlete resource pages, those documents will be split into approximately 700-character chunks with 150-character overlap while preserving section headings and source metadata.
 ---
 
-## Retrieval Approach
+## Embedding Model
 
-**Embedding model:** `all-MiniLM-L6-v2` through the `sentence-transformers` library.
+**Model used:** `all-MiniLM-L6-v2` through Sentence Transformers.
 
-**Top-k:** Retrieve the top 5 chunks for each query.
+This model was selected because it is free, runs locally, has low latency, and is sufficient for a small English-language athletics corpus. It allows the project to generate embeddings without requiring a paid embedding API.
 
 **Production tradeoff reflection:**
 
-I chose `all-MiniLM-L6-v2` because it is lightweight, free to run locally, and commonly used for beginner RAG prototypes. It should be fast enough for this project while still giving useful semantic search results over short athletics documents.
+For a production deployment, I would compare local and hosted embedding models based on retrieval accuracy, context length, latency, cost, multilingual support, and performance on names and sports terminology.
 
-If I were deploying this system for real users and cost was not a constraint, I would compare stronger embedding models based on accuracy, latency, cost, and how well they handle sports-specific text. Important tradeoffs would include whether the model handles names, abbreviations, mascots, team nicknames, scores, table-derived text, and short factual queries well.
+A larger hosted model could improve semantic matching but would introduce API cost, network latency, and another external dependency. A larger local model could improve accuracy while preserving privacy, but would increase memory requirements and embedding time.
 
-For example, the system should understand that “Mules” refers to Colby and that “football schedule” and “football results” are closely related. I would also consider adding structured filters for `sport`, `season`, `document_type`, and `school` so the retrieval step does not confuse football results with basketball results or men's soccer with women's soccer.
-
-For a more advanced version, I would combine vector search with metadata filtering. For example, if the user asks, “What was Colby football's record in 2025?” the system should prioritize chunks where `sport = Football` and `season = 2025`.
+The current model is appropriate for this prototype because the corpus is relatively small and the system also uses metadata filtering and intent-based routing to improve retrieval precision.
 
 ---
 
-## Evaluation Plan
+## Grounded Generation
 
-| # | Question                                                                                               | Expected answer                                                                                                                                   |
-| - | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1 | What was Colby football's overall record on the current football schedule page?                        | The system should retrieve the Colby Football Schedule source and answer using the season record shown in that document.                          |
-| 2 | Which source should the system use to answer a question about Colby football player positions?         | The system should use the Colby Football Roster source because roster information contains player names and positions.                            |
-| 3 | What kind of information does the Colby All-NESCAC Awards page provide?                                | The system should answer that it provides historical conference award information for Colby athletes across sports.                               |
-| 4 | If a user asks, “Who will be Colby's best football player next season?” how should the system respond? | The system should say the provided documents do not contain enough information to support that prediction. It should not invent a future ranking. |
-| 5 | If the system displays an image with an answer, what should the image be based on?                     | The image should come from official source metadata connected to the retrieved document, not from a hallucinated or unrelated image search.       |
+**System prompt grounding instruction:**
 
-I will revise or expand these questions after collecting the final cleaned documents. At least three final evaluation questions will ask about specific facts from the collected sources, such as records, scores, roster information, awards, or student-athlete resources.
+The model is instructed to answer using only the retrieved Colby Athletics sources. It may not use outside knowledge or guess missing information.
 
----
-
-## Anticipated Challenges
-
-1. Colby Athletics is powered by a sports-content website structure that contains repeated navigation, menus, accessibility text, logos, footer content, ad-blocker notices, and many duplicate links. A generic scraper may collect more boilerplate than useful sports information. The cleaning system will therefore target meaningful page sections and the output will be manually inspected during development.
-
-2. Schedule and roster pages are visually structured but may become disorganized when converted to plain text. A score could be separated from its opponent, or a player's name could be separated from the player's position. The scraper will use page-type-specific extraction rules and convert each row or profile into a self-contained structured record.
-
-3. Current schedule pages may automatically point to a new season when the school updates the site. The source registry will distinguish between `current` pages and explicitly archived seasons. Each generated document will store both the season detected on the page and the retrieval timestamp.
-
-4. Images may include decorative assets, school logos, opponent logos, athlete headshots, gallery photos, and article images. Saving all of them would create noise and unnecessary storage. Image filtering will use alt text, HTML context, dimensions when available, file patterns, and source location to keep only likely content images.
-
-5. Some images may have missing alt text, captions, or credits. The system must not invent an identity or description. Images with insufficient metadata may be preserved as source-linked assets but should not be presented as factual evidence about a specific athlete or event.
-
-6. Source URLs can change over time. The scraper will log failed requests, HTTP status codes, redirect destinations, and the last successful retrieval time. A failed source will not silently overwrite a previously valid document with an empty file.
-
-7. Adding conversation or user memory creates a risk of mixing personal preferences with official sports facts. Memory may help select a sport, season, or preferred answer style, but all claims about scores, schedules, athletes, rosters, and awards must remain grounded in retrieved official documents.
-
----
-
-## Architecture
+The core grounding rules include:
 
 ```text
-Verified source registry
-- URL
-- school
-- sport
-- season
-- document type
-- image collection setting
-- refresh frequency
-        |
-        v
-Automated source collector
-- Requests + Beautiful Soup for standard HTML
-- Optional browser-based fallback for JavaScript-rendered pages
-- Follow redirects
-- Record failures and retrieval timestamps
-        |
-        +---------------------------+
-        |                           |
-        v                           v
-Text extraction                Image extraction
-- schedules                    - image URL
-- rosters                      - alt text
-- articles                     - caption
-- awards                       - credit
-- resource pages               - parent source
-        |                           |
-        v                           v
-Cleaned documents             Image metadata store
-- structured records           - JSON metadata
-- prose sections               - source associations
-- source metadata              - optional cached files
-        |                           |
-        v                           |
-Chunking                        |
-- structure-aware chunks        |
-- prose: ~700 chars             |
-- overlap: ~150 chars           |
-- preserve source_id            |
-        |                        |
-        v                        |
-Embedding + vector store        |
-- all-MiniLM-L6-v2              |
-- ChromaDB                      |
-- chunk metadata                |
-        |                        |
-        v                        |
-Retrieval                       |
-- top 5 chunks                  |
-- optional metadata filters     |
-        |                        |
-        +------------+-----------+
-                     |
-                     v
-Grounded generation
-- answer only from retrieved context
-- refuse unsupported claims
-- cite title and source URL
-                     |
-                     v
-Gradio interface
-- answer
-- citations
-- source freshness
-- optional relevant source image
+Answer the user's question using only the retrieved sources provided to you.
+
+Do not use outside knowledge.
+Do not guess or invent missing facts.
+If the sources do not contain enough information, say:
+"I could not find enough information in the available Colby Athletics sources."
+Cite factual claims using source numbers such as [Source 1].
+Do not cite a source that does not support the claim.
 ```
 
-### Planned Live-Update Process
+The generator uses Groq with a low temperature to reduce unnecessary variation.
 
-```text
-Scheduled or manual refresh
-        |
-        v
-Check each registered source
-        |
-        v
-Download current content
-        |
-        v
-Detect whether meaningful content changed
-        |
-        +---- no change ----> keep existing document and embeddings
-        |
-        +---- changed ------> regenerate document and image metadata
-                              |
-                              v
-                        replace affected vector entries
-                              |
-                              v
-                        record refreshed timestamp
-```
+**Structural grounding choices:**
 
-The Project 1 implementation may initially use a manual command such as:
+* Retrieval results include the source title, URL, sport, season, and document type.
+* Queries are routed by intent to schedules, rosters, or statistics.
+* Category-wide statistical questions retrieve all relevant player records rather than only the semantic top five.
+* Statistics are filtered by requested sport and season.
+* Unsupported questions produce a refusal rather than an unsupported prediction.
+* Duplicate records from one webpage share one displayed source number.
 
-```text
-python scrape_sources.py
-```
+**How source attribution is surfaced:**
 
-The architecture will allow the same command to be scheduled later without rewriting the main RAG application.
+Answers contain citations such as `[Source 1]`. The interface displays the matching official Colby Athletics page title, sport, season, and URL beneath the answer.
 
 ---
 
-## Planned Memory Extension
-
-The core Project 1 system will use RAG over official Colby Athletics and NESCAC-connected documents. A future version will add memory as a separate layer from the official knowledge base.
-
-The memory layer would store user preferences and session context, such as favorite sports, preferred teams, preferred seasons, and whether the user wants short answers or detailed source-heavy answers. This memory would not be treated as factual sports knowledge. Official athletics facts would still come from retrieved source documents.
-
-Memory would improve personalization by helping the assistant interpret follow-up questions and choose better retrieval filters. For example, if a user says they mainly care about Colby football, later questions like “What was their record?” could prioritize football schedule and roster documents.
+## Retrieval Architecture
 
 ```text
-User question
-        |
-        v
-Session / preference memory
-- favorite sports
-- preferred school
-- preferred season
-- answer style
-        |
-        v
-Query rewriting and metadata filtering
-        |
-        v
-RAG retrieval from official source documents
-        |
-        v
-Grounded answer generation with citations
+sources.json
+    |
+    v
+scrape_sources.py
+    |
+    +--> documents/*.txt
+    +--> media/image_metadata.json
+    |
+    v
+chunk_documents.py
+    |
+    v
+Sentence Transformers
+all-MiniLM-L6-v2
+    |
+    v
+ChromaDB persistent vector store
+    |
+    v
+Intent and statistics-category routing
+    |
+    v
+Groq grounded generation
+    |
+    v
+Colby-styled Gradio interface
 ```
 
-This keeps factual accuracy grounded in official documents while allowing the assistant to become more personalized over time.
+The entire data refresh process is coordinated through `refresh_pipeline.py`.
 
 ---
 
-## AI Tool Plan
+## Automated Refresh Pipeline
 
-**Milestone 3 — Automated ingestion, image collection, and chunking:**
+Run:
 
-I will give an AI tool my Documents, Multimedia and Image Plan, Chunking Strategy, and Architecture sections. I will ask it to help design a beginner-readable scraper that reads verified URLs from a source registry, checks HTTP responses, follows redirects, extracts useful page content, and saves cleaned documents and image metadata.
+```powershell
+python refresh_pipeline.py
+```
 
-The first implementation will target one known page type, such as the Colby football schedule. I will verify the code by comparing the generated records against the visible official page. I will check that opponents, dates, locations, results, scores, source URLs, and season metadata are correct.
+The command performs the following steps:
 
-After the first page works, I will ask the AI to help refactor the code into reusable extraction functions for schedules, rosters, archives, articles, awards pages, and general resource pages. I will not accept a generalized scraper until I test each page type manually.
+1. Scrapes and cleans every source registered in `sources.json`.
+2. Removes stale generated documents when a source fails.
+3. Rejects sources that produce empty content.
+4. Validates and chunks all generated documents.
+5. Rebuilds the persistent ChromaDB vector store.
+6. Runs retrieval smoke tests.
+7. Stops immediately if any stage fails.
 
-For image extraction, I will verify that retained images come from meaningful page content and that decorative logos, icons, and tracking assets are excluded. I will not allow the AI to invent captions, athlete identities, or image credits.
+This prevents the documents, chunks, and vector database from silently becoming inconsistent.
 
-**Milestone 4 — Embedding and retrieval:**
+---
 
-I will give the AI my Retrieval Approach and the exact cleaned document format produced by the scraper. I will ask it to implement embedding and ChromaDB storage while preserving `source_id`, sport, season, document type, source URL, and retrieval timestamp.
+## Evaluation Report
 
-I will verify retrieval using direct factual questions and inspect the raw returned chunks before adding answer generation. I will also confirm that a retrieved chunk can be matched to its associated image metadata through `source_id`.
+| # | Question                                                 | Expected answer                                      | System response, summarized                                                          | Retrieval quality | Response accuracy |
+| - | -------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------- | ----------------- |
+| 1 | What position does Sean Trinder play?                    | Wide receiver                                        | Identified Sean Trinder as a WR and cited the football roster.                       | Relevant          | Accurate          |
+| 2 | When does Colby football play Bowdoin in 2026?           | November 14, 2026 at 1:00 PM in Brunswick, Maine     | Returned the correct date, time, and location with a schedule citation.              | Relevant          | Accurate          |
+| 3 | Who led the 2025 Colby football team in receiving yards? | Jack Nye with 369 yards                              | Compared the receiving-statistics records and identified Jack Nye with 369 yards.    | Relevant          | Accurate          |
+| 4 | Who led Colby men's basketball in scoring in 2025-26?    | Dan Civello with 457 points and 18.3 points per game | Identified Dan Civello and returned both his total and per-game average.             | Relevant          | Accurate          |
+| 5 | Who led Colby men's soccer in points in 2025?            | Jude Gussen with 11 points                           | Compared the offensive-statistics records and identified Jude Gussen with 11 points. | Relevant          | Accurate          |
 
-**Milestone 5 — Generation and multimedia interface:**
+**Retrieval quality:** Relevant / Partially relevant / Off-target
+**Response accuracy:** Accurate / Partially accurate / Inaccurate
 
-I will give the AI the Architecture, Evaluation Plan, grounding requirements, and image metadata structure. I will ask it to implement a Gradio interface that displays a grounded answer, source citations, freshness information, and an optional image associated with the retrieved source.
+Additional unsupported-question test:
 
-I will test whether the answer remains correct when no relevant image exists. Image display will be optional and must never replace textual evidence or citations.
+```text
+Question: Who will be Colby's best football player next season?
+
+Response:
+I could not find enough information in the available Colby Athletics sources.
+```
+
+This confirmed that the assistant refused a prediction that was not supported by the corpus.
+
+---
+
+## Failure Case Analysis
+
+**Question that failed:**
+
+```text
+Who led the 2025 Colby football team in receiving yards?
+```
+
+**Initial system behavior:**
+
+The first version of the corpus contained only schedules and rosters, so it did not include receiving statistics. The system correctly refused to answer rather than guessing.
+
+After adding football statistics, the question initially failed again because semantic top-five retrieval returned defensive records instead of the full receiving table.
+
+**Root cause:**
+
+The first failure occurred during document coverage: the required information was absent from the corpus.
+
+The second failure occurred during retrieval: a “who led” question requires comparison across all records in a statistical category, but ordinary semantic top-k retrieval returned only a small subset.
+
+**Fix:**
+
+* Added the official football cumulative statistics page.
+* Built a statistics-table normalizer.
+* Preserved one athlete-stat row per chunk.
+* Added intent-based document filtering.
+* Added sport-aware statistics-category routing.
+* Retrieved the full matching statistics category for leader and aggregation questions.
+* Added smoke tests so corpus expansion does not silently break schedule or roster retrieval.
+
+A second retrieval failure occurred with the question:
+
+```text
+When does Colby football play Bowdoin in 2026?
+```
+
+The first schedule chunks did not repeat the school, sport, or season inside every game record. The general season-summary chunk ranked above the actual Bowdoin game.
+
+This was fixed by prepending source context to each chunk before embedding.
+
+---
+
+## Spec Reflection
+
+**One way the spec helped during implementation:**
+
+The planning document established the five-stage RAG pipeline before implementation: ingestion, chunking, embeddings, retrieval, and generation. That made it easier to work incrementally and test each stage independently instead of attempting to build the entire application at once.
+
+The requirement to define chunking behavior also led to structure-aware records. Roster players, schedule games, and statistics rows remain intact rather than being split arbitrarily.
+
+**One way the implementation diverged from the spec, and why:**
+
+The initial plan focused primarily on schedules, rosters, news, awards, and future image support. During user testing, a question about the receiving-yard leader revealed that statistics were a major missing feature.
+
+The implementation therefore expanded earlier than planned to include cumulative statistics and sport-aware aggregation routing. The system also gained an automated refresh pipeline and regression smoke tests because manual rebuilding became too easy to forget as the corpus grew.
+
+---
+
+## AI Usage
+
+### Instance 1
+
+* **What I gave the AI:** The planned roster fields, the HTML class names discovered from the Colby Athletics roster page, and examples of noisy raw output.
+* **What it produced:** A roster-specific extraction function using Sidearm roster classes.
+* **What I changed or overrode:** I tested the output and corrected season detection, duplicate jersey numbers in player names, and position fields that incorrectly included height and weight. I preserved one athlete per record after confirming the structure manually.
+
+### Instance 2
+
+* **What I gave the AI:** Examples of football and basketball statistics tables, including captions, headers, first rows, and corrupted extraction output.
+* **What it produced:** A generalized statistics normalizer and suggestions for supported table patterns.
+* **What I changed or overrode:** I rejected ambiguous grouped-header and multi-player game-high tables rather than embedding unreliable values. I selected flat, one-player-per-row tables and added row-width validation, stale-file removal, empty-content validation, intent routing, and smoke tests.
+
+### Instance 3
+
+* **What I gave the AI:** Retrieval results showing that the Bowdoin schedule summary ranked above the actual game and that leader questions compared incomplete records.
+* **What it produced:** Contextual embeddings and category-wide statistics retrieval.
+* **What I changed or verified:** I rebuilt ChromaDB, reran the same questions, inspected ranking changes, and added automated retrieval tests for roster, schedule, football statistics, basketball statistics, and soccer statistics.
+
+---
+
+## Installation
+
+Create and activate a virtual environment:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+Install dependencies:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+Copy the environment template:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+Add a Groq API key to `.env`:
+
+```text
+GROQ_API_KEY=your_key_here
+```
+
+Never commit `.env`.
+
+---
+
+## Running the Project
+
+Refresh all data and rebuild the vector store:
+
+```powershell
+python refresh_pipeline.py
+```
+
+Launch the interface:
+
+```powershell
+python app.py
+```
+
+Open the local Gradio URL printed in the terminal, usually:
+
+```text
+http://127.0.0.1:7860
+```
+
+Run retrieval smoke tests independently:
+
+```powershell
+python smoke_tests.py
+```
+
+Run command-line generation:
+
+```powershell
+python rag_answer.py
+```
+
+---
+
+## Main Files
+
+```text
+app.py                  Gradio user interface
+rag_answer.py           Retrieval routing and grounded generation
+scrape_sources.py       Source ingestion and structured extraction
+chunk_documents.py      Metadata parsing and structure-aware chunking
+build_vector_store.py   Embedding generation and ChromaDB persistence
+refresh_pipeline.py     End-to-end refresh orchestration
+smoke_tests.py          Retrieval regression tests
+sources.json            Registered source configuration
+planning.md             Project specification and architecture
+documents/              Generated text documents
+media/                  Image metadata
+```
+
+---
+
+## Current Limitations
+
+* The current corpus covers five Colby sports rather than every varsity program.
+* Statistics support depends on trustworthy, flat HTML tables.
+* Ambiguous grouped-header and multi-player rows are intentionally skipped.
+* The system does not yet ingest news stories, awards pages, or game recaps.
+* Image metadata is collected, but image-to-answer matching remains limited.
+* The application currently runs locally and has not yet been deployed.
+* The embedding model may struggle with highly ambiguous or underspecified questions.
+* Intent routing currently uses keyword-based rules and can be expanded.
+
+---
+
+## Future Work
+
+Planned improvements include:
+
+* Add the remaining Colby varsity sports.
+* Ingest news stories, game recaps, awards, and historical archives.
+* Associate player headshots and event images with retrieved answers.
+* Add conversational memory and user preferences.
+* Replace hard-coded intent keywords with a lightweight query classifier.
+* Detect changed sources and rebuild only affected documents.
+* Schedule automatic refreshes.
+* Add unit tests for table normalization.
+* Deploy the application publicly.
+* Expand the architecture from Colby Athletics to the full NESCAC.
+
+---
+
+## Project Status
+
+The current prototype successfully provides grounded, cited answers from official Colby Athletics schedules, rosters, and cumulative statistics.
+
+The system has been tested across multiple sports and document formats, includes failure handling and regression tests, and can refresh its entire corpus through one command.
