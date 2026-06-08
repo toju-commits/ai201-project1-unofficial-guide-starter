@@ -1,5 +1,18 @@
 import os
+import warnings
 from pathlib import Path
+import re
+
+warnings.filterwarnings(
+    "ignore",
+    category=DeprecationWarning,
+    message=r".*asyncio\.iscoroutinefunction.*",
+)
+warnings.filterwarnings(
+    "ignore",
+    category=ResourceWarning,
+    message=r".*unclosed event loop.*",
+)
 
 import chromadb
 from dotenv import load_dotenv
@@ -16,6 +29,147 @@ TOP_K = 5
 
 load_dotenv(ROOT_DIR / ".env")
 
+def detect_statistics_category(query: str) -> str | None:
+    query_lower = query.lower()
+
+    categories = {
+        "receiving": "individual receiving statistics",
+        "rushing": "individual rushing statistics",
+        "passing": "individual passing statistics",
+        "defensive": "individual defensive statistics",
+        "defense": "individual defensive statistics",
+    }
+
+    for keyword, category in categories.items():
+        if keyword in query_lower:
+            return category
+
+    return None
+
+
+def retrieve_statistics_records(
+    collection,
+    query: str,
+    category: str,
+) -> list[dict]:
+    results = collection.get(
+        where={"document_type": "statistics"},
+        include=["documents", "metadatas"],
+    )
+
+    query_lower = query.lower()
+
+    season_match = re.search(r"\b20\d{2}(?:-\d{2})?\b", query)
+    requested_season = season_match.group(0) if season_match else None
+
+    requested_sport = None
+
+    sport_names = [
+        "football",
+        "men's soccer",
+        "women's soccer",
+        "men's basketball",
+        "women's basketball",
+    ]
+
+    for sport_name in sport_names:
+        if sport_name in query_lower:
+            requested_sport = sport_name
+            break
+
+    retrieved = []
+
+    for document, metadata in zip(
+        results["documents"],
+        results["metadatas"],
+    ):
+        if category not in document.lower():
+            continue
+
+        metadata_sport = metadata.get("sport", "").lower()
+        metadata_season = metadata.get("season", "")
+
+        if requested_sport and metadata_sport != requested_sport:
+            continue
+
+        if requested_season and metadata_season != requested_season:
+            continue
+
+        retrieved.append(
+            {
+                "text": document,
+                "metadata": metadata,
+                "distance": 0.0,
+            }
+        )
+
+    retrieved.sort(
+        key=lambda item: item["metadata"].get(
+            "chunk_index",
+            0,
+        )
+    )
+
+    return retrieved
+
+
+def detect_document_type(query: str) -> str | None:
+    query_lower = query.lower()
+
+    statistics_terms = [
+        "stat",
+        "statistics",
+        "receiving",
+        "rushing",
+        "passing",
+        "defensive",
+        "defense",
+        "yards",
+        "touchdowns",
+        "tackles",
+        "sacks",
+        "interceptions",
+    ]
+
+    schedule_terms = [
+        "schedule",
+        "when",
+        "what time",
+        "what date",
+        "where do",
+        "where does",
+        "play bowdoin",
+        "play against",
+        "next game",
+        "opponent",
+        "record",
+    ]
+
+    roster_terms = [
+        "roster",
+        "position",
+        "jersey",
+        "number",
+        "height",
+        "weight",
+        "hometown",
+        "class year",
+        "freshman",
+        "sophomore",
+        "junior",
+        "senior",
+    ]
+
+    if any(term in query_lower for term in statistics_terms):
+        return "statistics"
+
+    if any(term in query_lower for term in schedule_terms):
+        return "schedule"
+
+    if any(term in query_lower for term in roster_terms):
+        return "roster"
+
+    return None
 
 def retrieve(query: str) -> list[dict]:
     model = SentenceTransformer(EMBEDDING_MODEL)
@@ -28,13 +182,37 @@ def retrieve(query: str) -> list[dict]:
         name=COLLECTION_NAME
     )
 
+    statistics_category = detect_statistics_category(query)
+
+    if statistics_category:
+        statistics_records = retrieve_statistics_records(
+            collection,
+            query,
+            statistics_category,
+        )
+
+        if statistics_records:
+            return statistics_records
+
+    document_type = detect_document_type(query)
     query_embedding = model.encode(query).tolist()
 
-    results = collection.query(
-        query_embeddings=[query_embedding],
-        n_results=TOP_K,
-        include=["documents", "metadatas", "distances"],
-    )
+    query_arguments = {
+        "query_embeddings": [query_embedding],
+        "n_results": TOP_K,
+        "include": [
+            "documents",
+            "metadatas",
+            "distances",
+        ],
+    }
+
+    if document_type:
+        query_arguments["where"] = {
+            "document_type": document_type,
+        }
+
+    results = collection.query(**query_arguments)
 
     retrieved = []
 
@@ -181,5 +359,5 @@ def answer_question(query: str) -> None:
 
 if __name__ == "__main__":
     answer_question(
-        "Who will be Colby's best football player next season?"
+        "Who led the 2025 Colby football team in receiving yards?"
     )

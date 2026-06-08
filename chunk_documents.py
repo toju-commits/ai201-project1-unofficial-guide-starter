@@ -101,7 +101,7 @@ def chunk_schedule_records(content: str) -> list[str]:
 def chunk_document(metadata: dict, content: str) -> list[dict]:
     document_type = metadata.get("document_type", "").lower()
 
-    if document_type == "roster":
+    if document_type in {"roster", "statistics"}:
         text_chunks = chunk_structured_records(content)
     elif document_type == "schedule":
         text_chunks = chunk_schedule_records(content)

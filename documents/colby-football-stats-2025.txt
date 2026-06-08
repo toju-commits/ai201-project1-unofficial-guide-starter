@@ -1,0 +1,1543 @@
+title: 2025 Football Cumulative Statistics - Colby College
+source_id: colby-football-stats-2025
+source_url: https://colbyathletics.com/sports/football/stats/2025
+school: Colby College
+sport: Football
+season: 2025
+document_type: statistics
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Antone Moreis
+Jersey number: 26
+GP: 9
+ATT: 113
+Gain: 510
+Loss: 27
+Net: 483
+AVG: 4.3
+TD: 6
+Long: 84
+AVG/G: 53.67
+Profile URL: https://colbyathletics.com/sports/football/roster/antone-moreis/9022
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Patrick Miller
+Jersey number: 16
+GP: 5
+ATT: 40
+Gain: 225
+Loss: 18
+Net: 207
+AVG: 5.2
+TD: 1
+Long: 41
+AVG/G: 41.40
+Profile URL: https://colbyathletics.com/sports/football/roster/patrick-miller/9067
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Ryan Singhal
+Jersey number: 5
+GP: 4
+ATT: 28
+Gain: 114
+Loss: 1
+Net: 113
+AVG: 4.0
+TD: 0
+Long: 28
+AVG/G: 28.25
+Profile URL: https://colbyathletics.com/sports/football/roster/ryan-singhal/9034
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Quinton Delorey
+Jersey number: 37
+GP: 8
+ATT: 16
+Gain: 89
+Loss: 9
+Net: 80
+AVG: 5.0
+TD: 1
+Long: 29
+AVG/G: 10.00
+Profile URL: https://colbyathletics.com/sports/football/roster/quinton-delorey/9058
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Miles Drake
+Jersey number: 3
+GP: 6
+ATT: 62
+Gain: 219
+Loss: 157
+Net: 62
+AVG: 1.0
+TD: 2
+Long: 15
+AVG/G: 10.33
+Profile URL: https://colbyathletics.com/sports/football/roster/miles-drake/9003
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Jack Nye
+Jersey number: 80
+GP: 9
+ATT: 4
+Gain: 25
+Loss: 0
+Net: 25
+AVG: 6.3
+TD: 0
+Long: 9
+AVG/G: 2.78
+Profile URL: https://colbyathletics.com/sports/football/roster/jack-nye/9024
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Evan Thompson
+Jersey number: 34
+GP: 9
+ATT: 8
+Gain: 24
+Loss: 0
+Net: 24
+AVG: 3.0
+TD: 0
+Long: 8
+AVG/G: 2.67
+Profile URL: https://colbyathletics.com/sports/football/roster/evan-thompson/9040
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Corey Aubuchon
+Jersey number: 29
+GP: 8
+ATT: 3
+Gain: 17
+Loss: 1
+Net: 16
+AVG: 5.3
+TD: 0
+Long: 16
+AVG/G: 2.00
+Profile URL: https://colbyathletics.com/sports/football/roster/corey-aubuchon/8993
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Ray Thornton
+Jersey number: 14
+GP: 6
+ATT: 2
+Gain: 5
+Loss: 0
+Net: 5
+AVG: 2.5
+TD: 0
+Long: 5
+AVG/G: 0.83
+Profile URL: https://colbyathletics.com/sports/football/roster/ray-thornton/9041
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Dennis Dougherty
+Jersey number: 36
+GP: 9
+ATT: 1
+Gain: 0
+Loss: 2
+Net: -2
+AVG: -2.0
+TD: 0
+Long: 0
+AVG/G: -0.22
+Profile URL: https://colbyathletics.com/sports/football/roster/dennis-dougherty/9002
+
+Record type: Individual Rushing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Eli Soehren
+Jersey number: 12
+GP: 9
+ATT: 2
+Gain: 1
+Loss: 5
+Net: -4
+AVG: -2.0
+TD: 0
+Long: 1
+AVG/G: -0.44
+Profile URL: https://colbyathletics.com/sports/football/roster/eli-soehren/9036
+
+Record type: Individual Passing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Miles Drake
+Jersey number: 3
+GP: 6
+ATT: 139
+INT: 9
+%: 53.24 %
+YDS: 669
+TD: 1
+Long: 45
+AVG/G: 111.50
+Profile URL: https://colbyathletics.com/sports/football/roster/miles-drake/9003
+
+Record type: Individual Passing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Patrick Miller
+Jersey number: 16
+GP: 5
+ATT: 57
+INT: 0
+%: 54.39 %
+YDS: 255
+TD: 1
+Long: 55
+AVG/G: 51.00
+Profile URL: https://colbyathletics.com/sports/football/roster/patrick-miller/9067
+
+Record type: Individual Passing Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Sean Trinder
+Jersey number: 0
+GP: 5
+ATT: 1
+INT: 0
+%: 100.00 %
+YDS: 38
+TD: 1
+Long: 38
+AVG/G: 7.60
+Profile URL: https://colbyathletics.com/sports/football/roster/sean-trinder/9043
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Jack Nye
+Jersey number: 80
+GP: 9
+NO: 31
+YDS: 369
+AVG: 11.90
+TD: 1
+Long: 55
+AVG/G: 41.00
+Profile URL: https://colbyathletics.com/sports/football/roster/jack-nye/9024
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Sean Trinder
+Jersey number: 0
+GP: 5
+NO: 9
+YDS: 141
+AVG: 15.67
+TD: 0
+Long: 51
+AVG/G: 28.20
+Profile URL: https://colbyathletics.com/sports/football/roster/sean-trinder/9043
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Cormac Wright
+Jersey number: 4
+GP: 9
+NO: 14
+YDS: 107
+AVG: 7.64
+TD: 0
+Long: 16
+AVG/G: 11.89
+Profile URL: https://colbyathletics.com/sports/football/roster/cormac-wright/9049
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Henry Emswiler
+Jersey number: 17
+GP: 9
+NO: 15
+YDS: 94
+AVG: 6.27
+TD: 1
+Long: 18
+AVG/G: 10.44
+Profile URL: https://colbyathletics.com/sports/football/roster/henry-emswiler/9005
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Eli Soehren
+Jersey number: 12
+GP: 9
+NO: 6
+YDS: 76
+AVG: 12.67
+TD: 0
+Long: 45
+AVG/G: 8.44
+Profile URL: https://colbyathletics.com/sports/football/roster/eli-soehren/9036
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Antone Moreis
+Jersey number: 26
+GP: 9
+NO: 12
+YDS: 55
+AVG: 4.58
+TD: 1
+Long: 38
+AVG/G: 6.11
+Profile URL: https://colbyathletics.com/sports/football/roster/antone-moreis/9022
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Jack Duffy
+Jersey number: 13
+GP: 5
+NO: 3
+YDS: 42
+AVG: 14.00
+TD: 0
+Long: 21
+AVG/G: 8.40
+Profile URL: https://colbyathletics.com/sports/football/roster/jack-duffy/9004
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Ray Thornton
+Jersey number: 14
+GP: 6
+NO: 7
+YDS: 39
+AVG: 5.57
+TD: 0
+Long: 10
+AVG/G: 6.50
+Profile URL: https://colbyathletics.com/sports/football/roster/ray-thornton/9041
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Ryan Singhal
+Jersey number: 5
+GP: 4
+NO: 5
+YDS: 24
+AVG: 4.80
+TD: 0
+Long: 11
+AVG/G: 6.00
+Profile URL: https://colbyathletics.com/sports/football/roster/ryan-singhal/9034
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Subomi Soyoye
+Jersey number: 7
+GP: 8
+NO: 3
+YDS: 10
+AVG: 3.33
+TD: 0
+Long: 7
+AVG/G: 1.25
+Profile URL: https://colbyathletics.com/sports/football/roster/subomi-soyoye/9038
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Quinton Delorey
+Jersey number: 37
+GP: 8
+NO: 1
+YDS: 5
+AVG: 5.00
+TD: 0
+Long: 5
+AVG/G: 0.63
+Profile URL: https://colbyathletics.com/sports/football/roster/quinton-delorey/9058
+
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Corey Aubuchon
+Jersey number: 29
+GP: 8
+NO: 0
+YDS: 0
+AVG: 0.00
+TD: 0
+Long: 0
+AVG/G: 0.00
+Profile URL: https://colbyathletics.com/sports/football/roster/corey-aubuchon/8993
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Declan McNamara
+Jersey number: 19
+GP: 9
+Solo: 34
+ASST: 31
+TOT: 65.0
+TFL-YDS: 6.0-33
+INT: 1
+BU: 9
+QBH: 4
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/declan-mcnamara/9019
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Dennis Dougherty
+Jersey number: 36
+GP: 9
+Solo: 30
+ASST: 21
+TOT: 51.0
+TFL-YDS: 5.0-17
+INT: 0
+BU: 2
+QBH: 4
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/dennis-dougherty/9002
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Drew Ramos
+Jersey number: 20
+GP: 9
+Solo: 36
+ASST: 12
+TOT: 48.0
+TFL-YDS: 3.0-8
+INT: 1
+BU: 11
+QBH: 0
+FR: 0
+FF: 1
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/drew-ramos/9029
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Joshua Iyonsi
+Jersey number: 95
+GP: 9
+Solo: 28
+ASST: 18
+TOT: 46.0
+TFL-YDS: 5.5-18
+INT: 0
+BU: 1
+QBH: 2
+FR: 0
+FF: 1
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/joshua-iyonsi/9012
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Sebastien Romain
+Jersey number: 8
+GP: 9
+Solo: 23
+ASST: 22
+TOT: 45.0
+TFL-YDS: 3.5-17
+INT: 0
+BU: 3
+QBH: 5
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/sebastien-romain/9032
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Jack Mullen
+Jersey number: 96
+GP: 9
+Solo: 19
+ASST: 23
+TOT: 42.0
+TFL-YDS: 7.0-26
+INT: 0
+BU: 0
+QBH: 9
+FR: 0
+FF: 0
+KICK: 1
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/jack-mullen/9023
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Lincoln Merrill
+Jersey number: 9
+GP: 8
+Solo: 18
+ASST: 22
+TOT: 40.0
+TFL-YDS: 5.0-9
+INT: 0
+BU: 1
+QBH: 1
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/lincoln-merrill/9020
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Brody Rice
+Jersey number: 23
+GP: 9
+Solo: 21
+ASST: 9
+TOT: 30.0
+TFL-YDS: 1.0-1
+INT: 1
+BU: 6
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/brody-rice/9031
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Nicholas Cox
+Jersey number: 32
+GP: 8
+Solo: 20
+ASST: 7
+TOT: 27.0
+TFL-YDS: 1.5-5
+INT: 2
+BU: 4
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/nicholas-cox/8998
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Trevor Smith
+Jersey number: 2
+GP: 9
+Solo: 17
+ASST: 9
+TOT: 26.0
+TFL-YDS: 0.5-1
+INT: 1
+BU: 3
+QBH: 1
+FR: 1
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/trevor-smith/9035
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Ameer White
+Jersey number: 24
+GP: 9
+Solo: 20
+ASST: 6
+TOT: 26.0
+TFL-YDS: 0-0
+INT: 4
+BU: 5
+QBH: 0
+FR: 0
+FF: 1
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/ameer-white/9047
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Cooper Bunnell
+Jersey number: 91
+GP: 8
+Solo: 10
+ASST: 6
+TOT: 16.0
+TFL-YDS: 3.5-23
+INT: 1
+BU: 2
+QBH: 2
+FR: 0
+FF: 0
+KICK: 1
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/cooper-bunnell/8996
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Aiden Kelley
+Jersey number: 41
+GP: 9
+Solo: 7
+ASST: 6
+TOT: 13.0
+TFL-YDS: 1.0-4
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/aiden-kelley/9014
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Christopher Milmoe
+Jersey number: 6
+GP: 9
+Solo: 6
+ASST: 6
+TOT: 12.0
+TFL-YDS: 0-0
+INT: 1
+BU: 3
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/christopher-milmoe/9021
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Bryan Joseph
+Jersey number: 90
+GP: 7
+Solo: 4
+ASST: 4
+TOT: 8.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 1
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/bryan-joseph/9065
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Montrail Holmes
+Jersey number: 99
+GP: 9
+Solo: 2
+ASST: 5
+TOT: 7.0
+TFL-YDS: 0-0
+INT: 1
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/montrail-holmes/9011
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Trey Stevens
+Jersey number: 59
+GP: 7
+Solo: 4
+ASST: 3
+TOT: 7.0
+TFL-YDS: 1.5-12
+INT: 0
+BU: 0
+QBH: 2
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/trey-stevens/9039
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Gamble Reed
+Jersey number: 56
+GP: 8
+Solo: 4
+ASST: 1
+TOT: 5.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/gamble-reed/9030
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Quinton Delorey
+Jersey number: 37
+GP: 8
+Solo: 3
+ASST: 1
+TOT: 4.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 1
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/quinton-delorey/9058
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Michael Williams
+Jersey number: 57
+GP: 8
+Solo: 2
+ASST: 2
+TOT: 4.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 1
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/michael-williams/9048
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Aidan Cole
+Jersey number: 47
+GP: 8
+Solo: 1
+ASST: 1
+TOT: 2.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/aidan-cole/8997
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Jack Nye
+Jersey number: 80
+GP: 9
+Solo: 1
+ASST: 1
+TOT: 2.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/jack-nye/9024
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Noah Abdur Rahim
+Jersey number: 21
+GP: 7
+Solo: 1
+ASST: 1
+TOT: 2.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/noah-abdur-rahim/9050
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Ryan Singhal
+Jersey number: 5
+GP: 4
+Solo: 1
+ASST: 1
+TOT: 2.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/ryan-singhal/9034
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Evan Thompson
+Jersey number: 34
+GP: 9
+Solo: 1
+ASST: 1
+TOT: 2.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/evan-thompson/9040
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Corey Aubuchon
+Jersey number: 29
+GP: 8
+Solo: 0
+ASST: 1
+TOT: 1.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 1
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/corey-aubuchon/8993
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Santanna Cardoso
+Jersey number: 27
+GP: 1
+Solo: 0
+ASST: 1
+TOT: 1.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/santanna-cardoso/9054
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Caleb Parsons Gomes
+Jersey number: 15
+GP: 7
+Solo: 0
+ASST: 1
+TOT: 1.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/caleb-parsons-gomes/9069
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Caleb Parsons Gomes
+Jersey number: 15
+GP: 7
+Solo: 0
+ASST: 1
+TOT: 1.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/caleb-parsons-gomes/9069
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Owen Haight
+Jersey number: 28
+GP: 8
+Solo: 0
+ASST: 1
+TOT: 1.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 1
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/owen-haight/9010
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Oliver Knight
+Jersey number: 94
+GP: 2
+Solo: 0
+ASST: 1
+TOT: 1.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/oliver-knight/9066
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Antone Moreis
+Jersey number: 26
+GP: 9
+Solo: 1
+ASST: 0
+TOT: 1.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/antone-moreis/9022
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Ernest Obiorah
+Jersey number: 97
+GP: 4
+Solo: 0
+ASST: 1
+TOT: 1.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/ernest-obiorah/9025
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Halston Wilkey
+Jersey number: 31
+GP: 6
+Solo: 0
+ASST: 1
+TOT: 1.0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/halston-wilkey/9075
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Noah Abdur Rahim
+Jersey number: 21
+GP: 2
+Solo: 0
+ASST: 0
+TOT: 0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 1
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/noah-abdur-rahim/9050
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Tenzin Ghaponstang
+Jersey number: 89
+GP: 3
+Solo: 0
+ASST: 0
+TOT: 0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 2
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/tenzin-ghaponstang/9007
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Avi Gotshalk
+Jersey number: 83
+GP: 9
+Solo: 0
+ASST: 0
+TOT: 0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 0
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/avi-gotshalk/9062
+
+Record type: Individual Defensive Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Subomi Soyoye
+Jersey number: 7
+GP: 7
+Solo: 0
+ASST: 0
+TOT: 0
+TFL-YDS: 0-0
+INT: 0
+BU: 0
+QBH: 0
+FR: 2
+FF: 0
+KICK: 0
+SAF: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/subomi-soyoye/9038
+
+Record type: Individual Punting Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Eli Soehren
+Jersey number: 12
+NO: 62
+YDS: 2622
+AVG: 42.29
+Long: 68
+TB: 6
+FC: 19
+I20: 20
+50+: 13
+BLK: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/eli-soehren/9036
+
+Record type: Individual Punting Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Miles Drake
+Jersey number: 3
+NO: 1
+YDS: 49
+AVG: 49.00
+Long: 49
+TB: 0
+FC: 0
+I20: 1
+50+: 0
+BLK: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/miles-drake/9003
+
+Record type: Individual Field Goals Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Will Schneider
+Jersey number: 62
+FGM-FGA: 3-4
+%: 75.00 %
+I20: 0-0
+20-29: 2-2
+30-39: 1-1
+40-49: 0-1
+50+: 0-0
+Long: 37
+BLK: 1
+Profile URL: https://colbyathletics.com/sports/football/roster/will-schneider/9071
+
+Record type: Individual Field Goals Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Avi Gotshalk
+Jersey number: 83
+FGM-FGA: 3-3
+%: 100.00 %
+I20: 0-0
+20-29: 2-2
+30-39: 1-1
+40-49: 0-0
+50+: 0-0
+Long: 36
+BLK: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/avi-gotshalk/9062
+
+Record type: Individual Kickoffs Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Avi Gotshalk
+Jersey number: 83
+NO: 30
+YDS: 1688
+AVG: 56.3
+TB: 15
+OB: 2
+Profile URL: https://colbyathletics.com/sports/football/roster/avi-gotshalk/9062
+
+Record type: Individual Kickoffs Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Eli Soehren
+Jersey number: 12
+NO: 1
+YDS: 48
+AVG: 48.0
+TB: 0
+OB: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/eli-soehren/9036
+
+Record type: Individual Punt Return Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Cormac Wright
+Jersey number: 4
+NO: 12
+YDS: 48
+AVG: 4.00
+TD: 0
+Long: 15
+Profile URL: https://colbyathletics.com/sports/football/roster/cormac-wright/9049
+
+Record type: Individual Punt Return Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Noah Abdur Rahim
+Jersey number: 21
+NO: 1
+YDS: 20
+AVG: 20.00
+TD: 0
+Long: 20
+Profile URL: https://colbyathletics.com/sports/football/roster/noah-abdur-rahim/9050
+
+Record type: Individual Punt Return Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Trevor Smith
+Jersey number: 2
+NO: 2
+YDS: 17
+AVG: 8.50
+TD: 0
+Long: 16
+Profile URL: https://colbyathletics.com/sports/football/roster/trevor-smith/9035
+
+Record type: Individual Punt Return Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Corey Aubuchon
+Jersey number: 29
+NO: 1
+YDS: 13
+AVG: 13.00
+TD: 1
+Long: 13
+Profile URL: https://colbyathletics.com/sports/football/roster/corey-aubuchon/8993
+
+Record type: Individual Kickoff Return Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Subomi Soyoye
+Jersey number: 7
+NO: 4
+YDS: 107
+AVG: 26.75
+TD: 0
+Long: 33
+Profile URL: https://colbyathletics.com/sports/football/roster/subomi-soyoye/9038
+
+Record type: Individual Kickoff Return Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Corey Aubuchon
+Jersey number: 29
+NO: 5
+YDS: 92
+AVG: 18.40
+TD: 0
+Long: 23
+Profile URL: https://colbyathletics.com/sports/football/roster/corey-aubuchon/8993
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Antone Moreis
+Jersey number: 26
+TD: 7
+FG: 0
+SAF: 0
+PTS: 42
+KICK: 0-0
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/antone-moreis/9022
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Avi Gotshalk
+Jersey number: 83
+TD: 0
+FG: 3
+SAF: 0
+PTS: 16
+KICK: 7-8
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/avi-gotshalk/9062
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Will Schneider
+Jersey number: 62
+TD: 0
+FG: 3
+SAF: 0
+PTS: 15
+KICK: 6-8
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/will-schneider/9071
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Miles Drake
+Jersey number: 3
+TD: 2
+FG: 0
+SAF: 0
+PTS: 12
+KICK: 0-0
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/miles-drake/9003
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Corey Aubuchon
+Jersey number: 29
+TD: 1
+FG: 0
+SAF: 0
+PTS: 6
+KICK: 0-0
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/corey-aubuchon/8993
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Quinton Delorey
+Jersey number: 37
+TD: 1
+FG: 0
+SAF: 0
+PTS: 6
+KICK: 0-0
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/quinton-delorey/9058
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Henry Emswiler
+Jersey number: 17
+TD: 1
+FG: 0
+SAF: 0
+PTS: 6
+KICK: 0-0
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/henry-emswiler/9005
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Montrail Holmes
+Jersey number: 99
+TD: 1
+FG: 0
+SAF: 0
+PTS: 6
+KICK: 0-0
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/montrail-holmes/9011
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Declan McNamara
+Jersey number: 19
+TD: 1
+FG: 0
+SAF: 0
+PTS: 6
+KICK: 0-0
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/declan-mcnamara/9019
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Patrick Miller
+Jersey number: 16
+TD: 1
+FG: 0
+SAF: 0
+PTS: 6
+KICK: 0-0
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/patrick-miller/9067
+
+Record type: Individual Scoring Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Jack Nye
+Jersey number: 80
+TD: 1
+FG: 0
+SAF: 0
+PTS: 6
+KICK: 0-0
+RUSH: 0-0
+RCV: 0
+PASS: 0-0
+DXP: 0
+Profile URL: https://colbyathletics.com/sports/football/roster/jack-nye/9024

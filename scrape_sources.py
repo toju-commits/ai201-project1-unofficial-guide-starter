@@ -185,6 +185,130 @@ def extract_roster_text(soup: BeautifulSoup) -> str:
 
     return "\n\n".join(players)
 
+def extract_statistics_text(
+    soup: BeautifulSoup,
+    source: dict,
+) -> str:
+    records = []
+
+    for table in soup.find_all("table"):
+        caption = table.find("caption")
+        heading = ""
+
+        if caption:
+            heading = clean_text(
+                caption.get_text(" ", strip=True)
+            )
+
+        if not heading:
+            previous_heading = table.find_previous(
+                ["h2", "h3", "h4"]
+            )
+
+            if previous_heading:
+                heading = clean_text(
+                    previous_heading.get_text(" ", strip=True)
+                )
+
+        if not heading:
+            continue
+
+        # Only keep individual player statistics tables.
+        if "individual" not in heading.lower():
+            continue
+
+        headers = [
+            clean_text(header.get_text(" ", strip=True))
+            for header in table.select("thead th")
+        ]
+
+        for row in table.select("tbody tr"):
+            name_element = row.select_one("th a")
+
+            if not name_element:
+                continue
+
+            raw_name = clean_text(
+                name_element.get_text(" ", strip=True)
+            )
+
+            if raw_name.lower() in {
+                "total",
+                "opponents",
+                "team",
+            }:
+                continue
+
+            if "," in raw_name:
+                last_name, first_name = raw_name.split(",", 1)
+                player_name = (
+                    f"{first_name.strip()} {last_name.strip()}"
+                )
+            else:
+                player_name = raw_name
+
+            jersey_cell = row.find("td")
+            jersey_number = (
+                clean_text(
+                    jersey_cell.get_text(" ", strip=True)
+                )
+                if jersey_cell
+                else ""
+            )
+
+            values = {}
+
+            for cell in row.select("td[data-label]"):
+                label = clean_text(
+                    cell.get("data-label", "") # pyright: ignore[reportArgumentType]
+                )
+
+                value = clean_text(
+                    cell.get_text(" ", strip=True)
+                )
+
+                if label.upper() == "BIO":
+                    continue
+
+                values[label] = value
+
+            record_lines = [
+                f"Record type: {heading}",
+                f"School: {source.get('school', '')}",
+                f"Sport: {source.get('sport', '')}",
+                f"Season: {source.get('season', '')}",
+                f"Player: {player_name}",
+                f"Jersey number: {jersey_number}",
+            ]
+
+            for header in headers:
+                if header in {"#", "Player", "Bio Link"}:
+                    continue
+
+                if header in values:
+                    record_lines.append(
+                        f"{header}: {values[header]}"
+                    )
+
+            bio_link = row.select_one(
+                'td[data-label="BIO"] a'
+            )
+
+            if bio_link and bio_link.get("href"):
+                profile_url = urljoin(
+                    source["url"],
+                    bio_link["href"],
+                )
+
+                record_lines.append(
+                    f"Profile URL: {profile_url}"
+                )
+
+            records.append("\n".join(record_lines))
+
+    return "\n\n".join(records)
+
+
 def scrape_source(source: dict) -> tuple[str, list[dict]]:
     headers = {
         "User-Agent": (
@@ -204,8 +328,15 @@ def scrape_source(source: dict) -> tuple[str, list[dict]]:
 
     page_title = clean_text(soup.title.get_text(" ", strip=True)) if soup.title else ""
 
-    if source.get("document_type") == "roster":
+    document_type = source.get("document_type")
+
+    if document_type == "roster":
         page_text = extract_roster_text(soup)
+    elif document_type == "statistics":
+        page_text = extract_statistics_text(
+            soup,
+            source,
+        )
     else:
         page_text = extract_page_text(soup)
 

@@ -22,6 +22,19 @@
   "refresh_frequency": "weekly"
 },
 {
+  "id": "colby-football-stats-2025",
+  "title": "2025 Colby Football Cumulative Statistics",
+  "url": "https://colbyathletics.com/sports/football/stats/2025",
+  "school": "Colby College",
+  "sport": "Football",
+  "season": "2025",
+  "document_type": "statistics",
+  "collect_images": false,
+  "refresh_frequency": "weekly"
+},
+
+
+{
   "id": "colby-mens-soccer-schedule",
   "title": "Colby Men's Soccer Schedule",
   "url": "https://colbyathletics.com/sports/mens-soccer/schedule",
@@ -43,6 +56,7 @@
   "collect_images": true,
   "refresh_frequency": "weekly"
 },
+
 {
   "id": "colby-womens-soccer-schedule",
   "title": "Colby Women's Soccer Schedule",
@@ -65,6 +79,8 @@
   "collect_images": true,
   "refresh_frequency": "weekly"
 },
+
+
 {
   "id": "colby-mens-basketball-schedule",
   "title": "Colby Men's Basketball Schedule",
@@ -87,6 +103,7 @@
   "collect_images": true,
   "refresh_frequency": "weekly"
 },
+
 {
   "id": "colby-womens-basketball-schedule",
   "title": "Colby Women's Basketball Schedule",
