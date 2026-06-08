@@ -9,72 +9,167 @@
 
 ## Domain
 
-I chose **Mule Intelligence**, a retrieval-augmented assistant for Colby College athletics. The system is designed to answer questions about Colby teams, schedules, results, rosters, awards, athletics resources, and official sports news using Colby Athletics and NESCAC source documents.
+I chose **Mule Intelligence**, a retrieval-augmented assistant for Colby College athletics. The system is designed to answer questions about Colby teams, schedules, results, rosters, awards, athletics resources, official sports news, and related media using official Colby Athletics and NESCAC-connected source documents.
 
-This knowledge is valuable because athletics information is spread across many different pages: team schedules, rosters, news articles, awards pages, conference pages, facility pages, and student-athlete resource pages. A student, athlete, family member, fan, or journalist may need to search multiple pages to answer one question. For example, asking about a team's season may require the schedule page, roster page, recap articles, and conference awards pages.
+This knowledge is valuable because Colby athletics information is spread across many separate official pages: team schedules, rosters, story archives, awards pages, photo galleries, department resources, and student-athlete support pages. A student, athlete, family member, fan, alum, journalist, or recruit may need to search multiple pages to answer one question. For example, asking about a team’s season may require the schedule page, roster page, recap articles, and award pages.
 
-The prototype will focus on Colby Athletics because that keeps the project specific and testable. However, the system will be designed with metadata fields like `school`, `sport`, `season`, `document_type`, `source_url`, and `date_accessed`, so it can scale later to other NESCAC schools without rewriting the full pipeline.
+The prototype will focus on Colby Athletics because that keeps the project specific, testable, and useful. However, the architecture will be designed to scale later to the rest of the NESCAC. Each source and chunk will carry metadata such as `school`, `sport`, `season`, `document_type`, `source_url`, `source_id`, and `date_accessed`, so adding another NESCAC school later should mostly mean adding new source registry entries rather than rewriting the full RAG pipeline.
 
-The long-term product vision is a live, citation-first NESCAC sports assistant, but the Project 1 version will launch with Colby as the validated first school.
+The long-term product vision is a live, citation-first NESCAC sports intelligence assistant. The Project 1 version will launch with Colby as the validated first school and will include a refresh-friendly scraping plan so the system does not become outdated after one season.
 
 ---
 
 ## Documents
 
-| #  | Source                            | Description                                                                                                           | URL or location                                                           |
-| -- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| 1  | Colby Athletics Official Website  | Main athletics hub and navigation source for Colby teams, schedules, rosters, news, awards, facilities, and resources | https://colbyathletics.com/                                               |
-| 2  | Colby Football Schedule           | 2025 football schedule, results, opponents, locations, and season record                                              | https://colbyathletics.com/sports/football/schedule                       |
-| 3  | Colby Football Roster             | 2025 football roster with player names, positions, years, and hometowns                                               | https://colbyathletics.com/sports/football/roster                         |
-| 4  | Colby Football News               | Football news and recap source for game context beyond scores                                                         | https://colbyathletics.com/sports/football/news                           |
-| 5  | Colby Men's Soccer Schedule       | Men's soccer schedule and results source                                                                              | https://colbyathletics.com/sports/mens-soccer/schedule                    |
-| 6  | Colby Men's Soccer Roster         | Men's soccer roster source                                                                                            | https://colbyathletics.com/sports/mens-soccer/roster                      |
-| 7  | Colby Women's Soccer Schedule     | Women's soccer schedule and results source                                                                            | https://colbyathletics.com/sports/womens-soccer/schedule                  |
-| 8  | Colby Women's Soccer Roster       | Women's soccer roster source                                                                                          | https://colbyathletics.com/sports/womens-soccer/roster                    |
-| 9  | Colby Men's Basketball Schedule   | Men's basketball schedule and results source                                                                          | https://colbyathletics.com/sports/mens-basketball/schedule                |
-| 10 | Colby Women's Basketball Schedule | Women's basketball schedule and results source                                                                        | https://colbyathletics.com/sports/womens-basketball/schedule              |
-| 11 | Colby All-NESCAC Awards           | Colby awards page for conference recognition across sports                                                            | https://colbyathletics.com/sports/2020/6/9/awards-all-nescac-awards.aspx  |
-| 12 | Colby Student-Athlete Wellbeing   | Athletics resource page for student-athlete support and performance context                                           | https://colbyathletics.com/sports/2020/6/9/student-athlete-wellbeing.aspx |
+The initial corpus will use verified official Colby Athletics pages. A source registry will store each URL and its metadata so the scraper can refresh the documents without changing the ingestion code.
 
-I will save cleaned text versions of these sources in the `documents/` folder. Each document will include a metadata header with the source title, URL, school, sport, season, document type, and date accessed.
+| #  | Source                            | Description                                                                                                                | URL or location                                                            |
+| -- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| 1  | Colby Athletics Official Website  | Main athletics hub with team navigation, athletics resources, stories, scoreboard, galleries, and official links           | https://colbyathletics.com/                                                |
+| 2  | Colby Football Schedule           | Current football schedule page with season selector, record, opponents, locations, results, box scores, and recaps         | https://colbyathletics.com/sports/football/schedule                        |
+| 3  | Colby Football Roster             | Current football roster with player names, numbers, positions, class years, hometowns, heights, weights, and profile links | https://colbyathletics.com/sports/football/roster                          |
+| 4  | Colby Football Story Archives     | Football news and game recap archive                                                                                       | https://colbyathletics.com/sports/football/archives                        |
+| 5  | Colby Men's Soccer Schedule       | Current men's soccer schedule and results page                                                                             | https://colbyathletics.com/sports/mens-soccer/schedule                     |
+| 6  | Colby Men's Soccer Roster         | Current men's soccer roster and player profile source                                                                      | https://colbyathletics.com/sports/mens-soccer/roster                       |
+| 7  | Colby Women's Soccer Schedule     | Current women's soccer schedule and results page                                                                           | https://colbyathletics.com/sports/womens-soccer/schedule                   |
+| 8  | Colby Women's Soccer Roster       | Current women's soccer roster and player profile source                                                                    | https://colbyathletics.com/sports/womens-soccer/roster                     |
+| 9  | Colby Men's Basketball Schedule   | Current men's basketball schedule, record, opponents, and results                                                          | https://colbyathletics.com/sports/mens-basketball/schedule                 |
+| 10 | Colby Women's Basketball Schedule | Current women's basketball schedule, record, opponents, and results                                                        | https://colbyathletics.com/sports/womens-basketball/schedule               |
+| 11 | Colby All-NESCAC Awards           | Historical conference award information for Colby athletes across sports                                                   | https://colbyathletics.com/sports/2022/7/27/all-nescac.aspx                |
+| 12 | Colby Student Athlete Wellbeing   | Official athletics support and wellbeing information                                                                       | https://colbyathletics.com/sports/2022/8/22/student-athlete-wellbeing.aspx |
+| 13 | Colby Athletics Galleries         | Official athletics photo gallery index                                                                                     | https://colbyathletics.com/galleries/                                      |
 
-Example metadata header:
+The collection process will be automated through a source registry and scraper rather than relying entirely on manual copy-and-paste. Each source entry will specify:
+
+* source id
+* source name
+* source URL
+* school
+* sport
+* season, when applicable
+* document type
+* whether images should be collected
+* refresh frequency
+* last successful retrieval time
+
+The scraper will save cleaned textual content for RAG ingestion and a separate structured metadata record for source attribution, freshness, and image presentation.
+
+Example source registry entry:
+
+```json
+{
+  "id": "colby-football-schedule",
+  "title": "Colby Football Schedule",
+  "url": "https://colbyathletics.com/sports/football/schedule",
+  "school": "Colby College",
+  "sport": "Football",
+  "season": "current",
+  "document_type": "schedule",
+  "collect_images": true,
+  "refresh_frequency": "daily"
+}
+```
+
+---
+
+## Multimedia and Image Plan
+
+Mule Intelligence will be designed as a multimedia RAG assistant. Its factual answers will continue to come from retrieved text documents, but relevant official images may be displayed beside an answer when the retrieved source includes useful visual content.
+
+For each meaningful image, the scraper will attempt to collect:
+
+* image URL
+* alt text
+* caption
+* photographer or image credit, when available
+* source page URL
+* associated school
+* associated sport
+* associated team, athlete, game, or article
+* date collected
+
+The scraper will ignore likely decorative assets such as site logos repeated on every page, social-media icons, navigation images, advertisements, tracking images, and very small thumbnails.
+
+Images will be linked to their parent source document through metadata. The initial retrieval system will remain text-based. When a text document or chunk is retrieved, the interface may display an image associated with that source.
 
 ```text
-title: Colby Football Schedule
-source_url: https://colbyathletics.com/sports/football/schedule
-school: Colby College
-sport: Football
-season: 2025
-document_type: schedule/results
-date_accessed: 2026-06-08
+User question
+        |
+        v
+Text retrieval finds relevant document chunks
+        |
+        v
+Retrieved chunk metadata identifies its source
+        |
+        v
+Image metadata store finds images associated with that source
+        |
+        v
+Answer is displayed with citations and an optional relevant image
 ```
+
+The system will preserve the original source page and image URL instead of presenting an image as independently owned content. Image credits will be shown when the source provides them.
+
+A future multimodal version could use an image-text embedding model such as CLIP to search images by visual meaning. That feature is outside the required Project 1 text-RAG pipeline and will only be attempted after ingestion, retrieval, generation, citations, and evaluation are working correctly.
 
 ---
 
 ## Chunking Strategy
 
-**Chunk size:** Approximately 700 characters per chunk.
+**Chunk size:** Approximately 700 characters per chunk, with structure-aware exceptions for schedules, rosters, awards, and article sections.
 
-**Overlap:** Approximately 150 characters.
+**Overlap:** Approximately 150 characters for prose documents. Structured rows such as a single schedule event, roster player, or award entry will remain intact and will not rely on character overlap.
 
 **Reasoning:**
 
-The documents in this project will be a mix of team schedules, rosters, awards pages, news and recap pages, and athletics resource pages. These documents are usually not long textbook-style documents. They are short factual pages with tables, headings, names, dates, scores, and links.
+The source corpus includes schedules, rosters, awards pages, news archives, articles, galleries, and athletics resource pages. These formats should not all be processed identically.
 
-A 700-character chunk is large enough to keep related information together, such as a single schedule entry with opponent, date, location, and score, or a roster section with several players. It is also small enough for retrieval to find specific answers without returning too much unrelated text.
+For prose such as recaps and resource pages, the scraper will preserve headings and divide content into approximately 700-character chunks with 150-character overlap.
 
-The 150-character overlap helps prevent key information from being split across chunk boundaries. This matters because sports pages often place important facts close together, such as a player name and position, or a date and score. If a chunk boundary splits those details, the answer could become incomplete.
+For structured pages:
 
-Before chunking, I will clean each document by removing repeated navigation menus, footer text, ad-blocker messages, duplicate links, image labels, and unrelated website boilerplate. For table-heavy pages like schedules and rosters, I will convert important rows into structured natural-language statements before chunking.
+* each schedule game will become its own structured text record
+* each roster player will become an individual structured record
+* award entries will be grouped by sport, season, or award section
+* article titles, dates, summaries, and source links will remain together
+* gallery entries will preserve image title, caption, source page, and sport when available
 
-Example cleaned schedule row:
+Example schedule record:
 
 ```text
-Sport: Football. Team: Colby. Season: 2025. Date: September 13, 2025. Opponent: Trinity College. Location: Waterville, ME. Result: Win. Score: 13-6.
+Record type: game
+School: Colby College
+Sport: Football
+Season: 2025
+Date: September 13, 2025
+Opponent: Trinity College
+Location: Waterville, Maine
+Site: Home
+Result: Win
+Score: 13-6
+Source: Colby Football Schedule
 ```
 
-This makes the text easier for the embedding model to retrieve accurately.
+Example player record:
+
+```text
+Record type: athlete
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Example Player
+Number: 0
+Position: Wide Receiver
+Class year: Sophomore
+Height: 6 feet 1 inch
+Weight: 200 pounds
+Hometown: Fair Haven, New Jersey
+Source: Colby Football Roster
+```
+
+Before chunking, the ingestion process will remove repeated navigation menus, footer content, cookie or ad-blocker notices, duplicate links, social media links, and unrelated site-wide text.
+
+Image metadata will not be embedded directly into prose chunks. Instead, each chunk will contain an identifier such as `source_id`, and image records will use the same identifier so the interface can associate retrieved facts with relevant images.
 
 ---
 
@@ -88,21 +183,157 @@ This makes the text easier for the embedding model to retrieve accurately.
 
 I chose `all-MiniLM-L6-v2` because it is lightweight, free to run locally, and commonly used for beginner RAG prototypes. It should be fast enough for this project while still giving useful semantic search results over short athletics documents.
 
-If I were deploying this system for real users and cost was not a constraint, I would compare stronger embedding models based on accuracy, latency, cost, and how well they handle sports-specific text. Important tradeoffs would include whether the model handles names, abbreviations, mascots, team nicknames, scores, and table-derived text well.
+If I were deploying this system for real users and cost was not a constraint, I would compare stronger embedding models based on accuracy, latency, cost, and how well they handle sports-specific text. Important tradeoffs would include whether the model handles names, abbreviations, mascots, team nicknames, scores, table-derived text, and short factual queries well.
 
-For example, the system should understand that “Mules” refers to Colby and that “football schedule” and “football results” are closely related. I would also consider adding structured filters for `sport`, `season`, and `document_type` so the retrieval step does not confuse football results with basketball results or men's soccer with women's soccer.
+For example, the system should understand that “Mules” refers to Colby and that “football schedule” and “football results” are closely related. I would also consider adding structured filters for `sport`, `season`, `document_type`, and `school` so the retrieval step does not confuse football results with basketball results or men's soccer with women's soccer.
 
 For a more advanced version, I would combine vector search with metadata filtering. For example, if the user asks, “What was Colby football's record in 2025?” the system should prioritize chunks where `sport = Football` and `season = 2025`.
 
-### Planned Memory Extension
+---
 
-The core Project 1 system will use RAG over official Colby Athletics and NESCAC documents. A future version will add memory as a separate layer from the official knowledge base.
+## Evaluation Plan
+
+| # | Question                                                                                               | Expected answer                                                                                                                                   |
+| - | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 | What was Colby football's overall record on the current football schedule page?                        | The system should retrieve the Colby Football Schedule source and answer using the season record shown in that document.                          |
+| 2 | Which source should the system use to answer a question about Colby football player positions?         | The system should use the Colby Football Roster source because roster information contains player names and positions.                            |
+| 3 | What kind of information does the Colby All-NESCAC Awards page provide?                                | The system should answer that it provides historical conference award information for Colby athletes across sports.                               |
+| 4 | If a user asks, “Who will be Colby's best football player next season?” how should the system respond? | The system should say the provided documents do not contain enough information to support that prediction. It should not invent a future ranking. |
+| 5 | If the system displays an image with an answer, what should the image be based on?                     | The image should come from official source metadata connected to the retrieved document, not from a hallucinated or unrelated image search.       |
+
+I will revise or expand these questions after collecting the final cleaned documents. At least three final evaluation questions will ask about specific facts from the collected sources, such as records, scores, roster information, awards, or student-athlete resources.
+
+---
+
+## Anticipated Challenges
+
+1. Colby Athletics is powered by a sports-content website structure that contains repeated navigation, menus, accessibility text, logos, footer content, ad-blocker notices, and many duplicate links. A generic scraper may collect more boilerplate than useful sports information. The cleaning system will therefore target meaningful page sections and the output will be manually inspected during development.
+
+2. Schedule and roster pages are visually structured but may become disorganized when converted to plain text. A score could be separated from its opponent, or a player's name could be separated from the player's position. The scraper will use page-type-specific extraction rules and convert each row or profile into a self-contained structured record.
+
+3. Current schedule pages may automatically point to a new season when the school updates the site. The source registry will distinguish between `current` pages and explicitly archived seasons. Each generated document will store both the season detected on the page and the retrieval timestamp.
+
+4. Images may include decorative assets, school logos, opponent logos, athlete headshots, gallery photos, and article images. Saving all of them would create noise and unnecessary storage. Image filtering will use alt text, HTML context, dimensions when available, file patterns, and source location to keep only likely content images.
+
+5. Some images may have missing alt text, captions, or credits. The system must not invent an identity or description. Images with insufficient metadata may be preserved as source-linked assets but should not be presented as factual evidence about a specific athlete or event.
+
+6. Source URLs can change over time. The scraper will log failed requests, HTTP status codes, redirect destinations, and the last successful retrieval time. A failed source will not silently overwrite a previously valid document with an empty file.
+
+7. Adding conversation or user memory creates a risk of mixing personal preferences with official sports facts. Memory may help select a sport, season, or preferred answer style, but all claims about scores, schedules, athletes, rosters, and awards must remain grounded in retrieved official documents.
+
+---
+
+## Architecture
+
+```text
+Verified source registry
+- URL
+- school
+- sport
+- season
+- document type
+- image collection setting
+- refresh frequency
+        |
+        v
+Automated source collector
+- Requests + Beautiful Soup for standard HTML
+- Optional browser-based fallback for JavaScript-rendered pages
+- Follow redirects
+- Record failures and retrieval timestamps
+        |
+        +---------------------------+
+        |                           |
+        v                           v
+Text extraction                Image extraction
+- schedules                    - image URL
+- rosters                      - alt text
+- articles                     - caption
+- awards                       - credit
+- resource pages               - parent source
+        |                           |
+        v                           v
+Cleaned documents             Image metadata store
+- structured records           - JSON metadata
+- prose sections               - source associations
+- source metadata              - optional cached files
+        |                           |
+        v                           |
+Chunking                        |
+- structure-aware chunks        |
+- prose: ~700 chars             |
+- overlap: ~150 chars           |
+- preserve source_id            |
+        |                        |
+        v                        |
+Embedding + vector store        |
+- all-MiniLM-L6-v2              |
+- ChromaDB                      |
+- chunk metadata                |
+        |                        |
+        v                        |
+Retrieval                       |
+- top 5 chunks                  |
+- optional metadata filters     |
+        |                        |
+        +------------+-----------+
+                     |
+                     v
+Grounded generation
+- answer only from retrieved context
+- refuse unsupported claims
+- cite title and source URL
+                     |
+                     v
+Gradio interface
+- answer
+- citations
+- source freshness
+- optional relevant source image
+```
+
+### Planned Live-Update Process
+
+```text
+Scheduled or manual refresh
+        |
+        v
+Check each registered source
+        |
+        v
+Download current content
+        |
+        v
+Detect whether meaningful content changed
+        |
+        +---- no change ----> keep existing document and embeddings
+        |
+        +---- changed ------> regenerate document and image metadata
+                              |
+                              v
+                        replace affected vector entries
+                              |
+                              v
+                        record refreshed timestamp
+```
+
+The Project 1 implementation may initially use a manual command such as:
+
+```text
+python scrape_sources.py
+```
+
+The architecture will allow the same command to be scheduled later without rewriting the main RAG application.
+
+---
+
+## Planned Memory Extension
+
+The core Project 1 system will use RAG over official Colby Athletics and NESCAC-connected documents. A future version will add memory as a separate layer from the official knowledge base.
 
 The memory layer would store user preferences and session context, such as favorite sports, preferred teams, preferred seasons, and whether the user wants short answers or detailed source-heavy answers. This memory would not be treated as factual sports knowledge. Official athletics facts would still come from retrieved source documents.
 
 Memory would improve personalization by helping the assistant interpret follow-up questions and choose better retrieval filters. For example, if a user says they mainly care about Colby football, later questions like “What was their record?” could prioritize football schedule and roster documents.
-
-The planned memory architecture is:
 
 ```text
 User question
@@ -126,124 +357,28 @@ Grounded answer generation with citations
 
 This keeps factual accuracy grounded in official documents while allowing the assistant to become more personalized over time.
 
-
----
-
-## Evaluation Plan
-
-| # | Question                                                                                               | Expected answer                                                                                                                                                                                 |
-| - | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1 | What was Colby football's overall record in 2025?                                                      | The system should answer that Colby football finished 6-3 overall, based on the 2025 football schedule source.                                                                                  |
-| 2 | What was the result of Colby football's game against Bowdoin in 2025?                                  | The system should answer that Colby defeated Bowdoin 16-6 in Waterville, Maine, on November 8, 2025, based on the football schedule source.                                                     |
-| 3 | Which source should the system use to answer a question about Colby football player positions?         | The system should use the Colby Football Roster source because roster information contains player names and positions.                                                                          |
-| 4 | If a user asks, “Who will be Colby's best football player next season?” how should the system respond? | The system should say the provided documents do not contain enough information to support that prediction. It should not invent a future ranking.                                               |
-| 5 | Why is source attribution important for Mule Intelligence?                                             | The system should explain that sports information changes over time and is spread across schedules, rosters, news, and awards pages, so answers should cite the retrieved source title and URL. |
-
-I will revise or expand these questions after collecting the final cleaned documents. At least three final evaluation questions will ask about specific facts from the collected sources, such as records, scores, roster information, or awards.
-
----
-
-## Anticipated Challenges
-
-1. Colby Athletics pages include repeated navigation menus, image labels, footer text, ad-blocker messages, and many duplicate links. If I ingest the raw pages without cleaning, retrieval may return irrelevant chunks from the website navigation instead of the actual schedule, roster, or awards content. To reduce this risk, I will manually inspect the cleaned text and remove repeated website boilerplate before chunking.
-
-2. Sports pages often contain table-like information such as schedules, records, rosters, and scores. If the table text is copied or scraped poorly, important relationships may become unclear. For example, a date, opponent, location, and score might be separated from each other. To reduce this risk, I will rewrite important table rows into structured sentences before embedding them.
-
-3. Because the project includes multiple sports, retrieval could confuse similar terms across documents. For example, a question about basketball schedules could accidentally retrieve football schedule chunks if both contain opponent names and dates. To reduce this risk, I will include metadata such as sport, season, school, and document type in each document and chunk.
-
-4. The project is intended to scale and stay current, but Project 1 will not be a fully automated live production system. To avoid overclaiming, the prototype will include source URLs and `date_accessed` metadata. The future version would rerun ingestion from official URLs to refresh the vector store.
-
-5. A future personalized version may include memory, but memory creates a risk of mixing user preferences with factual source information. For example, if a user says they like football, the system should use that preference to prioritize football documents, not to invent football facts. To reduce this risk, I will treat memory as a routing and personalization layer only. All factual claims about teams, schedules, scores, rosters, and awards must still come from retrieved documents with citations.
-
-
----
-
-## Architecture
-
-```text
-Official Colby Athletics and NESCAC source pages
-        |
-        v
-Document Ingestion
-- Manually collect and clean source text for Project 1
-- Save cleaned .txt files in documents/
-- Add metadata:
-  title
-  URL
-  school
-  sport
-  season
-  document_type
-  date_accessed
-        |
-        v
-Chunking
-- Python function reads each document
-- Split into approximately 700-character chunks
-- Use approximately 150-character overlap
-- Preserve metadata for every chunk
-        |
-        v
-Embedding and Vector Store
-- Use sentence-transformers model: all-MiniLM-L6-v2
-- Store chunk embeddings in ChromaDB
-- Persist local vector store so it can be reused
-        |
-        v
-Retrieval
-- User asks a Colby athletics question
-- Query is embedded using the same embedding model
-- Retrieve top 5 most relevant chunks
-- Return chunk text plus metadata
-        |
-        v
-Grounded Generation
-- LLM receives the retrieved chunks as context
-- System prompt instructs the model to answer only from retrieved sources
-- If context is insufficient, the model must say so
-- Answer includes source titles and URLs
-        |
-        v
-Interface
-- Gradio app
-- User enters a question
-- App displays answer, sources used, and retrieved context preview
-```
-
-Future live-refresh extension:
-
-```text
-Source URL registry
-        |
-        v
-Refresh script
-- Re-download or re-copy current source text
-- Update date_accessed and last_updated
-- Rebuild cleaned documents
-- Rebuild vector store
-        |
-        v
-Fresh RAG answers with source timestamps
-```
-
 ---
 
 ## AI Tool Plan
 
-**Milestone 3 — Ingestion and chunking:**
+**Milestone 3 — Automated ingestion, image collection, and chunking:**
 
-I plan to use ChatGPT, Claude, or GitHub Copilot to help implement document loading and chunking. I will give the AI my Domain, Documents, and Chunking Strategy sections from this planning document. I will ask it to write Python functions that read `.txt` files from the `documents/` folder, parse the metadata header, and split the body text into 700-character chunks with 150-character overlap.
+I will give an AI tool my Documents, Multimedia and Image Plan, Chunking Strategy, and Architecture sections. I will ask it to help design a beginner-readable scraper that reads verified URLs from a source registry, checks HTTP responses, follows redirects, extracts useful page content, and saves cleaned documents and image metadata.
 
-I expect the AI to produce readable Python code for loading documents and chunking text. I will verify the output by printing the number of documents loaded, the number of chunks created, and several sample chunks. I will manually check whether important facts like scores, player names, source URLs, and sports metadata stay attached to the correct chunks.
+The first implementation will target one known page type, such as the Colby football schedule. I will verify the code by comparing the generated records against the visible official page. I will check that opponents, dates, locations, results, scores, source URLs, and season metadata are correct.
+
+After the first page works, I will ask the AI to help refactor the code into reusable extraction functions for schedules, rosters, archives, articles, awards pages, and general resource pages. I will not accept a generalized scraper until I test each page type manually.
+
+For image extraction, I will verify that retained images come from meaningful page content and that decorative logos, icons, and tracking assets are excluded. I will not allow the AI to invent captions, athlete identities, or image credits.
 
 **Milestone 4 — Embedding and retrieval:**
 
-I plan to use ChatGPT, Claude, or GitHub Copilot to help connect `sentence-transformers` with ChromaDB. I will give the AI my Retrieval Approach section and ask it to implement functions for building a local vector store and retrieving the top 5 chunks for a user query.
+I will give the AI my Retrieval Approach and the exact cleaned document format produced by the scraper. I will ask it to implement embedding and ChromaDB storage while preserving `source_id`, sport, season, document type, source URL, and retrieval timestamp.
 
-I expect the AI to produce code that embeds each chunk, stores it with metadata, and retrieves relevant chunks for test questions. I will verify the retrieval manually by running questions like “What was Colby football's 2025 record?” and checking whether the returned chunks come from the football schedule document. I will also test an off-topic or unsupported question to see whether retrieval is weak or irrelevant.
+I will verify retrieval using direct factual questions and inspect the raw returned chunks before adding answer generation. I will also confirm that a retrieved chunk can be matched to its associated image metadata through `source_id`.
 
-**Milestone 5 — Generation and interface:**
+**Milestone 5 — Generation and multimedia interface:**
 
-I plan to use ChatGPT, Claude, or GitHub Copilot to help build the grounded answer generation function and a simple Gradio interface. I will give the AI my Architecture, Retrieval Approach, and Evaluation Plan sections. I will ask it to create a system prompt that tells the model to answer only from retrieved context and cite the source title and URL for each answer.
+I will give the AI the Architecture, Evaluation Plan, grounding requirements, and image metadata structure. I will ask it to implement a Gradio interface that displays a grounded answer, source citations, freshness information, and an optional image associated with the retrieved source.
 
-I expect the AI to produce a simple app where the user can type a Colby athletics question and receive a grounded answer with sources. I will verify the output by running my five evaluation questions and checking whether the answer is accurate, whether the correct sources are shown, and whether the system refuses to answer unsupported prediction questions.
+I will test whether the answer remains correct when no relevant image exists. Image display will be optional and must never replace textual evidence or citations.
