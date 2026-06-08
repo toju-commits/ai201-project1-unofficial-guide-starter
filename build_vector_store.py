@@ -20,8 +20,21 @@ def build_vector_store() -> None:
     model = SentenceTransformer(EMBEDDING_MODEL)
 
     print("Creating embeddings...")
-    texts = [chunk["text"] for chunk in chunks]
+    texts = []
 
+    for chunk in chunks:
+        metadata = chunk["metadata"]
+
+        contextual_text = f"""School: {metadata.get("school", "")}
+    Sport: {metadata.get("sport", "")}
+    Season: {metadata.get("season", "")}
+    Document type: {metadata.get("document_type", "")}
+    Source: {metadata.get("title", "")}
+
+    {chunk["text"]}"""
+
+        texts.append(contextual_text)
+    
     embeddings = model.encode(
         texts,
         show_progress_bar=True,

@@ -53,4 +53,4 @@ def retrieve(query: str) -> None:
 
 
 if __name__ == "__main__":
-    retrieve("What position does Sean Trinder play?")
+    retrieve("When does Colby football play Bowdoin in 2026?")
