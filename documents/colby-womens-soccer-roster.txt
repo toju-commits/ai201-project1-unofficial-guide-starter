@@ -1,0 +1,361 @@
+title: 2025 Women's Soccer Roster - Colby College
+source_id: colby-womens-soccer-roster
+source_url: https://colbyathletics.com/sports/womens-soccer/roster
+school: Colby College
+sport: Women's Soccer
+season: 2025
+document_type: roster
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: athlete
+Player: Skye Greenberg
+Jersey number: 0
+Position: Goalkeeper GK 5'6"
+Academic year: Fr.
+Height: 5'6"
+Weight: 
+Hometown: Jamaica, Vt.
+High school: Stratton Mountain School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/skye-greenberg/8946
+
+Record type: athlete
+Player: Talia Thompson
+Jersey number: 00
+Position: Goalkeeper GK 5'7"
+Academic year: Jr.
+Height: 5'7"
+Weight: 
+Hometown: Brookline, Mass.
+High school: Brookline
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/talia-thompson/8939
+
+Record type: athlete
+Player: Malika Hill
+Jersey number: 1
+Position: Goalkeeper GK 5'9"
+Academic year: Fr.
+Height: 5'9"
+Weight: 
+Hometown: Bethesda, Md.
+High school: Sidwell Friends School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/malika-hill/8947
+
+Record type: athlete
+Player: Ami Vithiananthan
+Jersey number: 2
+Position: Back B 5'5"
+Academic year: So.
+Height: 5'5"
+Weight: 
+Hometown: Winchester, Mass.
+High school: Rivers School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/ami-vithiananthan/8942
+
+Record type: athlete
+Player: Neve Taylor
+Jersey number: 3
+Position: Back B 5'9"
+Academic year: Fr.
+Height: 5'9"
+Weight: 
+Hometown: Foxboro, Mass.
+High school: Bishop Feehan
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/neve-taylor/8954
+
+Record type: athlete
+Player: Sophie DiGrande
+Jersey number: 4
+Position: Forward F 5'5"
+Academic year: Sr.
+Height: 5'5"
+Weight: 
+Hometown: Nahant, Mass.
+High school: Swampscott
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/sophie-digrande/8927
+
+Record type: athlete
+Player: Mia Sullivan
+Jersey number: 5
+Position: Back B 5'3"
+Academic year: So.
+Height: 5'3"
+Weight: 
+Hometown: Acton, Mass.
+High school: Acton-Boxborough Regional
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/mia-sullivan/8938
+
+Record type: athlete
+Player: Gabrielle Lazaro
+Jersey number: 6
+Position: Forward F 5'2"
+Academic year: Jr.
+Height: 5'2"
+Weight: 
+Hometown: Wellesley, Mass.
+High school: Wellesley
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/gabrielle-lazaro/8931
+
+Record type: athlete
+Player: Kaya Singh
+Jersey number: 7
+Position: Forward F 5'5"
+Academic year: Fr.
+Height: 5'5"
+Weight: 
+Hometown: Piscataway, N.J.
+High school: Rutgers Preparatory School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/kaya-singh/8953
+
+Record type: athlete
+Player: Taylor Oranellas
+Jersey number: 8
+Position: Midfield M 5'6"
+Academic year: Fr.
+Height: 5'6"
+Weight: 
+Hometown: Yarmouth, Maine
+High school: Yarmouth
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/taylor-oranellas/8949
+
+Record type: athlete
+Player: Jane Maguire
+Jersey number: 9
+Position: Midfield M 5'4"
+Academic year: Sr.
+Height: 5'4"
+Weight: 
+Hometown: South Hamilton, Mass.
+High school: Hamilton-Wenham Regional
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/jane-maguire/8935
+
+Record type: athlete
+Player: Eloisa Luczkow
+Jersey number: 10
+Position: Midfield M 5'5"
+Academic year: Jr.
+Height: 5'5"
+Weight: 
+Hometown: Sherborn, Mass.
+High school: Dover-Sherborn
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/eloisa-luczkow/8934
+
+Record type: athlete
+Player: Annie Liebich
+Jersey number: 11
+Position: Midfield M 5'9"
+Academic year: Jr.
+Height: 5'9"
+Weight: 
+Hometown: Boise, Idaho
+High school: Riverstone International School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/annie-liebich/8933
+
+Record type: athlete
+Player: Avery Barton
+Jersey number: 12
+Position: Forward F 5'4"
+Academic year: Jr.
+Height: 5'4"
+Weight: 
+Hometown: Bradford, Vt.
+High school: St. Paul's
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/avery-barton/8923
+
+Record type: athlete
+Player: Amanda Schneider
+Jersey number: 14
+Position: Forward F 5'5"
+Academic year: Fr.
+Height: 5'5"
+Weight: 
+Hometown: Boxford, Mass.
+High school: Masconomet Regional
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/amanda-schneider/8952
+
+Record type: athlete
+Player: Samantha DeWitt
+Jersey number: 15
+Position: Back B 5'7"
+Academic year: Jr.
+Height: 5'7"
+Weight: 
+Hometown: Westport, Conn.
+High school: Staples
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/samantha-dewitt/8926
+
+Record type: athlete
+Player: Hannah Donahue
+Jersey number: 17
+Position: Back B 5'5"
+Academic year: Jr.
+Height: 5'5"
+Weight: 
+Hometown: Atherton, Calif.
+High school: Holderness School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/hannah-donahue/8928
+
+Record type: athlete
+Player: Kylie Thorp
+Jersey number: 18
+Position: Back B 5'6"
+Academic year: Sr.
+Height: 5'6"
+Weight: 
+Hometown: New York, N.Y.
+High school: Convent of the Sacred Heart
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/kylie-thorp/8940
+
+Record type: athlete
+Player: Ella Caraluzzi
+Jersey number: 19
+Position: Forward F 5'3"
+Academic year: So.
+Height: 5'3"
+Weight: 
+Hometown: Brookfield, Conn.
+High school: Canterbury School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/ella-caraluzzi/8924
+
+Record type: athlete
+Player: Catherine Watrous
+Jersey number: 20
+Position: Forward F 5'4"
+Academic year: So.
+Height: 5'4"
+Weight: 
+Hometown: Middleton, Mass.
+High school: Pingree School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/catherine-watrous/8944
+
+Record type: athlete
+Player: Fati Salifu
+Jersey number: 21
+Position: Back B 5'5"
+Academic year: Sr.
+Height: 5'5"
+Weight: 
+Hometown: Topsfield, Mass.
+High school: The Hotchkiss School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/fati-salifu/8937
+
+Record type: athlete
+Player: Avery Del Col
+Jersey number: 22
+Position: Back B 5'3"
+Academic year: So.
+Height: 5'3"
+Weight: 
+Hometown: Wellesley Hills, Mass.
+High school: Rivers School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/avery-del-col/8925
+
+Record type: athlete
+Player: Claire Walsh
+Jersey number: 23
+Position: Midfield M 5'4"
+Academic year: So.
+Height: 5'4"
+Weight: 
+Hometown: Atlanta, Ga.
+High school: Marist School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/claire-walsh/8943
+
+Record type: athlete
+Player: Madison Genser
+Jersey number: 24
+Position: Midfield M 5'6"
+Academic year: Jr.
+Height: 5'6"
+Weight: 
+Hometown: Newton Center, Mass.
+High school: Newton South
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/madison-genser/8929
+
+Record type: athlete
+Player: Grace Missett
+Jersey number: 26
+Position: Back B 5'7"
+Academic year: Fr.
+Height: 5'7"
+Weight: 
+Hometown: Palo Alto, Calif.
+High school: Gunn
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/grace-missett/8948
+
+Record type: athlete
+Player: Alexis Triantaphyllis
+Jersey number: 28
+Position: Back B 5'5"
+Academic year: So.
+Height: 5'5"
+Weight: 
+Hometown: Houston, Texas
+High school: St. John's School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/alexis-triantaphyllis/8941
+
+Record type: athlete
+Player: MK Marshall
+Jersey number: 30
+Position: Goalkeeper GK 5'8"
+Academic year: Sr.
+Height: 5'8"
+Weight: 
+Hometown: Storrs Mansfield, Conn.
+High school: Pomfret School
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/mk-marshall/8936
+
+Record type: athlete
+Player: Abigail Jarvi
+Jersey number: 32
+Position: Forward F 5'3"
+Academic year: Jr.
+Height: 5'3"
+Weight: 
+Hometown: Gilford, N.H.
+High school: Brewster Academy
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/abigail-jarvi/8930
+
+Record type: athlete
+Player: Melina Ouramdane
+Jersey number: 33
+Position: Midfield M 5'7"
+Academic year: Fr.
+Height: 5'7"
+Weight: 
+Hometown: Montreal, Quebec
+High school: College Saint-Jean-Vianney
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/melina-ouramdane/8950
+
+Record type: athlete
+Player: Maya Ouramdane
+Jersey number: 34
+Position: Forward F 5'7"
+Academic year: Fr.
+Height: 5'7"
+Weight: 
+Hometown: Montreal, Quebec
+High school: College Saint-Jean-Vianney
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/maya-ouramdane/8951
+
+Record type: athlete
+Player: Murphy Leung
+Jersey number: 35
+Position: Forward F 5'7"
+Academic year: Sr.
+Height: 5'7"
+Weight: 
+Hometown: New York, N.Y.
+High school: N.Y.C. Lab School for Collaborative Studies
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/murphy-leung/8932
+
+Record type: athlete
+Player: Sadie Gardner
+Jersey number: 99
+Position: Goalkeeper GK 5'6"
+Academic year: So.
+Height: 5'6"
+Weight: 
+Hometown: Eugene, Ore.
+High school: Lake Oswego
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/sadie-gardner/8945

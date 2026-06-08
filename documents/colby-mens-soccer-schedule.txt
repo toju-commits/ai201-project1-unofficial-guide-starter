@@ -1,0 +1,98 @@
+title: 2026 Men's Soccer Schedule - Colby College
+source_id: colby-mens-soccer-schedule
+source_url: https://colbyathletics.com/sports/mens-soccer/schedule
+school: Colby College
+sport: Men's Soccer
+season: 2026
+document_type: schedule
+date_accessed: 2026-06-08
+
+CONTENT:
+2026 Men's Soccer Schedule - Colby College
+2026 Men's Soccer Schedule
+Season Record
+Overall
+0-0
+PCT
+.000
+Conf
+0-0
+PCT
+.000
+Streak
+Home
+0-0
+Away
+0-0
+Neutral
+0-0
+Sep 4 (Fri)
+8:00 PM
+Wheaton College (Mass.)
+Waterville, ME
+Sep 8 (Tue)
+7:30 PM
+Thomas College
+Waterville, ME
+Sep 12 (Sat)
+3:30 PM
+NESCAC
+Tufts University
+Medford, MA
+Sep 13 (Sun)
+5:00 PM
+Maine Maritime Academy
+Waterville, ME
+Sep 19 (Sat)
+2:00 PM
+NESCAC
+Williams College
+Waterville, ME
+Sep 20 (Sun)
+2:00 PM
+NESCAC
+Connecticut College
+Waterville, ME
+Sep 26 (Sat)
+2:00 PM
+NESCAC
+Trinity College (Conn.)
+Waterville, ME
+Sep 27 (Sun)
+3:00 PM
+Husson University
+Waterville, ME
+Oct 3 (Sat)
+12:00 PM
+NESCAC
+Middlebury College
+Middlebury, VT
+Oct 4 (Sun)
+2:00 PM
+Rivier University
+Nashua, NH
+Oct 10 (Sat)
+2:00 PM
+NESCAC
+Wesleyan University
+Middletown, CT
+Oct 17 (Sat)
+2:00 PM
+NESCAC
+Amherst College
+Waterville, ME
+Oct 18 (Sun)
+2:00 PM
+NESCAC
+Bowdoin College
+Brunswick, ME
+Oct 24 (Sat)
+2:00 PM
+NESCAC
+Hamilton College
+Clinton, NY
+Oct 27 (Tue)
+3:00 PM
+NESCAC
+Bates College
+Waterville, ME

@@ -1,0 +1,361 @@
+title: 2025 Men's Soccer Roster - Colby College
+source_id: colby-mens-soccer-roster
+source_url: https://colbyathletics.com/sports/mens-soccer/roster
+school: Colby College
+sport: Men's Soccer
+season: 2025
+document_type: roster
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: athlete
+Player: Winslow Lamia
+Jersey number: 0
+Position: GK
+Academic year: Fr.
+Height: 6'1"
+Weight: 164 lbs
+Hometown: New York, N.Y.
+High school: Trinity School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/winslow-lamia/8826
+
+Record type: athlete
+Player: Gus Confalone
+Jersey number: 1
+Position: GK
+Academic year: Jr.
+Height: 5'9"
+Weight: 160 lbs
+Hometown: Washington, DC
+High school: St. John's College High
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/gus-confalone/8801
+
+Record type: athlete
+Player: CJ Supan
+Jersey number: 2
+Position: D
+Academic year: So.
+Height: 5'10"
+Weight: 160 lbs
+Hometown: Abingdon, Md.
+High school: John Carroll School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/cj-supan/8816
+
+Record type: athlete
+Player: Jude Gussen
+Jersey number: 3
+Position: M
+Academic year: Fr.
+Height: 6'4"
+Weight: 189 lbs
+Hometown: Fairfield, Conn.
+High school: The Loomis Chaffee School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/jude-gussen/8823
+
+Record type: athlete
+Player: Ryan Stewart
+Jersey number: 4
+Position: D
+Academic year: Sr.
+Height: 6'0"
+Weight: 178 lbs
+Hometown: West Chester, Pa.
+High school: Westtown School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/ryan-stewart/8815
+
+Record type: athlete
+Player: Jacob Sams
+Jersey number: 5
+Position: D
+Academic year: Jr.
+Height: 6'1"
+Weight: 187 lbs
+Hometown: Tampa, Fla.
+High school: Berkeley Preparatory
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/jacob-sams/8812
+
+Record type: athlete
+Player: Joseph Beshel
+Jersey number: 6
+Position: M
+Academic year: Jr.
+Height: 6'1"
+Weight: 168 lbs
+Hometown: Melrose, Mass.
+High school: Melrose
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/joseph-beshel/8800
+
+Record type: athlete
+Player: Andrew Kirwan
+Jersey number: 7
+Position: D
+Academic year: Jr.
+Height: 5'11"
+Weight: 183 lbs
+Hometown: Bryn Mawr, Pa.
+High school: Haverford School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/andrew-kirwan/8806
+
+Record type: athlete
+Player: Charlie Scott
+Jersey number: 8
+Position: D
+Academic year: Jr.
+Height: 6'3"
+Weight: 192 lbs
+Hometown: Denver, Colo.
+High school: East
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/charlie-scott/8813
+
+Record type: athlete
+Player: Anthony Bugliari
+Jersey number: 9
+Position: F
+Academic year: So.
+Height: 6'1"
+Weight: 178 lbs
+Hometown: Madison, N.J.
+High school: Pingry School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/anthony-bugliari/8819
+
+Record type: athlete
+Player: Chase Dolinko
+Jersey number: 10
+Position: F
+Academic year: Sr.
+Height: 5'8"
+Weight: 156 lbs
+Hometown: Menlo Park, Calif.
+High school: Sacred Heart Preparatory
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/chase-dolinko/8803
+
+Record type: athlete
+Player: Luis Estrella
+Jersey number: 11
+Position: F
+Academic year: Sr.
+Height: 5'9"
+Weight: 161 lbs
+Hometown: Panama City, Panama
+High school: South Kent School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/luis-estrella/8804
+
+Record type: athlete
+Player: Will Kogelmann
+Jersey number: 12
+Position: F
+Academic year: So.
+Height: 6'0"
+Weight: 176 lbs
+Hometown: Boalsburg, Pa.
+High school: State College Area
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/will-kogelmann/8808
+
+Record type: athlete
+Player: Matthew Kayser
+Jersey number: 13
+Position: GK
+Academic year: Fr.
+Height: 6'0"
+Weight: 169 lbs
+Hometown: Bedford, N.Y.
+High school: Pelham Memorial
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/matthew-kayser/8824
+
+Record type: athlete
+Player: Santi Canencio Moreno
+Jersey number: 14
+Position: F
+Academic year: Fr.
+Height: 6'3"
+Weight: 182 lbs
+Hometown: Medellin, Colombia
+High school: Sidwell Friends School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/santi-canencio-moreno/8820
+
+Record type: athlete
+Player: Justin Dawes
+Jersey number: 15
+Position: F
+Academic year: So.
+Height: 6'3"
+Weight: 172 lbs
+Hometown: Yarmouth, Maine
+High school: Yarmouth HS
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/justin-dawes/8822
+
+Record type: athlete
+Player: Luke Pentikis
+Jersey number: 17
+Position: M
+Academic year: Jr.
+Height: 5'11"
+Weight: 183 lbs
+Hometown: Rumson, N.J.
+High school: South Kent School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/luke-pentikis/8811
+
+Record type: athlete
+Player: Drew Kogelmann
+Jersey number: 18
+Position: M
+Academic year: So.
+Height: 6'0"
+Weight: 175 lbs
+Hometown: Boalsburg, Pa.
+High school: State College Area
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/drew-kogelmann/8807
+
+Record type: athlete
+Player: Oliver Daboo
+Jersey number: 19
+Position: D
+Academic year: Jr.
+Height: 5'8"
+Weight: 166 lbs
+Hometown: Pittsburgh, Pa.
+High school: Winchester Thurston
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/oliver-daboo/8802
+
+Record type: athlete
+Player: Andy Uku
+Jersey number: 20
+Position: M
+Academic year: So.
+Height: 6'0"
+Weight: 155 lbs
+Hometown: Tennafly, N.J.
+High school: Collegiate School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/andy-uku/8817
+
+Record type: athlete
+Player: Alexander Vittal
+Jersey number: 21
+Position: F
+Academic year: So.
+Height: 6'0"
+Weight: 168 lbs
+Hometown: Belmont, Mass
+High school: Belmont Hill
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/alexander-vittal/8832
+
+Record type: athlete
+Player: Jasper Paez
+Jersey number: 22
+Position: M
+Academic year: Sr.
+Height: 5'10"
+Weight: 146 lbs
+Hometown: Bedford, Mass.
+High school: Bedford
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/jasper-paez/8810
+
+Record type: athlete
+Player: Colin Leon
+Jersey number: 23
+Position: F
+Academic year: Jr.
+Height: 5'7"
+Weight: 159 lbs
+Hometown: Fort Washington, Pa.
+High school: Germantown Academy
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/colin-leon/8809
+
+Record type: athlete
+Player: Oliver Clifford
+Jersey number: 24
+Position: D
+Academic year: Fr.
+Height: 6'2"
+Weight: 165 lbs
+Hometown: S Burlington, Vt.
+High school: Taft School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/oliver-clifford/8821
+
+Record type: athlete
+Player: Ethan Soroca
+Jersey number: 25
+Position: F
+Academic year: Fr.
+Height: 6'0"
+Weight: 166 lbs
+Hometown: New York, N.Y.
+High school: Horace Mann School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/ethan-soroca/8831
+
+Record type: athlete
+Player: Theo Scott
+Jersey number: 26
+Position: D
+Academic year: So.
+Height: 6'3"
+Weight: 211 lbs
+Hometown: Denver, Colo.
+High school: East
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/theo-scott/8814
+
+Record type: athlete
+Player: Kameron Mohammed
+Jersey number: 27
+Position: M
+Academic year: Fr.
+Height: 5'11"
+Weight: 148 lbs
+Hometown: Nottingham, England
+High school: Choate Rosemary Hall
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/kameron-mohammed/8829
+
+Record type: athlete
+Player: Braden Jondro
+Jersey number: 28
+Position: D
+Academic year: Sr.
+Height: 6'4"
+Weight: 214 lbs
+Hometown: Westford, Mass.
+High school: Worcester Academy
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/braden-jondro/8805
+
+Record type: athlete
+Player: Joaquin Mañon
+Jersey number: 29
+Position: M
+Academic year: Fr.
+Height: 5'10"
+Weight: 176 lbs
+Hometown: Santo Domingo, DR
+High school: Taft School
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/joaquin-ma-on/8828
+
+Record type: athlete
+Player: Grady Kirk
+Jersey number: 30
+Position: M
+Academic year: Fr.
+Height: 6'2"
+Weight: 171 lbs
+Hometown: Sudbury, Mass.
+High school: Lincoln Sudbury Regional
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/grady-kirk/8825
+
+Record type: athlete
+Player: Jackson Magee
+Jersey number: 33
+Position: GK
+Academic year: So.
+Height: 6'2"
+Weight: 174 lbs
+Hometown: Brookline, Mass.
+High school: Brookline HS
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/jackson-magee/8827
+
+Record type: athlete
+Player: Leo Robison
+Jersey number: 35
+Position: D
+Academic year: Fr.
+Height: 6'5"
+Weight: 184 lbs
+Hometown: Washington, D.C.
+High school: St. Andrews Episcopal
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/leo-robison/8830

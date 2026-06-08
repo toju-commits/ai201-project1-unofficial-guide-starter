@@ -1,0 +1,98 @@
+title: 2026 Women's Soccer Schedule - Colby College
+source_id: colby-womens-soccer-schedule
+source_url: https://colbyathletics.com/sports/womens-soccer/schedule
+school: Colby College
+sport: Women's Soccer
+season: 2026
+document_type: schedule
+date_accessed: 2026-06-08
+
+CONTENT:
+2026 Women's Soccer Schedule - Colby College
+2026 Women's Soccer Schedule
+Season Record
+Overall
+0-0
+PCT
+.000
+Conf
+0-0
+PCT
+.000
+Streak
+Home
+0-0
+Away
+0-0
+Neutral
+0-0
+Sep 4 (Fri)
+TBD
+NESCAC
+Bowdoin College
+Brunswick, ME
+Sep 9 (Wed)
+7:00 PM
+Endicott College
+Beverly, MA
+Sep 12 (Sat)
+12:30 PM
+NESCAC
+Tufts University
+Medford, MA
+Sep 13 (Sun)
+3:00 PM
+Husson University
+Waterville, ME
+Sep 19 (Sat)
+11:00 AM
+NESCAC
+Williams College
+Waterville, ME
+Sep 20 (Sun)
+11:00 AM
+NESCAC
+Connecticut College
+Waterville, ME
+Sep 26 (Sat)
+11:00 AM
+NESCAC
+Trinity College (Conn.)
+Waterville, ME
+Sep 30 (Wed)
+7:00 PM
+Worcester Polytechnic Institute
+Worcester, MA
+Oct 3 (Sat)
+11:00 AM
+NESCAC
+Middlebury College
+Middlebury, VT
+Oct 6 (Tue)
+7:00 PM
+Maine Maritime Academy
+Waterville, ME
+Oct 10 (Sat)
+11:00 AM
+NESCAC
+Wesleyan University
+Middletown, CT
+Oct 12 (Mon)
+TBD
+Emory University
+Atlanta, GA
+Oct 17 (Sat)
+11:00 AM
+NESCAC
+Amherst College
+Waterville, ME
+Oct 24 (Sat)
+11:00 AM
+NESCAC
+Hamilton College
+Clinton, NY
+Oct 27 (Tue)
+7:00 PM
+NESCAC
+Bates College
+Waterville, ME

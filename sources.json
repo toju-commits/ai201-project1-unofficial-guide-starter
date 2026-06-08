@@ -20,5 +20,49 @@
   "document_type": "roster",
   "collect_images": true,
   "refresh_frequency": "weekly"
+},
+{
+  "id": "colby-mens-soccer-schedule",
+  "title": "Colby Men's Soccer Schedule",
+  "url": "https://colbyathletics.com/sports/mens-soccer/schedule",
+  "school": "Colby College",
+  "sport": "Men's Soccer",
+  "season": "current",
+  "document_type": "schedule",
+  "collect_images": true,
+  "refresh_frequency": "daily"
+},
+{
+  "id": "colby-mens-soccer-roster",
+  "title": "Colby Men's Soccer Roster",
+  "url": "https://colbyathletics.com/sports/mens-soccer/roster",
+  "school": "Colby College",
+  "sport": "Men's Soccer",
+  "season": "current",
+  "document_type": "roster",
+  "collect_images": true,
+  "refresh_frequency": "weekly"
+},
+{
+  "id": "colby-womens-soccer-schedule",
+  "title": "Colby Women's Soccer Schedule",
+  "url": "https://colbyathletics.com/sports/womens-soccer/schedule",
+  "school": "Colby College",
+  "sport": "Women's Soccer",
+  "season": "current",
+  "document_type": "schedule",
+  "collect_images": true,
+  "refresh_frequency": "daily"
+},
+{
+  "id": "colby-womens-soccer-roster",
+  "title": "Colby Women's Soccer Roster",
+  "url": "https://colbyathletics.com/sports/womens-soccer/roster",
+  "school": "Colby College",
+  "sport": "Women's Soccer",
+  "season": "current",
+  "document_type": "roster",
+  "collect_images": true,
+  "refresh_frequency": "weekly"
 }
 ]
