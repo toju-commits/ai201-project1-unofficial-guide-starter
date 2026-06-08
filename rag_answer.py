@@ -181,5 +181,5 @@ def answer_question(query: str) -> None:
 
 if __name__ == "__main__":
     answer_question(
-        "When does Colby football play Bowdoin in 2026?"
+        "Who will be Colby's best football player next season?"
     )
