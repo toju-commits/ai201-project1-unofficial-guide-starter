@@ -1,0 +1,740 @@
+title: 2025 Women's Soccer Cumulative Statistics - Colby College
+source_id: colby-womens-soccer-stats-2025
+source_url: https://colbyathletics.com/sports/womens-soccer/stats/2025
+school: Colby College
+sport: Women's Soccer
+season: 2025
+document_type: statistics
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Abigail Jarvi
+Jersey number: 32
+GP: 19
+GS: 17
+MIN: 1164
+G: 11
+A: 2
+PTS: 24
+SH: 59
+SH%: 0.186
+SOG: 30
+SOG%: 0.508
+YC-RC: 0-0
+GW: 4
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/abigail-jarvi/8930
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Amanda Schneider
+Jersey number: 14
+GP: 19
+GS: 1
+MIN: 813
+G: 6
+A: 3
+PTS: 15
+SH: 32
+SH%: 0.188
+SOG: 13
+SOG%: 0.406
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/amanda-schneider/8952
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Claire Walsh
+Jersey number: 23
+GP: 16
+GS: 15
+MIN: 905
+G: 4
+A: 3
+PTS: 11
+SH: 22
+SH%: 0.182
+SOG: 11
+SOG%: 0.500
+YC-RC: 1-0
+GW: 0
+PG-PA: 1-1
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/claire-walsh/8943
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Ella Caraluzzi
+Jersey number: 19
+GP: 19
+GS: 18
+MIN: 1041
+G: 3
+A: 4
+PTS: 10
+SH: 24
+SH%: 0.125
+SOG: 9
+SOG%: 0.375
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/ella-caraluzzi/8924
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Avery Barton
+Jersey number: 12
+GP: 19
+GS: 17
+MIN: 930
+G: 1
+A: 4
+PTS: 6
+SH: 39
+SH%: 0.026
+SOG: 14
+SOG%: 0.359
+YC-RC: 2-0
+GW: 1
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/avery-barton/8923
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Madison Genser
+Jersey number: 24
+GP: 19
+GS: 16
+MIN: 1004
+G: 2
+A: 1
+PTS: 5
+SH: 29
+SH%: 0.069
+SOG: 14
+SOG%: 0.483
+YC-RC: 2-0
+GW: 1
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/madison-genser/8929
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Avery Del Col
+Jersey number: 22
+GP: 19
+GS: 17
+MIN: 970
+G: 1
+A: 2
+PTS: 4
+SH: 2
+SH%: 0.500
+SOG: 1
+SOG%: 0.500
+YC-RC: 2-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/avery-del-col/8925
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Samantha DeWitt
+Jersey number: 15
+GP: 19
+GS: 18
+MIN: 1506
+G: 2
+A: 0
+PTS: 4
+SH: 8
+SH%: 0.250
+SOG: 4
+SOG%: 0.500
+YC-RC: 0-0
+GW: 1
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/samantha-dewitt/8926
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Sophie DiGrande
+Jersey number: 4
+GP: 12
+GS: 1
+MIN: 335
+G: 2
+A: 0
+PTS: 4
+SH: 12
+SH%: 0.167
+SOG: 3
+SOG%: 0.250
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/sophie-digrande/8927
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Eloisa Luczkow
+Jersey number: 10
+GP: 19
+GS: 3
+MIN: 632
+G: 1
+A: 2
+PTS: 4
+SH: 18
+SH%: 0.056
+SOG: 11
+SOG%: 0.611
+YC-RC: 0-0
+GW: 1
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/eloisa-luczkow/8934
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Jane Maguire
+Jersey number: 9
+GP: 19
+GS: 3
+MIN: 913
+G: 2
+A: 0
+PTS: 4
+SH: 17
+SH%: 0.118
+SOG: 6
+SOG%: 0.353
+YC-RC: 0-0
+GW: 1
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/jane-maguire/8935
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Ami Vithiananthan
+Jersey number: 2
+GP: 19
+GS: 2
+MIN: 899
+G: 1
+A: 2
+PTS: 4
+SH: 2
+SH%: 0.500
+SOG: 2
+SOG%: 1.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/ami-vithiananthan/8942
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Annie Liebich
+Jersey number: 11
+GP: 17
+GS: 17
+MIN: 1016
+G: 1
+A: 0
+PTS: 2
+SH: 25
+SH%: 0.040
+SOG: 11
+SOG%: 0.440
+YC-RC: 3-0
+GW: 1
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/annie-liebich/8933
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Maya Ouramdane
+Jersey number: 34
+GP: 6
+GS: 0
+MIN: 121
+G: 0
+A: 1
+PTS: 1
+SH: 3
+SH%: 0.000
+SOG: 2
+SOG%: 0.667
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/maya-ouramdane/8951
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Neve Taylor
+Jersey number: 3
+GP: 19
+GS: 1
+MIN: 834
+G: 0
+A: 1
+PTS: 1
+SH: 11
+SH%: 0.000
+SOG: 5
+SOG%: 0.455
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/neve-taylor/8954
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Catherine Watrous
+Jersey number: 20
+GP: 18
+GS: 1
+MIN: 535
+G: 0
+A: 1
+PTS: 1
+SH: 7
+SH%: 0.000
+SOG: 3
+SOG%: 0.429
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/catherine-watrous/8944
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Hannah Donahue
+Jersey number: 17
+GP: 6
+GS: 0
+MIN: 79
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/hannah-donahue/8928
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Sadie Gardner
+Jersey number: 99
+GP: 15
+GS: 2
+MIN: 748
+G: 0
+A: 0
+PTS: 0
+SH: 0
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/sadie-gardner/8945
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Skye Greenberg
+Jersey number: 0
+GP: 1
+GS: 0
+MIN: 1
+G: 0
+A: 0
+PTS: 0
+SH: 0
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/skye-greenberg/8946
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Gabrielle Lazaro
+Jersey number: 6
+GP: 5
+GS: 0
+MIN: 70
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/gabrielle-lazaro/8931
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Murphy Leung
+Jersey number: 35
+GP: 13
+GS: 0
+MIN: 348
+G: 0
+A: 0
+PTS: 0
+SH: 3
+SH%: 0.000
+SOG: 3
+SOG%: 1.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/murphy-leung/8932
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: MK Marshall
+Jersey number: 30
+GP: 15
+GS: 15
+MIN: 862
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/mk-marshall/8936
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Grace Missett
+Jersey number: 26
+GP: 17
+GS: 2
+MIN: 730
+G: 0
+A: 0
+PTS: 0
+SH: 8
+SH%: 0.000
+SOG: 1
+SOG%: 0.125
+YC-RC: 2-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/grace-missett/8948
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Taylor Oranellas
+Jersey number: 8
+GP: 9
+GS: 0
+MIN: 233
+G: 0
+A: 0
+PTS: 0
+SH: 2
+SH%: 0.000
+SOG: 1
+SOG%: 0.500
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/taylor-oranellas/8949
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Melina Ouramdane
+Jersey number: 33
+GP: 5
+GS: 0
+MIN: 65
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 1
+SOG%: 1.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/melina-ouramdane/8950
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Fati Salifu
+Jersey number: 21
+GP: 19
+GS: 1
+MIN: 623
+G: 0
+A: 0
+PTS: 0
+SH: 3
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/fati-salifu/8937
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Kaya Singh
+Jersey number: 7
+GP: 2
+GS: 0
+MIN: 22
+G: 0
+A: 0
+PTS: 0
+SH: 0
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/kaya-singh/8953
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Mia Sullivan
+Jersey number: 5
+GP: 19
+GS: 18
+MIN: 1001
+G: 0
+A: 0
+PTS: 0
+SH: 3
+SH%: 0.000
+SOG: 1
+SOG%: 0.333
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/mia-sullivan/8938
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Talia Thompson
+Jersey number: 00
+GP: 4
+GS: 2
+MIN: 197
+G: 0
+A: 0
+PTS: 0
+SH: 0
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/talia-thompson/8939
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Kylie Thorp
+Jersey number: 18
+GP: 18
+GS: 17
+MIN: 945
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/kylie-thorp/8940
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Alexis Triantaphyllis
+Jersey number: 28
+GP: 5
+GS: 1
+MIN: 134
+G: 0
+A: 0
+PTS: 0
+SH: 0
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/alexis-triantaphyllis/8941
+
+Record type: Individual Overall Goalkeeping Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Sadie Gardner
+Jersey number: 99
+GP: 15
+GS: 2
+MIN: 738:53
+GA: 6
+GAA: 0.73
+SV: 29
+SV%: 0.829
+W: 2
+L: 1
+T: 2
+SHO/CBO: 0/6
+SF: 44
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/sadie-gardner/8945
+
+Record type: Individual Overall Goalkeeping Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Skye Greenberg
+Jersey number: 0
+GP: 1
+GS: 0
+MIN: 00:56
+GA: 0
+GAA: 0.00
+SV: 0
+SV%: 0
+W: 0
+L: 0
+T: 0
+SHO/CBO: 0/1
+SF: 0
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/skye-greenberg/8946
+
+Record type: Individual Overall Goalkeeping Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: MK Marshall
+Jersey number: 30
+GP: 15
+GS: 15
+MIN: 764:04
+GA: 9
+GAA: 1.06
+SV: 35
+SV%: 0.795
+W: 7
+L: 4
+T: 1
+SHO/CBO: 1/5
+SF: 51
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/mk-marshall/8936
+
+Record type: Individual Overall Goalkeeping Statistics
+School: Colby College
+Sport: Women's Soccer
+Season: 2025
+Player: Talia Thompson
+Jersey number: 00
+GP: 4
+GS: 2
+MIN: 206:07
+GA: 1
+GAA: 0.44
+SV: 5
+SV%: 0.833
+W: 2
+L: 0
+T: 0
+SHO/CBO: 1/2
+SF: 8
+Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/talia-thompson/8939

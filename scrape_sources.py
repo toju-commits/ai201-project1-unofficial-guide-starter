@@ -191,30 +191,49 @@ def extract_statistics_text(
 ) -> str:
     records = []
 
+    supported_caption_patterns = [
+        # Football
+        "individual rushing statistics",
+        "individual passing statistics",
+        "individual receiving statistics",
+        "individual defensive statistics",
+
+        # Basketball
+        "overall scoring statistics",
+        "individual player averages",
+        "category leaders",
+
+        # Soccer
+        "individual overall offensive statistics",
+        "individual overall goalkeeping statistics",
+    ]
+
+    ignored_names = {
+        "total",
+        "team",
+        "opponents",
+        "opponent",
+    }
+
     for table in soup.find_all("table"):
         caption = table.find("caption")
-        heading = ""
 
-        if caption:
-            heading = clean_text(
-                caption.get_text(" ", strip=True)
-            )
-
-        if not heading:
-            previous_heading = table.find_previous(
-                ["h2", "h3", "h4"]
-            )
-
-            if previous_heading:
-                heading = clean_text(
-                    previous_heading.get_text(" ", strip=True)
-                )
-
-        if not heading:
+        if not caption:
             continue
 
-        # Only keep individual player statistics tables.
-        if "individual" not in heading.lower():
+        table_name = clean_text(
+            caption.get_text(" ", strip=True)
+        )
+
+        if not table_name:
+            continue
+
+        table_name_lower = table_name.lower()
+
+        if not any(
+            pattern in table_name_lower
+            for pattern in supported_caption_patterns
+        ):
             continue
 
         headers = [
@@ -222,76 +241,122 @@ def extract_statistics_text(
             for header in table.select("thead th")
         ]
 
-        for row in table.select("tbody tr"):
-            name_element = row.select_one("th a")
+        if not headers:
+            continue
 
-            if not name_element:
+        for row in table.select("tbody tr"):
+            cells = row.find_all(["th", "td"])
+
+            if not cells:
                 continue
 
-            raw_name = clean_text(
-                name_element.get_text(" ", strip=True)
+            row_values = [
+                clean_text(cell.get_text(" ", strip=True))
+                for cell in cells
+            ]
+            
+            if len(row_values) != len(headers):
+                continue
+
+            if len(row_values) < 2:
+                continue
+
+            row_data = {}
+
+            for index, value in enumerate(row_values):
+                if index >= len(headers):
+                    break
+
+                header = headers[index]
+
+                if header:
+                    row_data[header] = value
+
+            raw_player = (
+                row_data.get("Player")
+                or row_data.get("Name")
+                or ""
             )
 
-            if raw_name.lower() in {
-                "total",
-                "opponents",
-                "team",
-            }:
+            if not raw_player:
                 continue
 
-            if "," in raw_name:
-                last_name, first_name = raw_name.split(",", 1)
+            # Remove duplicate jersey/name text sometimes added by mobile markup.
+            raw_player = clean_text(raw_player)
+
+            # Remove duplicated mobile text:
+            # "Civello, Dan 6 Civello, Dan" -> "Civello, Dan"
+            duplicate_name_match = re.match(
+                r"^(.+?,\s*.+?)\s+#?\d+\s+\1$",
+                raw_player,
+                re.IGNORECASE,
+            )
+
+            if duplicate_name_match:
+                raw_player = duplicate_name_match.group(1)
+
+            # Remove a jersey number at the beginning:
+            # "#6 Civello, Dan" -> "Civello, Dan"
+            raw_player = re.sub(
+                r"^\s*#?\d+\s+",
+                "",
+                raw_player,
+            ).strip()
+
+            raw_player = clean_text(raw_player)
+
+            if raw_player.lower() in ignored_names:
+                continue
+
+            jersey_number = ""
+
+            number_match = re.search(
+                r"#?(\d+)",
+                row_values[0],
+            )
+
+            if number_match:
+                jersey_number = number_match.group(1)
+
+            if "," in raw_player:
+                last_name, first_name = raw_player.split(",", 1)
                 player_name = (
                     f"{first_name.strip()} {last_name.strip()}"
                 )
             else:
-                player_name = raw_name
-
-            jersey_cell = row.find("td")
-            jersey_number = (
-                clean_text(
-                    jersey_cell.get_text(" ", strip=True)
-                )
-                if jersey_cell
-                else ""
-            )
-
-            values = {}
-
-            for cell in row.select("td[data-label]"):
-                label = clean_text(
-                    cell.get("data-label", "") # pyright: ignore[reportArgumentType]
-                )
-
-                value = clean_text(
-                    cell.get_text(" ", strip=True)
-                )
-
-                if label.upper() == "BIO":
-                    continue
-
-                values[label] = value
+                player_name = raw_player
 
             record_lines = [
-                f"Record type: {heading}",
+                f"Record type: {table_name}",
                 f"School: {source.get('school', '')}",
                 f"Sport: {source.get('sport', '')}",
                 f"Season: {source.get('season', '')}",
                 f"Player: {player_name}",
-                f"Jersey number: {jersey_number}",
             ]
 
-            for header in headers:
-                if header in {"#", "Player", "Bio Link"}:
+            if jersey_number:
+                record_lines.append(
+                    f"Jersey number: {jersey_number}"
+                )
+
+            for header, value in row_data.items():
+                if header in {
+                    "#",
+                    "Player",
+                    "Name",
+                    "Bio Link",
+                }:
                     continue
 
-                if header in values:
-                    record_lines.append(
-                        f"{header}: {values[header]}"
-                    )
+                if not value:
+                    continue
+
+                record_lines.append(
+                    f"{header}: {value}"
+                )
 
             bio_link = row.select_one(
-                'td[data-label="BIO"] a'
+                'a[href*="/roster/"]'
             )
 
             if bio_link and bio_link.get("href"):
@@ -304,7 +369,9 @@ def extract_statistics_text(
                     f"Profile URL: {profile_url}"
                 )
 
-            records.append("\n".join(record_lines))
+            records.append(
+                "\n".join(record_lines)
+            )
 
     return "\n\n".join(records)
 
@@ -339,6 +406,13 @@ def scrape_source(source: dict) -> tuple[str, list[dict]]:
         )
     else:
         page_text = extract_page_text(soup)
+    
+    if not page_text.strip():
+        raise ValueError(
+            f"No usable content extracted from "
+            f"{source['title']} "
+            f"({source['url']})"
+        )
 
     images = []
     if source.get("collect_images", False):
@@ -381,17 +455,18 @@ def save_document(
     source.get("season", "current"),
     )
     
-    metadata = f"""title: {page_title}
-source_id: {source["id"]}
-source_url: {source["url"]}
-school: {source.get("school", "")}
-sport: {source.get("sport", "")}
-season: {detected_season}
-document_type: {source.get("document_type", "")}
-date_accessed: {datetime.now().strftime("%Y-%m-%d")}
-
-CONTENT:
-"""
+    metadata = (
+        f"title: {page_title or source['title']}\n"
+        f"source_id: {source['id']}\n"
+        f"source_url: {source['url']}\n"
+        f"school: {source.get('school', '')}\n"
+        f"sport: {source.get('sport', '')}\n"
+        f"season: {detected_season}\n"
+        f"document_type: {source.get('document_type', '')}\n"
+        f"date_accessed: {datetime.now().strftime('%Y-%m-%d')}\n"
+        "\n"
+        "CONTENT:\n"
+    )
 
     output_path.write_text(
         metadata + page_text,
@@ -409,6 +484,7 @@ def main() -> None:
     )
 
     all_images = []
+    failures = []
 
     for source in sources:
         print(f"Scraping: {source['title']}")
@@ -424,6 +500,21 @@ def main() -> None:
             print(f"Images found: {len(images)}")
 
         except Exception as error:
+            stale_document_path = (
+                DOCUMENTS_DIR / f"{source['id']}.txt"
+            )
+
+            if stale_document_path.exists():
+                stale_document_path.unlink()
+                print(
+                    f"Removed stale document: "
+                    f"{stale_document_path}"
+                )
+
+            failures.append(
+                f"{source['title']}: {error}"
+            )
+
             print(f"Failed: {error}")
 
     MEDIA_DIR.mkdir(exist_ok=True)
@@ -435,6 +526,16 @@ def main() -> None:
 
     print(f"Saved image metadata: {IMAGE_METADATA_PATH}")
 
+    if failures:
+        print()
+        print("The following sources failed:")
+
+        for failure in failures:
+            print(f"- {failure}")
+
+        raise RuntimeError(
+            f"{len(failures)} source(s) failed during scraping."
+        )
 
 if __name__ == "__main__":
     main()

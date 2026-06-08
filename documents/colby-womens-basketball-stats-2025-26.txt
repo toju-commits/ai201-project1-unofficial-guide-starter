@@ -1,0 +1,2333 @@
+title: 2025-26 Women's Basketball Cumulative Statistics - Colby College
+source_id: colby-womens-basketball-stats-2025-26
+source_url: https://colbyathletics.com/sports/womens-basketball/stats/2025-26
+school: Colby College
+sport: Women's Basketball
+season: 2025-26
+document_type: statistics
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+GS: 21
+MIN: 692
+FGM: 128
+FGA: 283
+FG%: .452
+3PT: 30
+3PTA: 96
+3PT%: .313
+FTM: 51
+FTA: 69
+FT%: .739
+PTS: 337
+AVG: 15.3
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+GS: 24
+MIN: 650
+FGM: 70
+FGA: 198
+FG%: .354
+3PT: 35
+3PTA: 96
+3PT%: .365
+FTM: 49
+FTA: 70
+FT%: .700
+PTS: 224
+AVG: 9.3
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+GS: 23
+MIN: 601
+FGM: 79
+FGA: 164
+FG%: .482
+3PT: 0
+3PTA: 8
+3PT%: .000
+FTM: 56
+FTA: 70
+FT%: .800
+PTS: 214
+AVG: 8.9
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+GS: 18
+MIN: 518
+FGM: 31
+FGA: 100
+FG%: .310
+3PT: 0
+3PTA: 4
+3PT%: .000
+FTM: 50
+FTA: 73
+FT%: .685
+PTS: 112
+AVG: 4.9
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+GS: 9
+MIN: 455
+FGM: 36
+FGA: 92
+FG%: .391
+3PT: 9
+3PTA: 29
+3PT%: .310
+FTM: 14
+FTA: 20
+FT%: .700
+PTS: 95
+AVG: 4.0
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+GS: 15
+MIN: 348
+FGM: 32
+FGA: 98
+FG%: .327
+3PT: 10
+3PTA: 55
+3PT%: .182
+FTM: 12
+FTA: 18
+FT%: .667
+PTS: 86
+AVG: 3.7
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+GS: 1
+MIN: 263
+FGM: 33
+FGA: 86
+FG%: .384
+3PT: 0
+3PTA: 4
+3PT%: .000
+FTM: 19
+FTA: 32
+FT%: .594
+PTS: 85
+AVG: 3.7
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+GS: 0
+MIN: 112
+FGM: 10
+FGA: 33
+FG%: .303
+3PT: 2
+3PTA: 6
+3PT%: .333
+FTM: 12
+FTA: 14
+FT%: .857
+PTS: 34
+AVG: 3.1
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+GS: 9
+MIN: 462
+FGM: 25
+FGA: 45
+FG%: .556
+3PT: 0
+3PTA: 0
+3PT%: .000
+FTM: 11
+FTA: 19
+FT%: .579
+PTS: 61
+AVG: 2.8
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+GS: 0
+MIN: 60
+FGM: 11
+FGA: 24
+FG%: .458
+3PT: 5
+3PTA: 12
+3PT%: .417
+FTM: 1
+FTA: 2
+FT%: .500
+PTS: 28
+AVG: 2.8
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+GS: 0
+MIN: 203
+FGM: 19
+FGA: 44
+FG%: .432
+3PT: 0
+3PTA: 5
+3PT%: .000
+FTM: 14
+FTA: 21
+FT%: .667
+PTS: 52
+AVG: 2.9
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+GS: 0
+MIN: 222
+FGM: 21
+FGA: 66
+FG%: .318
+3PT: 12
+3PTA: 41
+3PT%: .293
+FTM: 1
+FTA: 2
+FT%: .500
+PTS: 55
+AVG: 2.9
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+GS: 0
+MIN: 117
+FGM: 15
+FGA: 34
+FG%: .441
+3PT: 0
+3PTA: 0
+3PT%: .000
+FTM: 6
+FTA: 8
+FT%: .750
+PTS: 36
+AVG: 2.3
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+GS: 0
+MIN: 99
+FGM: 6
+FGA: 20
+FG%: .300
+3PT: 1
+3PTA: 8
+3PT%: .125
+FTM: 3
+FTA: 6
+FT%: .500
+PTS: 16
+AVG: 1.2
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+MIN: 31.5
+FG%: .452
+3PT%: .313
+FT%: .739
+OREB: 1.1
+DREB: 4.0
+REB: 5.1
+AST: 1.9
+STL: 1.2
+BLK: 0.5
+PTS: 15.3
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+MIN: 27.1
+FG%: .354
+3PT%: .365
+FT%: .700
+OREB: 1.6
+DREB: 2.8
+REB: 4.4
+AST: 1.4
+STL: 0.7
+BLK: 0.1
+PTS: 9.3
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+MIN: 25.0
+FG%: .482
+3PT%: .000
+FT%: .800
+OREB: 1.3
+DREB: 5.0
+REB: 6.3
+AST: 2.0
+STL: 0.9
+BLK: 0.3
+PTS: 8.9
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+MIN: 22.5
+FG%: .310
+3PT%: .000
+FT%: .685
+OREB: 0.5
+DREB: 1.4
+REB: 2.0
+AST: 1.5
+STL: 0.9
+BLK: 0.0
+PTS: 4.9
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+MIN: 19.0
+FG%: .391
+3PT%: .310
+FT%: .700
+OREB: 0.3
+DREB: 1.0
+REB: 1.3
+AST: 1.4
+STL: 0.5
+BLK: 0.1
+PTS: 4.0
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+MIN: 15.1
+FG%: .327
+3PT%: .182
+FT%: .667
+OREB: 0.8
+DREB: 1.0
+REB: 1.8
+AST: 0.3
+STL: 0.5
+BLK: 0.0
+PTS: 3.7
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+MIN: 11.4
+FG%: .384
+3PT%: .000
+FT%: .594
+OREB: 0.7
+DREB: 1.7
+REB: 2.4
+AST: 0.3
+STL: 0.7
+BLK: 0.1
+PTS: 3.7
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+MIN: 10.2
+FG%: .303
+3PT%: .333
+FT%: .857
+OREB: 0.2
+DREB: 1.3
+REB: 1.5
+AST: 0.2
+STL: 0.2
+BLK: 0.1
+PTS: 3.1
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+MIN: 21.0
+FG%: .556
+3PT%: .000
+FT%: .579
+OREB: 1.4
+DREB: 2.2
+REB: 3.6
+AST: 0.9
+STL: 0.8
+BLK: 0.4
+PTS: 2.8
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+MIN: 6.0
+FG%: .458
+3PT%: .417
+FT%: .500
+OREB: 0.2
+DREB: 0.9
+REB: 1.1
+AST: 0.2
+STL: 0.3
+BLK: 0.2
+PTS: 2.8
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+MIN: 11.3
+FG%: .432
+3PT%: .000
+FT%: .667
+OREB: 0.4
+DREB: 0.8
+REB: 1.2
+AST: 0.9
+STL: 0.6
+BLK: 0.1
+PTS: 2.9
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+MIN: 11.7
+FG%: .318
+3PT%: .293
+FT%: .500
+OREB: 0.7
+DREB: 1.6
+REB: 2.3
+AST: 0.2
+STL: 0.9
+BLK: 0.1
+PTS: 2.9
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+MIN: 7.3
+FG%: .441
+3PT%: .000
+FT%: .750
+OREB: 0.6
+DREB: 0.9
+REB: 1.6
+AST: 0.3
+STL: 0.3
+BLK: 0.0
+PTS: 2.3
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+MIN: 7.6
+FG%: .300
+3PT%: .125
+FT%: .500
+OREB: 0.5
+DREB: 0.9
+REB: 1.4
+AST: 0.8
+STL: 0.3
+BLK: 0.0
+PTS: 1.2
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+Pts: 337
+Pts/G: 15.3
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+Pts: 224
+Pts/G: 9.3
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+Pts: 214
+Pts/G: 8.9
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+Pts: 112
+Pts/G: 4.9
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+Pts: 95
+Pts/G: 4.0
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+Pts: 86
+Pts/G: 3.7
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+Pts: 85
+Pts/G: 3.7
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+Pts: 61
+Pts/G: 2.8
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+Pts: 55
+Pts/G: 2.9
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+Pts: 52
+Pts/G: 2.9
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+Pts: 36
+Pts/G: 2.3
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+Pts: 34
+Pts/G: 3.1
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+Pts: 28
+Pts/G: 2.8
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+Pts: 16
+Pts/G: 1.2
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+FGM: 128
+FGA: 283
+FG%: .452
+FGM/G: 5.8
+FGA/G: 12.9
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+FGM: 79
+FGA: 164
+FG%: .482
+FGM/G: 3.3
+FGA/G: 6.8
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+FGM: 70
+FGA: 198
+FG%: .354
+FGM/G: 2.9
+FGA/G: 8.3
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+FGM: 36
+FGA: 92
+FG%: .391
+FGM/G: 1.5
+FGA/G: 3.8
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+FGM: 33
+FGA: 86
+FG%: .384
+FGM/G: 1.4
+FGA/G: 3.7
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+FGM: 32
+FGA: 98
+FG%: .327
+FGM/G: 1.4
+FGA/G: 4.3
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+FGM: 31
+FGA: 100
+FG%: .310
+FGM/G: 1.3
+FGA/G: 4.3
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+FGM: 25
+FGA: 45
+FG%: .556
+FGM/G: 1.1
+FGA/G: 2.0
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+FGM: 21
+FGA: 66
+FG%: .318
+FGM/G: 1.1
+FGA/G: 3.5
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+FGM: 19
+FGA: 44
+FG%: .432
+FGM/G: 1.1
+FGA/G: 2.4
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+FGM: 15
+FGA: 34
+FG%: .441
+FGM/G: 0.9
+FGA/G: 2.1
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+FGM: 11
+FGA: 24
+FG%: .458
+FGM/G: 1.1
+FGA/G: 2.4
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+FGM: 10
+FGA: 33
+FG%: .303
+FGM/G: 0.9
+FGA/G: 3.0
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+FGM: 6
+FGA: 20
+FG%: .300
+FGM/G: 0.5
+FGA/G: 1.5
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+3PM: 35
+3PA: 96
+3P%: .365
+3PM/G: 1.5
+3PA/G: 4.0
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+3PM: 30
+3PA: 96
+3P%: .313
+3PM/G: 1.4
+3PA/G: 4.4
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+3PM: 12
+3PA: 41
+3P%: .293
+3PM/G: 0.6
+3PA/G: 2.2
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+3PM: 10
+3PA: 55
+3P%: .182
+3PM/G: 0.4
+3PA/G: 2.4
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+3PM: 9
+3PA: 29
+3P%: .310
+3PM/G: 0.4
+3PA/G: 1.2
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+3PM: 5
+3PA: 12
+3P%: .417
+3PM/G: 0.5
+3PA/G: 1.2
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+3PM: 2
+3PA: 6
+3P%: .333
+3PM/G: 0.2
+3PA/G: 0.5
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+3PM: 1
+3PA: 8
+3P%: .125
+3PM/G: 0.1
+3PA/G: 0.6
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+3PM: 0
+3PA: 5
+3P%: .000
+3PM/G: 0.0
+3PA/G: 0.3
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+3PM: 0
+3PA: 8
+3P%: .000
+3PM/G: 0.0
+3PA/G: 0.3
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+3PM: 0
+3PA: 4
+3P%: .000
+3PM/G: 0.0
+3PA/G: 0.2
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+3PM: 0
+3PA: 4
+3P%: .000
+3PM/G: 0.0
+3PA/G: 0.2
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+FTM: 56
+FTA: 70
+FT%: .800
+FTM/G: 2.3
+FTA/G: 2.9
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+FTM: 51
+FTA: 69
+FT%: .739
+FTM/G: 2.3
+FTA/G: 3.1
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+FTM: 50
+FTA: 73
+FT%: .685
+FTM/G: 2.2
+FTA/G: 3.2
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+FTM: 49
+FTA: 70
+FT%: .700
+FTM/G: 2.0
+FTA/G: 2.9
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+FTM: 19
+FTA: 32
+FT%: .594
+FTM/G: 0.8
+FTA/G: 1.4
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+FTM: 14
+FTA: 21
+FT%: .667
+FTM/G: 0.8
+FTA/G: 1.2
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+FTM: 14
+FTA: 20
+FT%: .700
+FTM/G: 0.6
+FTA/G: 0.8
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+FTM: 12
+FTA: 14
+FT%: .857
+FTM/G: 1.1
+FTA/G: 1.3
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+FTM: 12
+FTA: 18
+FT%: .667
+FTM/G: 0.5
+FTA/G: 0.8
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+FTM: 11
+FTA: 19
+FT%: .579
+FTM/G: 0.5
+FTA/G: 0.9
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+FTM: 6
+FTA: 8
+FT%: .750
+FTM/G: 0.4
+FTA/G: 0.5
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+FTM: 3
+FTA: 6
+FT%: .500
+FTM/G: 0.2
+FTA/G: 0.5
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+FTM: 1
+FTA: 2
+FT%: .500
+FTM/G: 0.1
+FTA/G: 0.2
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+FTM: 1
+FTA: 2
+FT%: .500
+FTM/G: 0.1
+FTA/G: 0.1
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+REB: 151
+AVG/G: 6.3
+OFF: 31
+OFF/G: 1.3
+DEF: 120
+DEF/G: 5.0
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+REB: 113
+AVG/G: 5.1
+OFF: 25
+OFF/G: 1.1
+DEF: 88
+DEF/G: 4.0
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: #TM Team
+GP: 24
+REB: 109
+AVG/G: 4.5
+OFF: 58
+OFF/G: 2.4
+DEF: 51
+DEF/G: 2.1
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+REB: 105
+AVG/G: 4.4
+OFF: 38
+OFF/G: 1.6
+DEF: 67
+DEF/G: 2.8
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+REB: 80
+AVG/G: 3.6
+OFF: 31
+OFF/G: 1.4
+DEF: 49
+DEF/G: 2.2
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+REB: 55
+AVG/G: 2.4
+OFF: 15
+OFF/G: 0.7
+DEF: 40
+DEF/G: 1.7
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+REB: 45
+AVG/G: 2.0
+OFF: 12
+OFF/G: 0.5
+DEF: 33
+DEF/G: 1.4
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+REB: 44
+AVG/G: 2.3
+OFF: 13
+OFF/G: 0.7
+DEF: 31
+DEF/G: 1.6
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+REB: 42
+AVG/G: 1.8
+OFF: 19
+OFF/G: 0.8
+DEF: 23
+DEF/G: 1.0
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+REB: 32
+AVG/G: 1.3
+OFF: 7
+OFF/G: 0.3
+DEF: 25
+DEF/G: 1.0
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+REB: 25
+AVG/G: 1.6
+OFF: 10
+OFF/G: 0.6
+DEF: 15
+DEF/G: 0.9
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+REB: 22
+AVG/G: 1.2
+OFF: 8
+OFF/G: 0.4
+DEF: 14
+DEF/G: 0.8
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+REB: 18
+AVG/G: 1.4
+OFF: 6
+OFF/G: 0.5
+DEF: 12
+DEF/G: 0.9
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+REB: 16
+AVG/G: 1.5
+OFF: 2
+OFF/G: 0.2
+DEF: 14
+DEF/G: 1.3
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+REB: 11
+AVG/G: 1.1
+OFF: 2
+OFF/G: 0.2
+DEF: 9
+DEF/G: 0.9
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+AST: 47
+AST/G: 2.0
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+AST: 41
+AST/G: 1.9
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+AST: 34
+AST/G: 1.5
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+AST: 34
+AST/G: 1.4
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+AST: 34
+AST/G: 1.4
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+AST: 19
+AST/G: 0.9
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+AST: 17
+AST/G: 0.9
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+AST: 10
+AST/G: 0.8
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+AST: 8
+AST/G: 0.3
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+AST: 7
+AST/G: 0.3
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+AST: 5
+AST/G: 0.3
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+AST: 3
+AST/G: 0.2
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+AST: 2
+AST/G: 0.2
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+AST: 2
+AST/G: 0.2
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+BLK: 11
+BLK/G: 0.5
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+BLK: 8
+BLK/G: 0.4
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+BLK: 7
+BLK/G: 0.3
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+BLK: 3
+BLK/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+BLK: 3
+BLK/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+BLK: 2
+BLK/G: 0.2
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+BLK: 2
+BLK/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+BLK: 2
+BLK/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+BLK: 2
+BLK/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+BLK: 1
+BLK/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+BLK: 1
+BLK/G: 0.0
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+BLK: 1
+BLK/G: 0.0
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+STL: 27
+STL/G: 1.2
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+STL: 21
+STL/G: 0.9
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+STL: 21
+STL/G: 0.9
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+STL: 18
+STL/G: 0.9
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+STL: 17
+STL/G: 0.7
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+STL: 17
+STL/G: 0.7
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+STL: 17
+STL/G: 0.8
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+STL: 12
+STL/G: 0.5
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+STL: 12
+STL/G: 0.5
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+STL: 10
+STL/G: 0.6
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+STL: 4
+STL/G: 0.3
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+STL: 4
+STL/G: 0.3
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+STL: 3
+STL/G: 0.3
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+STL: 2
+STL/G: 0.2
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+TO: 52
+TO/G: 2.2
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+TO: 37
+TO/G: 1.6
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+TO: 31
+TO/G: 1.3
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+TO: 31
+TO/G: 1.4
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+TO: 27
+TO/G: 1.1
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+TO: 26
+TO/G: 1.1
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+TO: 24
+TO/G: 1.0
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: #TM Team
+GP: 24
+TO: 23
+TO/G: 1.0
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+TO: 20
+TO/G: 1.1
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+TO: 17
+TO/G: 1.5
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+TO: 17
+TO/G: 0.9
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+TO: 16
+TO/G: 0.7
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+TO: 11
+TO/G: 0.7
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+TO: 7
+TO/G: 0.7
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+TO: 7
+TO/G: 0.5
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+PF: 50
+PF/G: 2.2
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+PF: 49
+PF/G: 2.0
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+PF: 41
+PF/G: 1.8
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+PF: 39
+PF/G: 1.6
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+PF: 34
+PF/G: 1.4
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+PF: 33
+PF/G: 1.4
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+PF: 31
+PF/G: 1.4
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+PF: 29
+PF/G: 1.3
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+PF: 22
+PF/G: 1.2
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+PF: 11
+PF/G: 0.6
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+PF: 8
+PF/G: 0.5
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+PF: 7
+PF/G: 0.6
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+PF: 5
+PF/G: 0.4
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+PF: 4
+PF/G: 0.4
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+MIN: 692
+MIN/G: 31.5
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+MIN: 650
+MIN/G: 27.1
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Amelia Hanscom
+Jersey number: 17
+GP: 24
+MIN: 601
+MIN/G: 25.0
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Chelsea Ibenegbu
+Jersey number: 11
+GP: 23
+MIN: 518
+MIN/G: 22.5
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+MIN: 462
+MIN/G: 21.0
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+MIN: 455
+MIN/G: 19.0
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ana Von Rumohr
+Jersey number: 25
+GP: 23
+MIN: 348
+MIN/G: 15.1
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Caroline Hartley
+Jersey number: 24
+GP: 23
+MIN: 263
+MIN/G: 11.4
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Shea Donnelly
+Jersey number: 23
+GP: 19
+MIN: 222
+MIN/G: 11.7
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+MIN: 203
+MIN/G: 11.3
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Defne Pekinbas
+Jersey number: 10
+GP: 16
+MIN: 117
+MIN/G: 7.3
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Brooke Braen
+Jersey number: 3
+GP: 11
+MIN: 112
+MIN/G: 10.2
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+MIN: 99
+MIN/G: 7.6
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Ava Bryan
+Jersey number: 18
+GP: 10
+MIN: 60
+MIN/G: 6.0
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lauren Cho
+Jersey number: 5
+GP: 18
+AST: 17
+TO: 17
+AST/TO Ratio: 1.00
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lydia Mordarski
+Jersey number: 21
+GP: 24
+AST: 34
+TO: 31
+AST/TO Ratio: 1.10
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Lili Nagy
+Jersey number: 15
+GP: 13
+AST: 10
+TO: 7
+AST/TO Ratio: 1.43
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Kate Olenik
+Jersey number: 13
+GP: 22
+AST: 41
+TO: 31
+AST/TO Ratio: 1.32
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Emily Ryan
+Jersey number: 0
+GP: 24
+AST: 34
+TO: 27
+AST/TO Ratio: 1.26
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Women's Basketball
+Season: 2025-26
+Player: Talia Thompson
+Jersey number: 12
+GP: 22
+AST: 19
+TO: 16
+AST/TO Ratio: 1.19

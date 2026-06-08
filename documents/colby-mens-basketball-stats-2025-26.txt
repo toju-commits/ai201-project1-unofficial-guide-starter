@@ -1,0 +1,2519 @@
+title: 2025-26 Men's Basketball Cumulative Statistics - Colby College
+source_id: colby-mens-basketball-stats-2025-26
+source_url: https://colbyathletics.com/sports/mens-basketball/stats/2025-26
+school: Colby College
+sport: Men's Basketball
+season: 2025-26
+document_type: statistics
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+GS: 25
+MIN: 665
+FGM: 174
+FGA: 330
+FG%: .527
+3PT: 51
+3PTA: 128
+3PT%: .398
+FTM: 58
+FTA: 75
+FT%: .773
+PTS: 457
+AVG: 18.3
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+GS: 25
+MIN: 726
+FGM: 101
+FGA: 237
+FG%: .426
+3PT: 50
+3PTA: 153
+3PT%: .327
+FTM: 38
+FTA: 43
+FT%: .884
+PTS: 290
+AVG: 11.6
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+GS: 12
+MIN: 663
+FGM: 90
+FGA: 242
+FG%: .372
+3PT: 59
+3PTA: 174
+3PT%: .339
+FTM: 38
+FTA: 48
+FT%: .792
+PTS: 277
+AVG: 11.1
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+GS: 13
+MIN: 266
+FGM: 40
+FGA: 107
+FG%: .374
+3PT: 9
+3PTA: 29
+3PT%: .310
+FTM: 20
+FTA: 28
+FT%: .714
+PTS: 109
+AVG: 8.4
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+GS: 25
+MIN: 713
+FGM: 56
+FGA: 124
+FG%: .452
+3PT: 15
+3PTA: 42
+3PT%: .357
+FTM: 28
+FTA: 46
+FT%: .609
+PTS: 155
+AVG: 6.2
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+GS: 0
+MIN: 322
+FGM: 49
+FGA: 109
+FG%: .450
+3PT: 11
+3PTA: 42
+3PT%: .262
+FTM: 47
+FTA: 61
+FT%: .770
+PTS: 156
+AVG: 6.5
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+GS: 6
+MIN: 290
+FGM: 44
+FGA: 85
+FG%: .518
+3PT: 2
+3PTA: 8
+3PT%: .250
+FTM: 32
+FTA: 45
+FT%: .711
+PTS: 122
+AVG: 5.5
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+GS: 19
+MIN: 379
+FGM: 29
+FGA: 70
+FG%: .414
+3PT: 24
+3PTA: 57
+3PT%: .421
+FTM: 6
+FTA: 8
+FT%: .750
+PTS: 88
+AVG: 4.0
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+GS: 0
+MIN: 288
+FGM: 34
+FGA: 77
+FG%: .442
+3PT: 1
+3PTA: 8
+3PT%: .125
+FTM: 35
+FTA: 52
+FT%: .673
+PTS: 104
+AVG: 4.2
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+GS: 0
+MIN: 342
+FGM: 24
+FGA: 63
+FG%: .381
+3PT: 13
+3PTA: 42
+3PT%: .310
+FTM: 16
+FTA: 23
+FT%: .696
+PTS: 77
+AVG: 3.5
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+GS: 0
+MIN: 138
+FGM: 16
+FGA: 34
+FG%: .471
+3PT: 6
+3PTA: 15
+3PT%: .400
+FTM: 5
+FTA: 9
+FT%: .556
+PTS: 43
+AVG: 2.4
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+GS: 0
+MIN: 80
+FGM: 9
+FGA: 30
+FG%: .300
+3PT: 6
+3PTA: 17
+3PT%: .353
+FTM: 0
+FTA: 0
+FT%: .000
+PTS: 24
+AVG: 1.6
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+GS: 0
+MIN: 134
+FGM: 11
+FGA: 33
+FG%: .333
+3PT: 0
+3PTA: 6
+3PT%: .000
+FTM: 3
+FTA: 8
+FT%: .375
+PTS: 25
+AVG: 1.5
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Miles Drake
+Jersey number: 51
+GP: 1
+GS: 0
+MIN: 1
+FGM: 0
+FGA: 0
+FG%: .000
+3PT: 0
+3PTA: 0
+3PT%: .000
+FTM: 0
+FTA: 0
+FT%: .000
+PTS: 0
+AVG: 0.0
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Charlie Hinman
+Jersey number: 20
+GP: 4
+GS: 0
+MIN: 7
+FGM: 0
+FGA: 5
+FG%: .000
+3PT: 0
+3PTA: 4
+3PT%: .000
+FTM: 0
+FTA: 0
+FT%: .000
+PTS: 0
+AVG: 0.0
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Will Perkins
+Jersey number: 35
+GP: 4
+GS: 0
+MIN: 7
+FGM: 1
+FGA: 2
+FG%: .500
+3PT: 0
+3PTA: 1
+3PT%: .000
+FTM: 0
+FTA: 0
+FT%: .000
+PTS: 2
+AVG: 0.5
+
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Ian Schnabel
+Jersey number: 21
+GP: 4
+GS: 0
+MIN: 4
+FGM: 0
+FGA: 2
+FG%: .000
+3PT: 0
+3PTA: 0
+3PT%: .000
+FTM: 0
+FTA: 0
+FT%: .000
+PTS: 0
+AVG: 0.0
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+MIN: 26.6
+FG%: .527
+3PT%: .398
+FT%: .773
+OREB: 2.2
+DREB: 3.5
+REB: 5.7
+AST: 3.0
+STL: 0.4
+BLK: 1.1
+PTS: 18.3
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+MIN: 29.0
+FG%: .426
+3PT%: .327
+FT%: .884
+OREB: 1.4
+DREB: 4.4
+REB: 5.9
+AST: 2.7
+STL: 0.6
+BLK: 0.4
+PTS: 11.6
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+MIN: 26.5
+FG%: .372
+3PT%: .339
+FT%: .792
+OREB: 1.0
+DREB: 2.7
+REB: 3.7
+AST: 1.5
+STL: 0.8
+BLK: 0.1
+PTS: 11.1
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+MIN: 20.5
+FG%: .374
+3PT%: .310
+FT%: .714
+OREB: 0.9
+DREB: 3.2
+REB: 4.2
+AST: 2.6
+STL: 0.8
+BLK: 0.2
+PTS: 8.4
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+MIN: 28.5
+FG%: .452
+3PT%: .357
+FT%: .609
+OREB: 0.8
+DREB: 4.1
+REB: 4.9
+AST: 3.9
+STL: 1.6
+BLK: 0.4
+PTS: 6.2
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+MIN: 13.4
+FG%: .450
+3PT%: .262
+FT%: .770
+OREB: 0.8
+DREB: 2.5
+REB: 3.2
+AST: 1.0
+STL: 0.4
+BLK: 0.0
+PTS: 6.5
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+MIN: 13.2
+FG%: .518
+3PT%: .250
+FT%: .711
+OREB: 1.2
+DREB: 2.0
+REB: 3.2
+AST: 0.8
+STL: 0.5
+BLK: 0.1
+PTS: 5.5
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+MIN: 17.2
+FG%: .414
+3PT%: .421
+FT%: .750
+OREB: 0.5
+DREB: 1.7
+REB: 2.2
+AST: 0.9
+STL: 0.1
+BLK: 0.0
+PTS: 4.0
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+MIN: 11.5
+FG%: .442
+3PT%: .125
+FT%: .673
+OREB: 0.8
+DREB: 2.1
+REB: 2.9
+AST: 1.0
+STL: 0.4
+BLK: 0.9
+PTS: 4.2
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+MIN: 15.5
+FG%: .381
+3PT%: .310
+FT%: .696
+OREB: 0.4
+DREB: 1.7
+REB: 2.0
+AST: 0.6
+STL: 0.1
+BLK: 0.3
+PTS: 3.5
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+MIN: 7.7
+FG%: .471
+3PT%: .400
+FT%: .556
+OREB: 0.3
+DREB: 0.7
+REB: 1.1
+AST: 0.1
+STL: 0.3
+BLK: 0.1
+PTS: 2.4
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+MIN: 5.3
+FG%: .300
+3PT%: .353
+FT%: .000
+OREB: 0.5
+DREB: 0.3
+REB: 0.7
+AST: 0.3
+STL: 0.3
+BLK: 0.0
+PTS: 1.6
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+MIN: 7.9
+FG%: .333
+3PT%: .000
+FT%: .375
+OREB: 0.4
+DREB: 0.9
+REB: 1.2
+AST: 1.2
+STL: 0.3
+BLK: 0.1
+PTS: 1.5
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Miles Drake
+Jersey number: 51
+GP: 1
+MIN: 1.0
+FG%: .000
+3PT%: .000
+FT%: .000
+OREB: 0.0
+DREB: 0.0
+REB: 0.0
+AST: 0.0
+STL: 0.0
+BLK: 0.0
+PTS: 0.0
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Charlie Hinman
+Jersey number: 20
+GP: 4
+MIN: 1.8
+FG%: .000
+3PT%: .000
+FT%: .000
+OREB: 0.5
+DREB: 1.0
+REB: 1.5
+AST: 0.0
+STL: 0.0
+BLK: 0.0
+PTS: 0.0
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Will Perkins
+Jersey number: 35
+GP: 4
+MIN: 1.8
+FG%: .500
+3PT%: .000
+FT%: .000
+OREB: 0.0
+DREB: 0.0
+REB: 0.0
+AST: 0.0
+STL: 0.0
+BLK: 0.0
+PTS: 0.5
+
+Record type: Individual Player Averages
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Ian Schnabel
+Jersey number: 21
+GP: 4
+MIN: 1.0
+FG%: .000
+3PT%: .000
+FT%: .000
+OREB: 0.3
+DREB: 0.0
+REB: 0.3
+AST: 0.0
+STL: 0.0
+BLK: 0.0
+PTS: 0.0
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+Pts: 457
+Pts/G: 18.3
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+Pts: 290
+Pts/G: 11.6
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+Pts: 277
+Pts/G: 11.1
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+Pts: 156
+Pts/G: 6.5
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+Pts: 155
+Pts/G: 6.2
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+Pts: 122
+Pts/G: 5.5
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+Pts: 109
+Pts/G: 8.4
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+Pts: 104
+Pts/G: 4.2
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+Pts: 88
+Pts/G: 4.0
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+Pts: 77
+Pts/G: 3.5
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+Pts: 43
+Pts/G: 2.4
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+Pts: 25
+Pts/G: 1.5
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+Pts: 24
+Pts/G: 1.6
+
+Record type: Category Leaders - Points
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Will Perkins
+Jersey number: 35
+GP: 4
+Pts: 2
+Pts/G: 0.5
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+FGM: 174
+FGA: 330
+FG%: .527
+FGM/G: 7.0
+FGA/G: 13.2
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+FGM: 101
+FGA: 237
+FG%: .426
+FGM/G: 4.0
+FGA/G: 9.5
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+FGM: 90
+FGA: 242
+FG%: .372
+FGM/G: 3.6
+FGA/G: 9.7
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+FGM: 56
+FGA: 124
+FG%: .452
+FGM/G: 2.2
+FGA/G: 5.0
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+FGM: 49
+FGA: 109
+FG%: .450
+FGM/G: 2.0
+FGA/G: 4.5
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+FGM: 44
+FGA: 85
+FG%: .518
+FGM/G: 2.0
+FGA/G: 3.9
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+FGM: 40
+FGA: 107
+FG%: .374
+FGM/G: 3.1
+FGA/G: 8.2
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+FGM: 34
+FGA: 77
+FG%: .442
+FGM/G: 1.4
+FGA/G: 3.1
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+FGM: 29
+FGA: 70
+FG%: .414
+FGM/G: 1.3
+FGA/G: 3.2
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+FGM: 24
+FGA: 63
+FG%: .381
+FGM/G: 1.1
+FGA/G: 2.9
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+FGM: 16
+FGA: 34
+FG%: .471
+FGM/G: 0.9
+FGA/G: 1.9
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+FGM: 11
+FGA: 33
+FG%: .333
+FGM/G: 0.6
+FGA/G: 1.9
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+FGM: 9
+FGA: 30
+FG%: .300
+FGM/G: 0.6
+FGA/G: 2.0
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Will Perkins
+Jersey number: 35
+GP: 4
+FGM: 1
+FGA: 2
+FG%: .500
+FGM/G: 0.3
+FGA/G: 0.5
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Charlie Hinman
+Jersey number: 20
+GP: 4
+FGM: 0
+FGA: 5
+FG%: .000
+FGM/G: 0.0
+FGA/G: 1.3
+
+Record type: Category Leaders - Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Ian Schnabel
+Jersey number: 21
+GP: 4
+FGM: 0
+FGA: 2
+FG%: .000
+FGM/G: 0.0
+FGA/G: 0.5
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+3PM: 59
+3PA: 174
+3P%: .339
+3PM/G: 2.4
+3PA/G: 7.0
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+3PM: 51
+3PA: 128
+3P%: .398
+3PM/G: 2.0
+3PA/G: 5.1
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+3PM: 50
+3PA: 153
+3P%: .327
+3PM/G: 2.0
+3PA/G: 6.1
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+3PM: 24
+3PA: 57
+3P%: .421
+3PM/G: 1.1
+3PA/G: 2.6
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+3PM: 15
+3PA: 42
+3P%: .357
+3PM/G: 0.6
+3PA/G: 1.7
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+3PM: 13
+3PA: 42
+3P%: .310
+3PM/G: 0.6
+3PA/G: 1.9
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+3PM: 11
+3PA: 42
+3P%: .262
+3PM/G: 0.5
+3PA/G: 1.8
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+3PM: 9
+3PA: 29
+3P%: .310
+3PM/G: 0.7
+3PA/G: 2.2
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+3PM: 6
+3PA: 17
+3P%: .353
+3PM/G: 0.4
+3PA/G: 1.1
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+3PM: 6
+3PA: 15
+3P%: .400
+3PM/G: 0.3
+3PA/G: 0.8
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+3PM: 2
+3PA: 8
+3P%: .250
+3PM/G: 0.1
+3PA/G: 0.4
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+3PM: 1
+3PA: 8
+3P%: .125
+3PM/G: 0.0
+3PA/G: 0.3
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Charlie Hinman
+Jersey number: 20
+GP: 4
+3PM: 0
+3PA: 4
+3P%: .000
+3PM/G: 0.0
+3PA/G: 1.0
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Will Perkins
+Jersey number: 35
+GP: 4
+3PM: 0
+3PA: 1
+3P%: .000
+3PM/G: 0.0
+3PA/G: 0.3
+
+Record type: Category Leaders - 3PT Field Goals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+3PM: 0
+3PA: 6
+3P%: .000
+3PM/G: 0.0
+3PA/G: 0.4
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+FTM: 58
+FTA: 75
+FT%: .773
+FTM/G: 2.3
+FTA/G: 3.0
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+FTM: 47
+FTA: 61
+FT%: .770
+FTM/G: 2.0
+FTA/G: 2.5
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+FTM: 38
+FTA: 48
+FT%: .792
+FTM/G: 1.5
+FTA/G: 1.9
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+FTM: 38
+FTA: 43
+FT%: .884
+FTM/G: 1.5
+FTA/G: 1.7
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+FTM: 35
+FTA: 52
+FT%: .673
+FTM/G: 1.4
+FTA/G: 2.1
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+FTM: 32
+FTA: 45
+FT%: .711
+FTM/G: 1.5
+FTA/G: 2.0
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+FTM: 28
+FTA: 46
+FT%: .609
+FTM/G: 1.1
+FTA/G: 1.8
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+FTM: 20
+FTA: 28
+FT%: .714
+FTM/G: 1.5
+FTA/G: 2.2
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+FTM: 16
+FTA: 23
+FT%: .696
+FTM/G: 0.7
+FTA/G: 1.0
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+FTM: 6
+FTA: 8
+FT%: .750
+FTM/G: 0.3
+FTA/G: 0.4
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+FTM: 5
+FTA: 9
+FT%: .556
+FTM/G: 0.3
+FTA/G: 0.5
+
+Record type: Category Leaders - Free Throws
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+FTM: 3
+FTA: 8
+FT%: .375
+FTM/G: 0.2
+FTA/G: 0.5
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+REB: 147
+AVG/G: 5.9
+OFF: 36
+OFF/G: 1.4
+DEF: 111
+DEF/G: 4.4
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+REB: 142
+AVG/G: 5.7
+OFF: 54
+OFF/G: 2.2
+DEF: 88
+DEF/G: 3.5
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+REB: 122
+AVG/G: 4.9
+OFF: 20
+OFF/G: 0.8
+DEF: 102
+DEF/G: 4.1
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+REB: 93
+AVG/G: 3.7
+OFF: 25
+OFF/G: 1.0
+DEF: 68
+DEF/G: 2.7
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: #TM Team
+GP: 25
+REB: 83
+AVG/G: 3.3
+OFF: 43
+OFF/G: 1.7
+DEF: 40
+DEF/G: 1.6
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+REB: 77
+AVG/G: 3.2
+OFF: 18
+OFF/G: 0.8
+DEF: 59
+DEF/G: 2.5
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+REB: 72
+AVG/G: 2.9
+OFF: 19
+OFF/G: 0.8
+DEF: 53
+DEF/G: 2.1
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+REB: 70
+AVG/G: 3.2
+OFF: 26
+OFF/G: 1.2
+DEF: 44
+DEF/G: 2.0
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+REB: 54
+AVG/G: 4.2
+OFF: 12
+OFF/G: 0.9
+DEF: 42
+DEF/G: 3.2
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+REB: 49
+AVG/G: 2.2
+OFF: 11
+OFF/G: 0.5
+DEF: 38
+DEF/G: 1.7
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+REB: 45
+AVG/G: 2.0
+OFF: 8
+OFF/G: 0.4
+DEF: 37
+DEF/G: 1.7
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+REB: 21
+AVG/G: 1.2
+OFF: 6
+OFF/G: 0.4
+DEF: 15
+DEF/G: 0.9
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+REB: 19
+AVG/G: 1.1
+OFF: 6
+OFF/G: 0.3
+DEF: 13
+DEF/G: 0.7
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+REB: 11
+AVG/G: 0.7
+OFF: 7
+OFF/G: 0.5
+DEF: 4
+DEF/G: 0.3
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Charlie Hinman
+Jersey number: 20
+GP: 4
+REB: 6
+AVG/G: 1.5
+OFF: 2
+OFF/G: 0.5
+DEF: 4
+DEF/G: 1.0
+
+Record type: Category Leaders - Rebounds
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Ian Schnabel
+Jersey number: 21
+GP: 4
+REB: 1
+AVG/G: 0.3
+OFF: 1
+OFF/G: 0.3
+DEF: 0
+DEF/G: 0.0
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+AST: 97
+AST/G: 3.9
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+AST: 75
+AST/G: 3.0
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+AST: 68
+AST/G: 2.7
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+AST: 38
+AST/G: 1.5
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+AST: 34
+AST/G: 2.6
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+AST: 26
+AST/G: 1.0
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+AST: 23
+AST/G: 1.0
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+AST: 20
+AST/G: 1.2
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+AST: 19
+AST/G: 0.9
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+AST: 17
+AST/G: 0.8
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+AST: 13
+AST/G: 0.6
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+AST: 5
+AST/G: 0.3
+
+Record type: Category Leaders - Assists
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+AST: 1
+AST/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+BLK: 28
+BLK/G: 1.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+BLK: 22
+BLK/G: 0.9
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+BLK: 10
+BLK/G: 0.4
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+BLK: 9
+BLK/G: 0.4
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+BLK: 6
+BLK/G: 0.3
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+BLK: 3
+BLK/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+BLK: 3
+BLK/G: 0.2
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+BLK: 3
+BLK/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+BLK: 2
+BLK/G: 0.1
+
+Record type: Category Leaders - Blocked Shots
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+BLK: 1
+BLK/G: 0.1
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+STL: 39
+STL/G: 1.6
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+STL: 19
+STL/G: 0.8
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+STL: 15
+STL/G: 0.6
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+STL: 11
+STL/G: 0.4
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+STL: 11
+STL/G: 0.8
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+STL: 10
+STL/G: 0.4
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+STL: 10
+STL/G: 0.5
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+STL: 9
+STL/G: 0.4
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+STL: 6
+STL/G: 0.3
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+STL: 5
+STL/G: 0.3
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+STL: 4
+STL/G: 0.3
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+STL: 3
+STL/G: 0.1
+
+Record type: Category Leaders - Steals
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+STL: 3
+STL/G: 0.1
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+TO: 63
+TO/G: 2.5
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+TO: 60
+TO/G: 2.4
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+TO: 38
+TO/G: 1.5
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+TO: 27
+TO/G: 1.1
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+TO: 27
+TO/G: 1.2
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+TO: 24
+TO/G: 1.0
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+TO: 23
+TO/G: 1.8
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+TO: 21
+TO/G: 0.8
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+TO: 16
+TO/G: 0.9
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+TO: 14
+TO/G: 0.8
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+TO: 10
+TO/G: 0.5
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+TO: 8
+TO/G: 0.4
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: #TM Team
+GP: 25
+TO: 7
+TO/G: 0.3
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+TO: 6
+TO/G: 0.4
+
+Record type: Category Leaders - Turnovers
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Charlie Hinman
+Jersey number: 20
+GP: 4
+TO: 2
+TO/G: 0.5
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+PF: 64
+PF/G: 2.6
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+PF: 62
+PF/G: 2.5
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+PF: 53
+PF/G: 2.1
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+PF: 47
+PF/G: 1.9
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+PF: 44
+PF/G: 1.8
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+PF: 29
+PF/G: 1.2
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+PF: 28
+PF/G: 1.3
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+PF: 27
+PF/G: 1.2
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+PF: 24
+PF/G: 1.8
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+PF: 24
+PF/G: 1.1
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+PF: 15
+PF/G: 0.8
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+PF: 13
+PF/G: 0.9
+
+Record type: Category Leaders - Personal Fouls
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+PF: 6
+PF/G: 0.4
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+MIN: 726
+MIN/G: 29.0
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+MIN: 713
+MIN/G: 28.5
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+MIN: 665
+MIN/G: 26.6
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+MIN: 663
+MIN/G: 26.5
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+MIN: 379
+MIN/G: 17.2
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+MIN: 342
+MIN/G: 15.5
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mason Dobie
+Jersey number: 55
+GP: 24
+MIN: 322
+MIN/G: 13.4
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Theo Pow
+Jersey number: 25
+GP: 22
+MIN: 290
+MIN/G: 13.2
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+MIN: 288
+MIN/G: 11.5
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+MIN: 266
+MIN/G: 20.5
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Jack Gatjanis
+Jersey number: 12
+GP: 18
+MIN: 138
+MIN/G: 7.7
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+MIN: 134
+MIN/G: 7.9
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Rashard Doyal
+Jersey number: 13
+GP: 15
+MIN: 80
+MIN/G: 5.3
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Charlie Hinman
+Jersey number: 20
+GP: 4
+MIN: 7
+MIN/G: 1.8
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Will Perkins
+Jersey number: 35
+GP: 4
+MIN: 7
+MIN/G: 1.8
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Ian Schnabel
+Jersey number: 21
+GP: 4
+MIN: 4
+MIN/G: 1.0
+
+Record type: Category Leaders - Minutes
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Miles Drake
+Jersey number: 51
+GP: 1
+MIN: 1
+MIN/G: 1.0
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+AST: 75
+TO: 60
+AST/TO Ratio: 1.25
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Sam Hinman
+Jersey number: 11
+GP: 25
+AST: 38
+TO: 27
+AST/TO Ratio: 1.41
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Mitch Humphrey
+Jersey number: 2
+GP: 22
+AST: 19
+TO: 10
+AST/TO Ratio: 1.90
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Nate Kwiecinski
+Jersey number: 14
+GP: 25
+AST: 26
+TO: 21
+AST/TO Ratio: 1.24
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Matthew Lamy
+Jersey number: 5
+GP: 22
+AST: 13
+TO: 8
+AST/TO Ratio: 1.63
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Marcos Montiel
+Jersey number: 3
+GP: 13
+AST: 34
+TO: 23
+AST/TO Ratio: 1.48
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Max Poulton
+Jersey number: 1
+GP: 25
+AST: 68
+TO: 38
+AST/TO Ratio: 1.79
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Kameran Rodriguez
+Jersey number: 0
+GP: 17
+AST: 20
+TO: 14
+AST/TO Ratio: 1.43
+
+Record type: Category Leaders - Assist / Turnover Ratio
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Savion Stroud
+Jersey number: 23
+GP: 25
+AST: 97
+TO: 63
+AST/TO Ratio: 1.54

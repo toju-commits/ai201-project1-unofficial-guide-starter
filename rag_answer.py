@@ -32,17 +32,47 @@ load_dotenv(ROOT_DIR / ".env")
 def detect_statistics_category(query: str) -> str | None:
     query_lower = query.lower()
 
-    categories = {
-        "receiving": "individual receiving statistics",
-        "rushing": "individual rushing statistics",
-        "passing": "individual passing statistics",
-        "defensive": "individual defensive statistics",
-        "defense": "individual defensive statistics",
-    }
+    if "football" in query_lower:
+        football_categories = {
+            "receiving": "individual receiving statistics",
+            "rushing": "individual rushing statistics",
+            "passing": "individual passing statistics",
+            "defensive": "individual defensive statistics",
+            "defense": "individual defensive statistics",
+        }
 
-    for keyword, category in categories.items():
-        if keyword in query_lower:
-            return category
+        for keyword, category in football_categories.items():
+            if keyword in query_lower:
+                return category
+
+    if "soccer" in query_lower:
+        soccer_categories = {
+            "points": "individual overall offensive statistics",
+            "goals": "individual overall offensive statistics",
+            "assists": "individual overall offensive statistics",
+            "shots": "individual overall offensive statistics",
+            "saves": "individual overall goalkeeping statistics",
+            "goalkeeper": "individual overall goalkeeping statistics",
+            "goalkeeping": "individual overall goalkeeping statistics",
+        }
+
+        for keyword, category in soccer_categories.items():
+            if keyword in query_lower:
+                return category
+
+    if "basketball" in query_lower:
+        basketball_categories = {
+            "scoring": "overall scoring statistics",
+            "points": "overall scoring statistics",
+            "rebounds": "category leaders - rebounds",
+            "assists": "category leaders - assists",
+            "steals": "category leaders - steals",
+            "blocks": "category leaders - blocked shots",
+        }
+
+        for keyword, category in basketball_categories.items():
+            if keyword in query_lower:
+                return category
 
     return None
 
@@ -231,23 +261,54 @@ def retrieve(query: str) -> list[dict]:
 
     return retrieved
 
+def build_source_number_map(
+    retrieved: list[dict],
+) -> dict[tuple[str, str], int]:
+    source_numbers = {}
+    next_number = 1
+
+    for item in retrieved:
+        metadata = item["metadata"]
+
+        source_key = (
+            metadata.get("title", ""),
+            metadata.get("source_url", ""),
+        )
+
+        if source_key not in source_numbers:
+            source_numbers[source_key] = next_number
+            next_number += 1
+
+    return source_numbers
 
 def build_context(retrieved: list[dict]) -> str:
     context_blocks = []
+    source_numbers = build_source_number_map(retrieved)
 
-    for index, item in enumerate(retrieved, start=1):
+    for record_index, item in enumerate(
+        retrieved,
+        start=1,
+    ):
         metadata = item["metadata"]
 
-        block = f"""SOURCE {index}
-Title: {metadata.get("title", "")}
-URL: {metadata.get("source_url", "")}
-Sport: {metadata.get("sport", "")}
-Season: {metadata.get("season", "")}
-Document type: {metadata.get("document_type", "")}
+        source_key = (
+            metadata.get("title", ""),
+            metadata.get("source_url", ""),
+        )
 
-Content:
-{item["text"]}
-"""
+        source_number = source_numbers[source_key]
+
+        block = f"""SOURCE {source_number}
+        Internal record index: {record_index}
+        Title: {metadata.get("title", "")}
+        URL: {metadata.get("source_url", "")}
+        Sport: {metadata.get("sport", "")}
+        Season: {metadata.get("season", "")}
+        Document type: {metadata.get("document_type", "")}
+
+        Content:
+        {item["text"]}
+        """
 
         context_blocks.append(block)
 
@@ -269,20 +330,21 @@ def generate_answer(
     context = build_context(retrieved)
 
     system_prompt = """
-You are Mule Intelligence, a citation-first assistant for Colby College athletics.
+        You are Mule Intelligence, a citation-first assistant for Colby College athletics.
 
-Answer the user's question using only the retrieved sources provided to you.
+        Answer the user's question using only the retrieved sources provided to you.
 
-Rules:
-1. Do not use outside knowledge.
-2. Do not guess or invent missing facts.
-3. If the sources do not contain enough information, say:
-   "I could not find enough information in the available Colby Athletics sources."
-4. Prefer the most directly relevant source.
-5. Keep the answer concise and clear.
-6. Cite factual claims using source numbers such as [Source 1].
-7. Do not cite a source that does not support the claim.
-"""
+        Rules:
+        1. Do not use outside knowledge.
+        2. Do not guess or invent missing facts.
+        3. If the sources do not contain enough information, say:
+        "I could not find enough information in the available Colby Athletics sources."
+        4. Prefer the most directly relevant source.
+        5. Keep the answer concise and clear.
+        6. Cite factual claims using source numbers such as [Source 1].
+        7. Do not cite a source that does not support the claim.
+        8. Citations must use exactly this format: [Source 1]. Never include internal record numbers in citations.
+        """
 
     user_prompt = f"""User question:
 {query}
@@ -315,15 +377,11 @@ Write a grounded answer with source-number citations.
 def print_sources(retrieved: list[dict]) -> None:
     print("\nSources:")
 
+    source_numbers = build_source_number_map(retrieved)
     seen = set()
-    printed_any = False
 
-    for index, item in enumerate(retrieved, start=1):
+    for item in retrieved:
         metadata = item["metadata"]
-        distance = item["distance"]
-
-        if distance > 0.42:
-            continue
 
         title = metadata.get("title", "")
         url = metadata.get("source_url", "")
@@ -333,15 +391,10 @@ def print_sources(retrieved: list[dict]) -> None:
             continue
 
         seen.add(source_key)
-        printed_any = True
+        source_number = source_numbers[source_key]
 
-        print(f"[Source {index}] {title}")
+        print(f"[Source {source_number}] {title}")
         print(f"  {url}")
-
-    if not printed_any and retrieved:
-        metadata = retrieved[0]["metadata"]
-        print(f"[Source 1] {metadata.get('title', '')}")
-        print(f"  {metadata.get('source_url', '')}")
 
 
 def answer_question(query: str) -> None:
@@ -359,5 +412,5 @@ def answer_question(query: str) -> None:
 
 if __name__ == "__main__":
     answer_question(
-        "Who led the 2025 Colby football team in receiving yards?"
+        "Who led Colby men's soccer in points in 2025?"
     )

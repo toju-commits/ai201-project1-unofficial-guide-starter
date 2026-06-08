@@ -1,0 +1,657 @@
+title: 2025 Men's Soccer Cumulative Statistics - Colby College
+source_id: colby-mens-soccer-stats-2025
+source_url: https://colbyathletics.com/sports/mens-soccer/stats/2025
+school: Colby College
+sport: Men's Soccer
+season: 2025
+document_type: statistics
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Jude Gussen
+Jersey number: 3
+GP: 15
+GS: 14
+MIN: 900
+G: 4
+A: 3
+PTS: 11
+SH: 40
+SH%: 0.100
+SOG: 12
+SOG%: 0.300
+YC-RC: 1-0
+GW: 3
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/jude-gussen/8823
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Anthony Bugliari
+Jersey number: 9
+GP: 15
+GS: 1
+MIN: 512
+G: 3
+A: 0
+PTS: 6
+SH: 18
+SH%: 0.167
+SOG: 11
+SOG%: 0.611
+YC-RC: 0-0
+GW: 1
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/anthony-bugliari/8819
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Chase Dolinko
+Jersey number: 10
+GP: 14
+GS: 14
+MIN: 667
+G: 2
+A: 1
+PTS: 5
+SH: 25
+SH%: 0.080
+SOG: 8
+SOG%: 0.320
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-1
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/chase-dolinko/8803
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Santi Canencio Moreno
+Jersey number: 14
+GP: 11
+GS: 0
+MIN: 256
+G: 2
+A: 0
+PTS: 4
+SH: 8
+SH%: 0.250
+SOG: 3
+SOG%: 0.375
+YC-RC: 2-0
+GW: 0
+PG-PA: 1-1
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/santi-canencio-moreno/8820
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Leo Robison
+Jersey number: 35
+GP: 13
+GS: 2
+MIN: 635
+G: 2
+A: 0
+PTS: 4
+SH: 19
+SH%: 0.105
+SOG: 5
+SOG%: 0.263
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/leo-robison/8830
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Ryan Stewart
+Jersey number: 4
+GP: 13
+GS: 13
+MIN: 1046
+G: 1
+A: 2
+PTS: 4
+SH: 7
+SH%: 0.143
+SOG: 2
+SOG%: 0.286
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/ryan-stewart/8815
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Joseph Beshel
+Jersey number: 6
+GP: 15
+GS: 7
+MIN: 603
+G: 1
+A: 1
+PTS: 3
+SH: 10
+SH%: 0.100
+SOG: 5
+SOG%: 0.500
+YC-RC: 0-0
+GW: 0
+PG-PA: 1-1
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/joseph-beshel/8800
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Charlie Scott
+Jersey number: 8
+GP: 14
+GS: 14
+MIN: 715
+G: 1
+A: 1
+PTS: 3
+SH: 6
+SH%: 0.167
+SOG: 5
+SOG%: 0.833
+YC-RC: 5-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/charlie-scott/8813
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Will Kogelmann
+Jersey number: 12
+GP: 10
+GS: 0
+MIN: 181
+G: 1
+A: 0
+PTS: 2
+SH: 5
+SH%: 0.200
+SOG: 1
+SOG%: 0.200
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/will-kogelmann/8808
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Jasper Paez
+Jersey number: 22
+GP: 15
+GS: 14
+MIN: 838
+G: 0
+A: 2
+PTS: 2
+SH: 3
+SH%: 0.000
+SOG: 1
+SOG%: 0.333
+YC-RC: 2-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/jasper-paez/8810
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Jacob Sams
+Jersey number: 5
+GP: 15
+GS: 15
+MIN: 1194
+G: 1
+A: 0
+PTS: 2
+SH: 4
+SH%: 0.250
+SOG: 1
+SOG%: 0.250
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/jacob-sams/8812
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Oliver Daboo
+Jersey number: 19
+GP: 15
+GS: 15
+MIN: 954
+G: 0
+A: 1
+PTS: 1
+SH: 11
+SH%: 0.000
+SOG: 4
+SOG%: 0.364
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/oliver-daboo/8802
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Grady Kirk
+Jersey number: 30
+GP: 14
+GS: 0
+MIN: 269
+G: 0
+A: 1
+PTS: 1
+SH: 4
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/grady-kirk/8825
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Colin Leon
+Jersey number: 23
+GP: 13
+GS: 0
+MIN: 351
+G: 0
+A: 1
+PTS: 1
+SH: 1
+SH%: 0.000
+SOG: 1
+SOG%: 1.000
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/colin-leon/8809
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Ethan Soroca
+Jersey number: 25
+GP: 13
+GS: 0
+MIN: 217
+G: 0
+A: 1
+PTS: 1
+SH: 9
+SH%: 0.000
+SOG: 3
+SOG%: 0.333
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/ethan-soroca/8831
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: CJ Supan
+Jersey number: 2
+GP: 13
+GS: 12
+MIN: 606
+G: 0
+A: 1
+PTS: 1
+SH: 3
+SH%: 0.000
+SOG: 3
+SOG%: 1.000
+YC-RC: 0-1
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/cj-supan/8816
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Oliver Clifford
+Jersey number: 24
+GP: 7
+GS: 1
+MIN: 205
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 1
+SOG%: 1.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/oliver-clifford/8821
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Justin Dawes
+Jersey number: 15
+GP: 3
+GS: 0
+MIN: 31
+G: 0
+A: 0
+PTS: 0
+SH: 0
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/justin-dawes/8822
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Luis Estrella
+Jersey number: 11
+GP: 5
+GS: 0
+MIN: 65
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/luis-estrella/8804
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Braden Jondro
+Jersey number: 28
+GP: 8
+GS: 2
+MIN: 239
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/braden-jondro/8805
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Andrew Kirwan
+Jersey number: 7
+GP: 11
+GS: 0
+MIN: 269
+G: 0
+A: 0
+PTS: 0
+SH: 2
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/andrew-kirwan/8806
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Drew Kogelmann
+Jersey number: 18
+GP: 15
+GS: 3
+MIN: 674
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 1
+SOG%: 1.000
+YC-RC: 2-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/drew-kogelmann/8807
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Jackson Magee
+Jersey number: 33
+GP: 15
+GS: 15
+MIN: 1350
+G: 0
+A: 0
+PTS: 0
+SH: 0
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/jackson-magee/8827
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Joaquin Mañon
+Jersey number: 29
+GP: 1
+GS: 0
+MIN: 6
+G: 0
+A: 0
+PTS: 0
+SH: 0
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/joaquin-ma-on/8828
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Kameron Mohammed
+Jersey number: 27
+GP: 11
+GS: 1
+MIN: 440
+G: 0
+A: 0
+PTS: 0
+SH: 5
+SH%: 0.000
+SOG: 1
+SOG%: 0.200
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/kameron-mohammed/8829
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Luke Pentikis
+Jersey number: 17
+GP: 4
+GS: 0
+MIN: 50
+G: 0
+A: 0
+PTS: 0
+SH: 0
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/luke-pentikis/8811
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Theo Scott
+Jersey number: 26
+GP: 11
+GS: 10
+MIN: 762
+G: 0
+A: 0
+PTS: 0
+SH: 12
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 5-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/theo-scott/8814
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Andy Uku
+Jersey number: 20
+GP: 12
+GS: 9
+MIN: 565
+G: 0
+A: 0
+PTS: 0
+SH: 7
+SH%: 0.000
+SOG: 3
+SOG%: 0.429
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/andy-uku/8817
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Alexander Vittal
+Jersey number: 21
+GP: 15
+GS: 2
+MIN: 498
+G: 0
+A: 0
+PTS: 0
+SH: 9
+SH%: 0.000
+SOG: 4
+SOG%: 0.444
+YC-RC: 1-0
+GW: 0
+PG-PA: 0-0
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/alexander-vittal/8832
+
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Team TM Team
+GP: 1
+GS: 0
+MIN: 0
+G: 0
+A: 0
+PTS: 0
+SH: 1
+SH%: 0.000
+SOG: 0
+SOG%: 0.000
+YC-RC: 0-0
+GW: 0
+PG-PA: 0-0
+
+Record type: Individual Overall Goalkeeping Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Jackson Magee
+Jersey number: 33
+GP: 15
+GS: 15
+MIN: 1350:00
+GA: 16
+GAA: 1.07
+SV: 45
+SV%: 0.738
+W: 5
+L: 4
+T: 5
+SHO: 4
+SF: 84
+Profile URL: https://colbyathletics.com/sports/mens-soccer/roster/jackson-magee/8827

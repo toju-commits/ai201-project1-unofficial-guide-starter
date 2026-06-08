@@ -26,6 +26,27 @@ TEST_CASES = [
         ],
         "minimum_results": 2,
     },
+    {
+        "name": "Men's basketball scoring retrieval",
+        "query": "Who led Colby men's basketball in scoring in 2025-26?",
+        "expected_document_type": "statistics",
+        "required_terms": [
+            "Overall Scoring Statistics",
+            "PTS:",
+        ],
+        "minimum_results": 2,
+    },
+    {
+        "name": "Men's soccer points retrieval",
+        "query": "Who led Colby men's soccer in points in 2025?",
+        "expected_document_type": "statistics",
+        "required_terms": [
+            "Individual Overall Offensive Statistics",
+            "PTS:",
+        ],
+        "minimum_results": 2,
+    },
+    
 ]
 
 
