@@ -116,63 +116,45 @@ A future multimodal version could use an image-text embedding model such as CLIP
 
 ## Chunking Strategy
 
-**Chunk size:** Approximately 700 characters per chunk, with structure-aware exceptions for schedules, rosters, awards, and article sections.
+**Chunk size:** Structure-aware chunks for schedules and rosters. Fixed-size chunks of approximately 700 characters with 150-character overlap are reserved for future prose sources such as news articles, recaps, and resource pages.
 
-**Overlap:** Approximately 150 characters for prose documents. Structured rows such as a single schedule event, roster player, or award entry will remain intact and will not rely on character overlap.
+**Overlap:** No overlap is used for the current structured schedule and roster records because each game or athlete is kept as a complete, self-contained chunk. Future prose documents will use approximately 150 characters of overlap to reduce information loss at chunk boundaries.
 
 **Final chunk count:** 276 chunks across 10 documents.
 
 **Reasoning:**
 
-The source corpus includes schedules, rosters, awards pages, news archives, articles, galleries, and athletics resource pages. These formats should not all be processed identically.
+The current source corpus contains five schedule pages and five roster pages covering football, men's soccer, women's soccer, men's basketball, and women's basketball. Because these pages contain structured records rather than continuous prose, using only fixed-size character chunks could separate related facts such as an opponent from its game date or a player's name from their position.
 
-For prose such as recaps and resource pages, the scraper will preserve headings and divide content into approximately 700-character chunks with 150-character overlap.
+The chunking pipeline therefore processes each document according to its type:
 
-For structured pages:
+* Each roster player becomes one individual chunk.
+* Each schedule page begins with one season-summary chunk.
+* Each scheduled game becomes one individual chunk.
+* Every chunk retains metadata from its source document, including the source title, source ID, source URL, school, sport, season, document type, file name, and chunk index.
 
-* each schedule game will become its own structured text record
-* each roster player will become an individual structured record
-* award entries will be grouped by sport, season, or award section
-* article titles, dates, summaries, and source links will remain together
-* gallery entries will preserve image title, caption, source page, and sport when available
-
-Example schedule record:
-
-```text
-Record type: game
-School: Colby College
-Sport: Football
-Season: 2025
-Date: September 13, 2025
-Opponent: Trinity College
-Location: Waterville, Maine
-Site: Home
-Result: Win
-Score: 13-6
-Source: Colby Football Schedule
-```
-
-Example player record:
+For example, one roster chunk contains all available information for a single athlete:
 
 ```text
 Record type: athlete
-School: Colby College
-Sport: Football
-Season: 2025
-Player: Example Player
-Number: 0
-Position: Wide Receiver
-Class year: Sophomore
-Height: 6 feet 1 inch
-Weight: 200 pounds
-Hometown: Fair Haven, New Jersey
-Source: Colby Football Roster
+Player: Sean Trinder
+Jersey number: 0
+Position: WR
+Academic year: So.
+Height: 6'1"
+Weight: 200 lbs
+Hometown: Fair Haven, N.J.
+High school: Rumson Fair Haven Regional
+Profile URL: https://colbyathletics.com/sports/football/roster/sean-trinder/9043
 ```
 
-Before chunking, the ingestion process will remove repeated navigation menus, footer content, cookie or ad-blocker notices, duplicate links, social media links, and unrelated site-wide text.
+A schedule chunk keeps the information for one game together, including its date, time, opponent, conference designation when present, location, and score when the game has already been played.
 
-Image metadata will not be embedded directly into prose chunks. Instead, each chunk will contain an identifier such as `source_id`, and image records will use the same identifier so the interface can associate retrieved facts with relevant images.
+Before chunking, the automated ingestion pipeline removes repeated navigation text, footer content, ad-blocker notices, duplicate links, `Box Score` and `Recap` labels, repeated locations, and other unrelated site-wide text. It also detects the season shown on the official page and stores that value in the document metadata.
 
+Image metadata is stored separately rather than embedded directly inside the text chunks. Text chunks and image records share a `source_id`, allowing the interface to associate a retrieved source with relevant images later without treating images as textual evidence.
+
+If future versions add prose-heavy sources such as game recaps, athletics news, awards articles, or student-athlete resource pages, those documents will be split into approximately 700-character chunks with 150-character overlap while preserving section headings and source metadata.
 ---
 
 ## Retrieval Approach
