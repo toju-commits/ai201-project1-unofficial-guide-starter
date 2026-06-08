@@ -120,6 +120,8 @@ A future multimodal version could use an image-text embedding model such as CLIP
 
 **Overlap:** Approximately 150 characters for prose documents. Structured rows such as a single schedule event, roster player, or award entry will remain intact and will not rely on character overlap.
 
+**Final chunk count:** 276 chunks across 10 documents.
+
 **Reasoning:**
 
 The source corpus includes schedules, rosters, awards pages, news archives, articles, galleries, and athletics resource pages. These formats should not all be processed identically.
