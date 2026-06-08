@@ -120,17 +120,18 @@ A future multimodal version could use an image-text embedding model such as CLIP
 
 **Overlap:** No overlap is used for the current structured schedule and roster records because each game or athlete is kept as a complete, self-contained chunk. Future prose documents will use approximately 150 characters of overlap to reduce information loss at chunk boundaries.
 
-**Final chunk count:** 276 chunks across 10 documents.
+**Final chunk count:** 793 chunks across 15 documents.
 
 **Reasoning:**
 
-The current source corpus contains five schedule pages and five roster pages covering football, men's soccer, women's soccer, men's basketball, and women's basketball. Because these pages contain structured records rather than continuous prose, using only fixed-size character chunks could separate related facts such as an opponent from its game date or a player's name from their position.
+The current source corpus contains schedule, roster, and cumulative statistics pages for football, men's soccer, women's soccer, men's basketball, and women's basketball. Because these pages contain structured records rather than continuous prose, using only fixed-size character chunks could separate related facts such as an opponent from its game date, a player's name from their position, or an athlete from their statistical totals.
 
 The chunking pipeline therefore processes each document according to its type:
 
 * Each roster player becomes one individual chunk.
 * Each schedule page begins with one season-summary chunk.
 * Each scheduled game becomes one individual chunk.
+* Each statistics row becomes one individual chunk, preserving the table category, athlete, season, sport, and all available statistical fields.
 * Every chunk retains metadata from its source document, including the source title, source ID, source URL, school, sport, season, document type, file name, and chunk index.
 
 For example, one roster chunk contains all available information for a single athlete:
