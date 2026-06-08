@@ -1,0 +1,9 @@
+title: Colby Football Schedule
+source_url: https://colbyathletics.com/sports/football/schedule
+school: Colby College
+sport: Football
+season: 2025
+document_type: schedule/results
+date_accessed: 2026-06-08
+
+CONTENT:

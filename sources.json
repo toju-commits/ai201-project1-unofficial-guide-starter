@@ -1,0 +1,13 @@
+[
+  {
+    "id": "colby-football-schedule",
+    "title": "Colby Football Schedule",
+    "url": "https://colbyathletics.com/sports/football/schedule",
+    "school": "Colby College",
+    "sport": "Football",
+    "season": "current",
+    "document_type": "schedule",
+    "collect_images": true,
+    "refresh_frequency": "daily"
+  }
+]

@@ -1,0 +1,73 @@
+title: Colby Football Schedule
+source_id: colby-football-schedule
+source_url: https://colbyathletics.com/sports/football/schedule
+school: Colby College
+sport: Football
+season: 2026
+document_type: schedule
+date_accessed: 2026-06-08
+
+CONTENT:
+2026 Football Schedule - Colby College
+2026 Football Schedule
+Season Record
+Overall
+0-0
+PCT
+.000
+Conf
+0-0
+PCT
+.000
+Streak
+Home
+0-0
+Away
+0-0
+Neutral
+0-0
+Sep 19 (Sat)
+1:00 PM
+NESCAC
+Trinity College (Conn.)
+Hartford, CT
+Sep 26 (Sat)
+1:00 PM
+NESCAC
+Williams College
+Waterville, ME
+Oct 3 (Sat)
+1:00 PM
+NESCAC
+Middlebury College
+Middlebury, VT
+Oct 10 (Sat)
+1:00 PM
+NESCAC
+Wesleyan University
+Middletown, CT
+Oct 17 (Sat)
+1:00 PM
+NESCAC
+Amherst College
+Waterville, ME
+Oct 24 (Sat)
+12:00 PM
+NESCAC
+Hamilton College
+Clinton, NY
+Oct 31 (Sat)
+7:00 PM
+NESCAC
+Bates College
+Waterville, ME
+Nov 7 (Sat)
+1:00 PM
+NESCAC
+Tufts University
+Waterville, ME
+Nov 14 (Sat)
+1:00 PM
+NESCAC
+Bowdoin College
+Brunswick, ME
