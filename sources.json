@@ -64,5 +64,49 @@
   "document_type": "roster",
   "collect_images": true,
   "refresh_frequency": "weekly"
+},
+{
+  "id": "colby-mens-basketball-schedule",
+  "title": "Colby Men's Basketball Schedule",
+  "url": "https://colbyathletics.com/sports/mens-basketball/schedule",
+  "school": "Colby College",
+  "sport": "Men's Basketball",
+  "season": "current",
+  "document_type": "schedule",
+  "collect_images": true,
+  "refresh_frequency": "daily"
+},
+{
+  "id": "colby-mens-basketball-roster",
+  "title": "Colby Men's Basketball Roster",
+  "url": "https://colbyathletics.com/sports/mens-basketball/roster",
+  "school": "Colby College",
+  "sport": "Men's Basketball",
+  "season": "current",
+  "document_type": "roster",
+  "collect_images": true,
+  "refresh_frequency": "weekly"
+},
+{
+  "id": "colby-womens-basketball-schedule",
+  "title": "Colby Women's Basketball Schedule",
+  "url": "https://colbyathletics.com/sports/womens-basketball/schedule",
+  "school": "Colby College",
+  "sport": "Women's Basketball",
+  "season": "current",
+  "document_type": "schedule",
+  "collect_images": true,
+  "refresh_frequency": "daily"
+},
+{
+  "id": "colby-womens-basketball-roster",
+  "title": "Colby Women's Basketball Roster",
+  "url": "https://colbyathletics.com/sports/womens-basketball/roster",
+  "school": "Colby College",
+  "sport": "Women's Basketball",
+  "season": "current",
+  "document_type": "roster",
+  "collect_images": true,
+  "refresh_frequency": "weekly"
 }
 ]

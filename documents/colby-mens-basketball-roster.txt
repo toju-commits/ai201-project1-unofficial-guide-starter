@@ -1,0 +1,207 @@
+title: 2025-26 Men's Basketball Roster - Colby College
+source_id: colby-mens-basketball-roster
+source_url: https://colbyathletics.com/sports/mens-basketball/roster
+school: Colby College
+sport: Men's Basketball
+season: 2025-26
+document_type: roster
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: athlete
+Player: Kameran Rodriguez
+Jersey number: 0
+Position: G
+Academic year: Jr.
+Height: 5'9"
+Weight: 157 lbs
+Hometown: New York, N.Y.
+High school: Berkshire School
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/kameran-rodriguez/9321
+
+Record type: athlete
+Player: Max Poulton
+Jersey number: 1
+Position: G
+Academic year: Sr.
+Height: 6'4"
+Weight: 182 lbs
+Hometown: Wellesley, Mass.
+High school: The Rivers School
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/max-poulton/9320
+
+Record type: athlete
+Player: Mitch Humphrey
+Jersey number: 2
+Position: F
+Academic year: So.
+Height: 6'5"
+Weight: 190 lbs
+Hometown: Northfield, Ill.
+High school: St. Viator
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/mitch-humphrey/9314
+
+Record type: athlete
+Player: Marcos Montiel
+Jersey number: 3
+Position: G
+Academic year: Jr.
+Height: 6'3"
+Weight: 236 lbs
+Hometown: Somerville, Mass.
+High school: Brooks School
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/marcos-montiel/9318
+
+Record type: athlete
+Player: Matthew Lamy
+Jersey number: 5
+Position: G
+Academic year: Jr.
+Height: 6'4"
+Weight: 180 lbs
+Hometown: Bow, N.H.
+High school: St. Paul's School
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/matthew-lamy/9317
+
+Record type: athlete
+Player: Dan Civello
+Jersey number: 6
+Position: C
+Academic year: So.
+Height: 6'10"
+Weight: 260 lbs
+Hometown: South Weymouth, Mass.
+High school: BC High
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/dan-civello/9309
+
+Record type: athlete
+Player: Sam Hinman
+Jersey number: 11
+Position: G
+Academic year: Jr.
+Height: 6'1"
+Weight: 177 lbs
+Hometown: Needham, Mass.
+High school: St. Sebastian's School
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/sam-hinman/9313
+
+Record type: athlete
+Player: Jack Gatjanis
+Jersey number: 12
+Position: G
+Academic year: So.
+Height: 6'3"
+Weight: 200 lbs
+Hometown: Alexandria, Va.
+High school: Gonzaga
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/jack-gatjanis/9312
+
+Record type: athlete
+Player: Rashard Doyal
+Jersey number: 13
+Position: G
+Academic year: Sr.
+Height: 6'2"
+Weight: 191 lbs
+Hometown: Atlanta, Ga.
+High school: Excel Christian Academy
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/rashard-doyal/9310
+
+Record type: athlete
+Player: Nate Kwiecinski
+Jersey number: 14
+Position: F
+Academic year: So.
+Height: 6'7"
+Weight: 184 lbs
+Hometown: Evanston, Ill.
+High school: Cushing Academy
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/nate-kwiecinski/9316
+
+Record type: athlete
+Player: Charlie Hinman
+Jersey number: 20
+Position: F
+Academic year: Fr.
+Height: 6'3"
+Weight: 200 lbs
+Hometown: Needham, Mass.
+High school: St. Sebastian's School
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/charlie-hinman/9323
+
+Record type: athlete
+Player: Ian Schnabel
+Jersey number: 21
+Position: C
+Academic year: Fr.
+Height: 6'7"
+Weight: 205 lbs
+Hometown: Minneapolis, Minn.
+High school: The Blake School
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/ian-schnabel/9324
+
+Record type: athlete
+Player: Savion Stroud
+Jersey number: 23
+Position: G
+Academic year: Jr.
+Height: 6'1"
+Weight: 180 lbs
+Hometown: Pittsburgh, Pa.
+High school: St. Paul's School
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/savion-stroud/9322
+
+Record type: athlete
+Player: Theo Pow
+Jersey number: 25
+Position: F
+Academic year: Fr.
+Height: 6'3"
+Weight: 185 lbs
+Hometown: Kennebunk, Maine
+High school: Kennebunk
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/theo-pow/9325
+
+Record type: athlete
+Player: Will Perkins
+Jersey number: 35
+Position: G
+Academic year: So.
+Height: 6'4"
+Weight: 200 lbs
+Hometown: San Francisco, Calif.
+High school: University High
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/will-perkins/9319
+
+Record type: athlete
+Player: Nick Mautone
+Jersey number: 45
+Position: F
+Academic year: Fr.
+Height: 6'5"
+Weight: 190 lbs
+Hometown: Mercer Island, Wash.
+High school: Hotchkiss School
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/nick-mautone/9327
+
+Record type: athlete
+Player: Miles Drake
+Jersey number: 51
+Position: G
+Academic year: Sr.
+Height: 6'2"
+Weight: 198 lbs
+Hometown: Darien, Conn.
+High school: Darien
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/miles-drake/9311
+
+Record type: athlete
+Player: Mason Dobie
+Jersey number: 55
+Position: G
+Academic year: Fr.
+Height: 6'3"
+Weight: 190 lbs
+Hometown: Kitty Hawk, N.C.
+High school: First Flight
+Profile URL: https://colbyathletics.com/sports/mens-basketball/roster/mason-dobie/9326

@@ -11,7 +11,7 @@ CONTENT:
 Record type: athlete
 Player: Skye Greenberg
 Jersey number: 0
-Position: Goalkeeper GK 5'6"
+Position: Goalkeeper GK
 Academic year: Fr.
 Height: 5'6"
 Weight: 
@@ -22,7 +22,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/skye-greenbe
 Record type: athlete
 Player: Talia Thompson
 Jersey number: 00
-Position: Goalkeeper GK 5'7"
+Position: Goalkeeper GK
 Academic year: Jr.
 Height: 5'7"
 Weight: 
@@ -33,7 +33,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/talia-thomps
 Record type: athlete
 Player: Malika Hill
 Jersey number: 1
-Position: Goalkeeper GK 5'9"
+Position: Goalkeeper GK
 Academic year: Fr.
 Height: 5'9"
 Weight: 
@@ -44,7 +44,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/malika-hill/
 Record type: athlete
 Player: Ami Vithiananthan
 Jersey number: 2
-Position: Back B 5'5"
+Position: Back B
 Academic year: So.
 Height: 5'5"
 Weight: 
@@ -55,7 +55,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/ami-vithiana
 Record type: athlete
 Player: Neve Taylor
 Jersey number: 3
-Position: Back B 5'9"
+Position: Back B
 Academic year: Fr.
 Height: 5'9"
 Weight: 
@@ -66,7 +66,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/neve-taylor/
 Record type: athlete
 Player: Sophie DiGrande
 Jersey number: 4
-Position: Forward F 5'5"
+Position: Forward F
 Academic year: Sr.
 Height: 5'5"
 Weight: 
@@ -77,7 +77,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/sophie-digra
 Record type: athlete
 Player: Mia Sullivan
 Jersey number: 5
-Position: Back B 5'3"
+Position: Back B
 Academic year: So.
 Height: 5'3"
 Weight: 
@@ -88,7 +88,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/mia-sullivan
 Record type: athlete
 Player: Gabrielle Lazaro
 Jersey number: 6
-Position: Forward F 5'2"
+Position: Forward F
 Academic year: Jr.
 Height: 5'2"
 Weight: 
@@ -99,7 +99,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/gabrielle-la
 Record type: athlete
 Player: Kaya Singh
 Jersey number: 7
-Position: Forward F 5'5"
+Position: Forward F
 Academic year: Fr.
 Height: 5'5"
 Weight: 
@@ -110,7 +110,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/kaya-singh/8
 Record type: athlete
 Player: Taylor Oranellas
 Jersey number: 8
-Position: Midfield M 5'6"
+Position: Midfield M
 Academic year: Fr.
 Height: 5'6"
 Weight: 
@@ -121,7 +121,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/taylor-orane
 Record type: athlete
 Player: Jane Maguire
 Jersey number: 9
-Position: Midfield M 5'4"
+Position: Midfield M
 Academic year: Sr.
 Height: 5'4"
 Weight: 
@@ -132,7 +132,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/jane-maguire
 Record type: athlete
 Player: Eloisa Luczkow
 Jersey number: 10
-Position: Midfield M 5'5"
+Position: Midfield M
 Academic year: Jr.
 Height: 5'5"
 Weight: 
@@ -143,7 +143,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/eloisa-luczk
 Record type: athlete
 Player: Annie Liebich
 Jersey number: 11
-Position: Midfield M 5'9"
+Position: Midfield M
 Academic year: Jr.
 Height: 5'9"
 Weight: 
@@ -154,7 +154,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/annie-liebic
 Record type: athlete
 Player: Avery Barton
 Jersey number: 12
-Position: Forward F 5'4"
+Position: Forward F
 Academic year: Jr.
 Height: 5'4"
 Weight: 
@@ -165,7 +165,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/avery-barton
 Record type: athlete
 Player: Amanda Schneider
 Jersey number: 14
-Position: Forward F 5'5"
+Position: Forward F
 Academic year: Fr.
 Height: 5'5"
 Weight: 
@@ -176,7 +176,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/amanda-schne
 Record type: athlete
 Player: Samantha DeWitt
 Jersey number: 15
-Position: Back B 5'7"
+Position: Back B
 Academic year: Jr.
 Height: 5'7"
 Weight: 
@@ -187,7 +187,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/samantha-dew
 Record type: athlete
 Player: Hannah Donahue
 Jersey number: 17
-Position: Back B 5'5"
+Position: Back B
 Academic year: Jr.
 Height: 5'5"
 Weight: 
@@ -198,7 +198,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/hannah-donah
 Record type: athlete
 Player: Kylie Thorp
 Jersey number: 18
-Position: Back B 5'6"
+Position: Back B
 Academic year: Sr.
 Height: 5'6"
 Weight: 
@@ -209,7 +209,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/kylie-thorp/
 Record type: athlete
 Player: Ella Caraluzzi
 Jersey number: 19
-Position: Forward F 5'3"
+Position: Forward F
 Academic year: So.
 Height: 5'3"
 Weight: 
@@ -220,7 +220,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/ella-caraluz
 Record type: athlete
 Player: Catherine Watrous
 Jersey number: 20
-Position: Forward F 5'4"
+Position: Forward F
 Academic year: So.
 Height: 5'4"
 Weight: 
@@ -231,7 +231,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/catherine-wa
 Record type: athlete
 Player: Fati Salifu
 Jersey number: 21
-Position: Back B 5'5"
+Position: Back B
 Academic year: Sr.
 Height: 5'5"
 Weight: 
@@ -242,7 +242,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/fati-salifu/
 Record type: athlete
 Player: Avery Del Col
 Jersey number: 22
-Position: Back B 5'3"
+Position: Back B
 Academic year: So.
 Height: 5'3"
 Weight: 
@@ -253,7 +253,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/avery-del-co
 Record type: athlete
 Player: Claire Walsh
 Jersey number: 23
-Position: Midfield M 5'4"
+Position: Midfield M
 Academic year: So.
 Height: 5'4"
 Weight: 
@@ -264,7 +264,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/claire-walsh
 Record type: athlete
 Player: Madison Genser
 Jersey number: 24
-Position: Midfield M 5'6"
+Position: Midfield M
 Academic year: Jr.
 Height: 5'6"
 Weight: 
@@ -275,7 +275,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/madison-gens
 Record type: athlete
 Player: Grace Missett
 Jersey number: 26
-Position: Back B 5'7"
+Position: Back B
 Academic year: Fr.
 Height: 5'7"
 Weight: 
@@ -286,7 +286,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/grace-misset
 Record type: athlete
 Player: Alexis Triantaphyllis
 Jersey number: 28
-Position: Back B 5'5"
+Position: Back B
 Academic year: So.
 Height: 5'5"
 Weight: 
@@ -297,7 +297,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/alexis-trian
 Record type: athlete
 Player: MK Marshall
 Jersey number: 30
-Position: Goalkeeper GK 5'8"
+Position: Goalkeeper GK
 Academic year: Sr.
 Height: 5'8"
 Weight: 
@@ -308,7 +308,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/mk-marshall/
 Record type: athlete
 Player: Abigail Jarvi
 Jersey number: 32
-Position: Forward F 5'3"
+Position: Forward F
 Academic year: Jr.
 Height: 5'3"
 Weight: 
@@ -319,7 +319,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/abigail-jarv
 Record type: athlete
 Player: Melina Ouramdane
 Jersey number: 33
-Position: Midfield M 5'7"
+Position: Midfield M
 Academic year: Fr.
 Height: 5'7"
 Weight: 
@@ -330,7 +330,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/melina-ouram
 Record type: athlete
 Player: Maya Ouramdane
 Jersey number: 34
-Position: Forward F 5'7"
+Position: Forward F
 Academic year: Fr.
 Height: 5'7"
 Weight: 
@@ -341,7 +341,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/maya-ouramda
 Record type: athlete
 Player: Murphy Leung
 Jersey number: 35
-Position: Forward F 5'7"
+Position: Forward F
 Academic year: Sr.
 Height: 5'7"
 Weight: 
@@ -352,7 +352,7 @@ Profile URL: https://colbyathletics.com/sports/womens-soccer/roster/murphy-leung
 Record type: athlete
 Player: Sadie Gardner
 Jersey number: 99
-Position: Goalkeeper GK 5'6"
+Position: Goalkeeper GK
 Academic year: So.
 Height: 5'6"
 Weight: 

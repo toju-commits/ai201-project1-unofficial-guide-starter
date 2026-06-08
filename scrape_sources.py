@@ -33,6 +33,8 @@ def extract_page_text(soup: BeautifulSoup) -> str:
         "watch",
         "live stats",
         "scheduled games",
+        "box score",
+        "recap",
     }
 
     lines = []
@@ -47,6 +49,9 @@ def extract_page_text(soup: BeautifulSoup) -> str:
             break
 
         if line.lower() in skip_exact:
+            continue
+
+        if line.lower().startswith("hide/show additional information for"):
             continue
 
         # Avoid immediately repeated lines such as duplicate locations.
@@ -114,7 +119,7 @@ def extract_roster_text(soup: BeautifulSoup) -> str:
         ) if player.select_one(".sidearm-roster-player-position") else ""
         
         position = re.sub(
-            r"\s+\d+'\d+\"\s+\d+\s*lbs.*$",
+            r"\s+\d+'\d+\"(?:\s+\d+\s*lbs)?\s*$",
             "",
             position,
         ).strip()
@@ -211,16 +216,23 @@ def scrape_source(source: dict) -> tuple[str, list[dict]]:
     return page_text, images, page_title
 
 def detect_season(page_text: str, fallback: str = "current") -> str:
-    match = re.search(
-        r"\b(20\d{2})\s+(?:Football|Men's Soccer|Women's Soccer|"
-        r"Men's Basketball|Women's Basketball)\s+"
-        r"(?:Schedule|Roster)\b",
+    season_range = re.search(
+        r"\b(20\d{2}-\d{2})\b",
         page_text,
         re.IGNORECASE,
     )
 
-    if match:
-        return match.group(1)
+    if season_range:
+        return season_range.group(1)
+
+    single_year = re.search(
+        r"\b(20\d{2})\b",
+        page_text,
+        re.IGNORECASE,
+    )
+
+    if single_year:
+        return single_year.group(1)
 
     return fallback
 

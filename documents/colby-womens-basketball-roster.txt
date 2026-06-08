@@ -1,0 +1,163 @@
+title: 2025-26 Women's Basketball Roster - Colby College
+source_id: colby-womens-basketball-roster
+source_url: https://colbyathletics.com/sports/womens-basketball/roster
+school: Colby College
+sport: Women's Basketball
+season: 2025-26
+document_type: roster
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: athlete
+Player: Emily Ryan
+Jersey number: 0
+Position: G
+Academic year: Fr.
+Height: 5'7"
+Weight: 
+Hometown: Middletown, R.I.
+High school: St. George's School
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/emily-ryan/9227
+
+Record type: athlete
+Player: Brooke Braen
+Jersey number: 3
+Position: G
+Academic year: Fr.
+Height: 5'6"
+Weight: 
+Hometown: Wyckoff, N.J.
+High school: Saddle River Day
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/brooke-braen/9225
+
+Record type: athlete
+Player: Lauren Cho
+Jersey number: 5
+Position: G
+Academic year: Sr.
+Height: 5'8"
+Weight: 
+Hometown: Hopkinton, Mass.
+High school: Hopkinton
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/lauren-cho/9215
+
+Record type: athlete
+Player: Defne Pekinbas
+Jersey number: 10
+Position: F
+Academic year: So.
+Height: 6'0"
+Weight: 
+Hometown: Istanbul, Turkey
+High school: The MacDuffie School
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/defne-pekinbas/9222
+
+Record type: athlete
+Player: Chelsea Ibenegbu
+Jersey number: 11
+Position: G
+Academic year: Sr.
+Height: 5'6"
+Weight: 
+Hometown: Staten Island, N.Y.
+High school: Life Center Academy
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/chelsea-ibenegbu/9218
+
+Record type: athlete
+Player: Talia Thompson
+Jersey number: 12
+Position: G
+Academic year: Jr.
+Height: 5'7"
+Weight: 
+Hometown: Brookline, Mass.
+High school: Brookline
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/talia-thompson/9223
+
+Record type: athlete
+Player: Kate Olenik
+Jersey number: 13
+Position: G
+Academic year: Jr.
+Height: 5'8"
+Weight: 
+Hometown: Medfield, Mass.
+High school: Medfield
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/kate-olenik/9221
+
+Record type: athlete
+Player: Lili Nagy
+Jersey number: 15
+Position: G
+Academic year: Sr.
+Height: 5'6"
+Weight: 
+Hometown: Budapest, Hungary
+High school: Zsigmond Moricz
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/lili-nagy/9220
+
+Record type: athlete
+Player: Amelia Hanscom
+Jersey number: 17
+Position: F
+Academic year: Jr.
+Height: 5'11"
+Weight: 
+Hometown: Andover, Mass.
+High school: Andover
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/amelia-hanscom/9216
+
+Record type: athlete
+Player: Ava Bryan
+Jersey number: 18
+Position: F
+Academic year: Fr.
+Height: 5'10"
+Weight: 
+Hometown: Quincy, Mass.
+High school: Phillips Exeter Academy
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/ava-bryan/9228
+
+Record type: athlete
+Player: Lydia Mordarski
+Jersey number: 21
+Position: G
+Academic year: Sr.
+Height: 5'8"
+Weight: 
+Hometown: Mansfield, Mass.
+High school: Bishop Feehan
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/lydia-mordarski/9219
+
+Record type: athlete
+Player: Shea Donnelly
+Jersey number: 23
+Position: G
+Academic year: Fr.
+Height: 5'7"
+Weight: 
+Hometown: Manasquan, N.J.
+High school: Manasquan
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/shea-donnelly/9226
+
+Record type: athlete
+Player: Caroline Hartley
+Jersey number: 24
+Position: G/F
+Academic year: So.
+Height: 5'10"
+Weight: 
+Hometown: Scarborough, Maine
+High school: Scarborough
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/caroline-hartley/9217
+
+Record type: athlete
+Player: Ana Von Rumohr
+Jersey number: 25
+Position: G/F
+Academic year: Jr.
+Height: 5'10"
+Weight: 
+Hometown: Lexington, Mass.
+High school: The Rivers School
+Profile URL: https://colbyathletics.com/sports/womens-basketball/roster/ana-von-rumohr/9224
