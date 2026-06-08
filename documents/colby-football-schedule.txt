@@ -1,4 +1,4 @@
-title: Colby Football Schedule
+title: 2026 Football Schedule - Colby College
 source_id: colby-football-schedule
 source_url: https://colbyathletics.com/sports/football/schedule
 school: Colby College

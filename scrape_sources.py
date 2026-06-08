@@ -91,6 +91,94 @@ def extract_images(
 
     return images
 
+def extract_roster_text(soup: BeautifulSoup) -> str:
+    players = []
+
+    for player in soup.select(".sidearm-roster-player"):
+        name = clean_text(
+            player.select_one(".sidearm-roster-player-name").get_text(" ", strip=True)
+        ) if player.select_one(".sidearm-roster-player-name") else ""
+        
+        name = re.sub(r"^\d+\s+", "", name).strip()
+
+        jersey = clean_text(
+            player.select_one(
+                ".sidearm-roster-player-jersey-number"
+            ).get_text(" ", strip=True)
+        ) if player.select_one(".sidearm-roster-player-jersey-number") else ""
+
+        position = clean_text(
+            player.select_one(
+                ".sidearm-roster-player-position"
+            ).get_text(" ", strip=True)
+        ) if player.select_one(".sidearm-roster-player-position") else ""
+        
+        position = re.sub(
+            r"\s+\d+'\d+\"\s+\d+\s*lbs.*$",
+            "",
+            position,
+        ).strip()
+
+        height = clean_text(
+            player.select_one(
+                ".sidearm-roster-player-height"
+            ).get_text(" ", strip=True)
+        ) if player.select_one(".sidearm-roster-player-height") else ""
+
+        weight = clean_text(
+            player.select_one(
+                ".sidearm-roster-player-weight"
+            ).get_text(" ", strip=True)
+        ) if player.select_one(".sidearm-roster-player-weight") else ""
+
+        academic_year = clean_text(
+            player.select_one(
+                ".sidearm-roster-player-academic-year"
+            ).get_text(" ", strip=True)
+        ) if player.select_one(".sidearm-roster-player-academic-year") else ""
+
+        hometown = clean_text(
+            player.select_one(
+                ".sidearm-roster-player-hometown"
+            ).get_text(" ", strip=True)
+        ) if player.select_one(".sidearm-roster-player-hometown") else ""
+
+        high_school = clean_text(
+            player.select_one(
+                ".sidearm-roster-player-highschool"
+            ).get_text(" ", strip=True)
+        ) if player.select_one(".sidearm-roster-player-highschool") else ""
+
+        profile_link_element = player.select_one(
+            ".sidearm-roster-player-name a"
+        )
+
+        profile_url = ""
+        if profile_link_element and profile_link_element.get("href"):
+            profile_url = urljoin(
+                "https://colbyathletics.com",
+                profile_link_element["href"],
+            )
+
+        if not name:
+            continue
+
+        record = [
+            "Record type: athlete",
+            f"Player: {name}",
+            f"Jersey number: {jersey}",
+            f"Position: {position}",
+            f"Academic year: {academic_year}",
+            f"Height: {height}",
+            f"Weight: {weight}",
+            f"Hometown: {hometown}",
+            f"High school: {high_school}",
+            f"Profile URL: {profile_url}",
+        ]
+
+        players.append("\n".join(record))
+
+    return "\n\n".join(players)
 
 def scrape_source(source: dict) -> tuple[str, list[dict]]:
     headers = {
@@ -109,33 +197,48 @@ def scrape_source(source: dict) -> tuple[str, list[dict]]:
 
     soup = BeautifulSoup(response.text, "lxml")
 
-    page_text = extract_page_text(soup)
+    page_title = clean_text(soup.title.get_text(" ", strip=True)) if soup.title else ""
+
+    if source.get("document_type") == "roster":
+        page_text = extract_roster_text(soup)
+    else:
+        page_text = extract_page_text(soup)
 
     images = []
     if source.get("collect_images", False):
         images = extract_images(soup, response.url, source)
 
-    return page_text, images
+    return page_text, images, page_title
 
 def detect_season(page_text: str, fallback: str = "current") -> str:
-    match = re.search(r"\b(20\d{2})\s+Football Schedule\b", page_text)
+    match = re.search(
+        r"\b(20\d{2})\s+(?:Football|Men's Soccer|Women's Soccer|"
+        r"Men's Basketball|Women's Basketball)\s+"
+        r"(?:Schedule|Roster)\b",
+        page_text,
+        re.IGNORECASE,
+    )
 
     if match:
         return match.group(1)
 
     return fallback
 
-def save_document(source: dict, page_text: str) -> Path:
+def save_document(
+        source: dict, 
+        page_text: str, 
+        page_title: str,
+        ) -> Path:
     DOCUMENTS_DIR.mkdir(exist_ok=True)
 
     output_path = DOCUMENTS_DIR / f"{source['id']}.txt"
 
     detected_season = detect_season(
-    page_text,
+    page_title + "\n" + page_text,
     source.get("season", "current"),
     )
     
-    metadata = f"""title: {source["title"]}
+    metadata = f"""title: {page_title}
 source_id: {source["id"]}
 source_url: {source["url"]}
 school: {source.get("school", "")}
@@ -168,8 +271,8 @@ def main() -> None:
         print(f"Scraping: {source['title']}")
 
         try:
-            page_text, images = scrape_source(source)
-            output_path = save_document(source, page_text)
+            page_text, images, page_title = scrape_source(source)
+            output_path = save_document(source, page_text, page_title)
 
             all_images.extend(images)
 

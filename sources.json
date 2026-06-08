@@ -9,5 +9,16 @@
     "document_type": "schedule",
     "collect_images": true,
     "refresh_frequency": "daily"
-  }
+  },
+  {
+  "id": "colby-football-roster",
+  "title": "Colby Football Roster",
+  "url": "https://colbyathletics.com/sports/football/roster",
+  "school": "Colby College",
+  "sport": "Football",
+  "season": "current",
+  "document_type": "roster",
+  "collect_images": true,
+  "refresh_frequency": "weekly"
+}
 ]

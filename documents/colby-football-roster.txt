@@ -1,0 +1,966 @@
+title: 2025 Football Roster - Colby College
+source_id: colby-football-roster
+source_url: https://colbyathletics.com/sports/football/roster
+school: Colby College
+sport: Football
+season: 2025
+document_type: roster
+date_accessed: 2026-06-08
+
+CONTENT:
+Record type: athlete
+Player: Sean Trinder
+Jersey number: 0
+Position: WR
+Academic year: So.
+Height: 6'1"
+Weight: 200 lbs
+Hometown: Fair Haven, N.J.
+High school: Rumson Fair Haven Regional
+Profile URL: https://colbyathletics.com/sports/football/roster/sean-trinder/9043
+
+Record type: athlete
+Player: Cody Song
+Jersey number: 1
+Position: WR
+Academic year: Jr.
+Height: 6'0"
+Weight: 175 lbs
+Hometown: Cresskill, N.J.
+High school: Cresskill
+Profile URL: https://colbyathletics.com/sports/football/roster/cody-song/9037
+
+Record type: athlete
+Player: Trevor Smith
+Jersey number: 2
+Position: DB
+Academic year: Sr.
+Height: 5'10"
+Weight: 175 lbs
+Hometown: Concord, N.H.
+High school: St. Paul's School
+Profile URL: https://colbyathletics.com/sports/football/roster/trevor-smith/9035
+
+Record type: athlete
+Player: Miles Drake
+Jersey number: 3
+Position: QB
+Academic year: Sr.
+Height: 6'2"
+Weight: 205 lbs
+Hometown: Darien, Conn.
+High school: Darien
+Profile URL: https://colbyathletics.com/sports/football/roster/miles-drake/9003
+
+Record type: athlete
+Player: Cormac Wright
+Jersey number: 4
+Position: WR
+Academic year: Sr.
+Height: 6'0"
+Weight: 190 lbs
+Hometown: Franklin, Mass.
+High school: St. Sebastian's School
+Profile URL: https://colbyathletics.com/sports/football/roster/cormac-wright/9049
+
+Record type: athlete
+Player: Ryan Singhal
+Jersey number: 5
+Position: RB
+Academic year: Jr.
+Height: 5'10"
+Weight: 195 lbs
+Hometown: Pasadena, Calif.
+High school: San Marino
+Profile URL: https://colbyathletics.com/sports/football/roster/ryan-singhal/9034
+
+Record type: athlete
+Player: Christopher Milmoe
+Jersey number: 6
+Position: DB
+Academic year: Jr.
+Height: 6'0"
+Weight: 185 lbs
+Hometown: York, Maine
+High school: Belmont Hill
+Profile URL: https://colbyathletics.com/sports/football/roster/christopher-milmoe/9021
+
+Record type: athlete
+Player: Subomi Soyoye
+Jersey number: 7
+Position: WR
+Academic year: Sr.
+Height: 6'1"
+Weight: 180 lbs
+Hometown: Grafton, Mass.
+High school: Newton North
+Profile URL: https://colbyathletics.com/sports/football/roster/subomi-soyoye/9038
+
+Record type: athlete
+Player: Sebastien Romain
+Jersey number: 8
+Position: LB
+Academic year: Sr.
+Height: 6'3"
+Weight: 225 lbs
+Hometown: Hudson, Mass.
+High school: St. John’s
+Profile URL: https://colbyathletics.com/sports/football/roster/sebastien-romain/9032
+
+Record type: athlete
+Player: Lincoln Merrill
+Jersey number: 9
+Position: LB
+Academic year: Jr.
+Height: 6'3"
+Weight: 225 lbs
+Hometown: West Paris, Maine
+High school: Oxford Hills
+Profile URL: https://colbyathletics.com/sports/football/roster/lincoln-merrill/9020
+
+Record type: athlete
+Player: Finn Tierney
+Jersey number: 11
+Position: QB
+Academic year: Fr.
+Height: 6'2"
+Weight: 185 lbs
+Hometown: Haverford, Pa.
+High school: The Haverford School
+Profile URL: https://colbyathletics.com/sports/football/roster/finn-tierney/9073
+
+Record type: athlete
+Player: Eli Soehren
+Jersey number: 12
+Position: TE
+Academic year: Jr.
+Height: 6'3"
+Weight: 220 lbs
+Hometown: Otisfield, Maine
+High school: Oxford Hills
+Profile URL: https://colbyathletics.com/sports/football/roster/eli-soehren/9036
+
+Record type: athlete
+Player: Jack Duffy
+Jersey number: 13
+Position: WR
+Academic year: Jr.
+Height: 6'0"
+Weight: 175 lbs
+Hometown: Marshfield, Mass.
+High school: Cardinal Spellman
+Profile URL: https://colbyathletics.com/sports/football/roster/jack-duffy/9004
+
+Record type: athlete
+Player: Ray Thornton
+Jersey number: 14
+Position: WR
+Academic year: Jr.
+Height: 5'10"
+Weight: 160 lbs
+Hometown: La Jolla, Calif.
+High school: The Bishop School
+Profile URL: https://colbyathletics.com/sports/football/roster/ray-thornton/9041
+
+Record type: athlete
+Player: Caleb Parsons Gomes
+Jersey number: 15
+Position: LB
+Academic year: So.
+Height: 6'3"
+Weight: 205 lbs
+Hometown: Braintree, Mass.
+High school: Braintree
+Profile URL: https://colbyathletics.com/sports/football/roster/caleb-parsons-gomes/9069
+
+Record type: athlete
+Player: Patrick Miller
+Jersey number: 16
+Position: QB
+Academic year: Fr.
+Height: 6'2"
+Weight: 175 lbs
+Hometown: Milton, Mass.
+High school: Worcester Academy
+Profile URL: https://colbyathletics.com/sports/football/roster/patrick-miller/9067
+
+Record type: athlete
+Player: Henry Emswiler
+Jersey number: 17
+Position: TE
+Academic year: Sr.
+Height: 6'4"
+Weight: 225 lbs
+Hometown: New York, N.Y.
+High school: Hotchkiss School
+Profile URL: https://colbyathletics.com/sports/football/roster/henry-emswiler/9005
+
+Record type: athlete
+Player: Xavier Ferrara
+Jersey number: 18
+Position: WR
+Academic year: Jr.
+Height: 6'3"
+Weight: 200 lbs
+Hometown: Wellesley, Mass.
+High school: Wellesley
+Profile URL: https://colbyathletics.com/sports/football/roster/xavier-ferrara/9006
+
+Record type: athlete
+Player: Declan McNamara
+Jersey number: 19
+Position: LB
+Academic year: Sr.
+Height: 6'4"
+Weight: 210 lbs
+Hometown: Ridgefield, Conn.
+High school: Suffield Academy
+Profile URL: https://colbyathletics.com/sports/football/roster/declan-mcnamara/9019
+
+Record type: athlete
+Player: Drew Ramos
+Jersey number: 20
+Position: DB
+Academic year: Jr.
+Height: 6'0"
+Weight: 185 lbs
+Hometown: Kentfield, Calif.
+High school: Mapin Catholic
+Profile URL: https://colbyathletics.com/sports/football/roster/drew-ramos/9029
+
+Record type: athlete
+Player: Noah Abdur Rahim
+Jersey number: 21
+Position: DB
+Academic year: Fr.
+Height: 5'9"
+Weight: 160 lbs
+Hometown: Mattapan, Mass.
+High school: Roxbury Latin School
+Profile URL: https://colbyathletics.com/sports/football/roster/noah-abdur-rahim/9050
+
+Record type: athlete
+Player: Jimmie Winbush Jr.
+Jersey number: 22
+Position: DB
+Academic year: Fr.
+Height: 5'11"
+Weight: 195 lbs
+Hometown: Carmel, Ind.
+High school: Carmel
+Profile URL: https://colbyathletics.com/sports/football/roster/jimmie-winbush-jr-/9076
+
+Record type: athlete
+Player: Brody Rice
+Jersey number: 23
+Position: DB
+Academic year: Jr.
+Height: 5'10"
+Weight: 180 lbs
+Hometown: Milton, Mass.
+High school: BC High
+Profile URL: https://colbyathletics.com/sports/football/roster/brody-rice/9031
+
+Record type: athlete
+Player: Ameer White
+Jersey number: 24
+Position: DB
+Academic year: So.
+Height: 6'0"
+Weight: 190 lbs
+Hometown: Rye, N.Y.
+High school: Rye
+Profile URL: https://colbyathletics.com/sports/football/roster/ameer-white/9047
+
+Record type: athlete
+Player: Will Trafford
+Jersey number: 25
+Position: DB
+Academic year: Fr.
+Height: 6'1"
+Weight: 180 lbs
+Hometown: West Caldwell, N.J.
+High school: Delbarton School
+Profile URL: https://colbyathletics.com/sports/football/roster/will-trafford/9074
+
+Record type: athlete
+Player: Antone Moreis
+Jersey number: 26
+Position: RB
+Academic year: Jr.
+Height: 5'9"
+Weight: 190 lbs
+Hometown: Edgartown, Mass.
+High school: St. Paul's School
+Profile URL: https://colbyathletics.com/sports/football/roster/antone-moreis/9022
+
+Record type: athlete
+Player: Santanna Cardoso
+Jersey number: 27
+Position: DB
+Academic year: Fr.
+Height: 5'11"
+Weight: 185 lbs
+Hometown: Boston, Mass.
+High school: Dexter Southfield School
+Profile URL: https://colbyathletics.com/sports/football/roster/santanna-cardoso/9054
+
+Record type: athlete
+Player: Owen Haight
+Jersey number: 28
+Position: LB
+Academic year: So.
+Height: 6'1"
+Weight: 195 lbs
+Hometown: Delhi, N.Y.
+High school: Deerfield Academy
+Profile URL: https://colbyathletics.com/sports/football/roster/owen-haight/9010
+
+Record type: athlete
+Player: Corey Aubuchon
+Jersey number: 29
+Position: RB
+Academic year: So.
+Height: 6'0"
+Weight: 210 lbs
+Hometown: Westminster, Mass.
+High school: The Governor's Academy
+Profile URL: https://colbyathletics.com/sports/football/roster/corey-aubuchon/8993
+
+Record type: athlete
+Player: Halston Wilkey
+Jersey number: 31
+Position: DB
+Academic year: Sr.
+Height: 6'2"
+Weight: 205 lbs
+Hometown: Harvard, Mass.
+High school: Killington Mountain School
+Profile URL: https://colbyathletics.com/sports/football/roster/halston-wilkey/9075
+
+Record type: athlete
+Player: Nicholas Cox
+Jersey number: 32
+Position: DB
+Academic year: Jr.
+Height: 6'0"
+Weight: 195 lbs
+Hometown: Lyme, Conn.
+High school: Valley Regional
+Profile URL: https://colbyathletics.com/sports/football/roster/nicholas-cox/8998
+
+Record type: athlete
+Player: Evan Thompson
+Jersey number: 34
+Position: RB
+Academic year: Jr.
+Height: 6'2"
+Weight: 215 lbs
+Hometown: Newton, Mass.
+High school: Bridgton Academy
+Profile URL: https://colbyathletics.com/sports/football/roster/evan-thompson/9040
+
+Record type: athlete
+Player: Ben Caso
+Jersey number: 35
+Position: LB
+Academic year: So.
+Height: 5'10"
+Weight: 195 lbs
+Hometown: Abidjan, Côte d'Ivoire
+High school: Berkshire School
+Profile URL: https://colbyathletics.com/sports/football/roster/ben-caso/9056
+
+Record type: athlete
+Player: Dennis Dougherty
+Jersey number: 36
+Position: LB
+Academic year: Sr.
+Height: 6'1"
+Weight: 225 lbs
+Hometown: Gretna, La.
+High school: Jesuit
+Profile URL: https://colbyathletics.com/sports/football/roster/dennis-dougherty/9002
+
+Record type: athlete
+Player: Quinton Delorey
+Jersey number: 37
+Position: LB
+Academic year: Fr.
+Height: 5'10"
+Weight: 205 lbs
+Hometown: Londonderry, N.H.
+High school: Saint Paul's School
+Profile URL: https://colbyathletics.com/sports/football/roster/quinton-delorey/9058
+
+Record type: athlete
+Player: Buck Lewis
+Jersey number: 38
+Position: LB
+Academic year: Jr.
+Height: 6'3"
+Weight: 215 lbs
+Hometown: Concord, Mass.
+High school: St. Mark's School
+Profile URL: https://colbyathletics.com/sports/football/roster/buck-lewis/9017
+
+Record type: athlete
+Player: Max Toomey
+Jersey number: 39
+Position: LB
+Academic year: Sr.
+Height: 6'0"
+Weight: 210 lbs
+Hometown: Lexington, Mass.
+High school: Middlesex School
+Profile URL: https://colbyathletics.com/sports/football/roster/max-toomey/9042
+
+Record type: athlete
+Player: Aiden Kelley
+Jersey number: 41
+Position: LB
+Academic year: Sr.
+Height: 6'2"
+Weight: 225 lbs
+Hometown: Manchester, N.H.
+High school: Manchester Central
+Profile URL: https://colbyathletics.com/sports/football/roster/aiden-kelley/9014
+
+Record type: athlete
+Player: Conner Dinn
+Jersey number: 42
+Position: FB
+Academic year: Jr.
+Height: 6'0"
+Weight: 230 lbs
+Hometown: Cataumet, Mass.
+High school: Killington Mountain School
+Profile URL: https://colbyathletics.com/sports/football/roster/conner-dinn/9000
+
+Record type: athlete
+Player: Owen Bedell
+Jersey number: 43
+Position: DB
+Academic year: So.
+Height: 6'1"
+Weight: 190 lbs
+Hometown: Catham, N.J.
+High school: Chatham
+Profile URL: https://colbyathletics.com/sports/football/roster/owen-bedell/8994
+
+Record type: athlete
+Player: Charlie Sciretto
+Jersey number: 44
+Position: DB
+Academic year: Jr.
+Height: 6'4"
+Weight: 205 lbs
+Hometown: Portsmouth, N.H.
+High school: Williston Northampton School
+Profile URL: https://colbyathletics.com/sports/football/roster/charlie-sciretto/9033
+
+Record type: athlete
+Player: Josh Tsai
+Jersey number: 45
+Position: LB
+Academic year: So.
+Height: 6'2"
+Weight: 220 lbs
+Hometown: Moraga, Calif.
+High school: Campolindo
+Profile URL: https://colbyathletics.com/sports/football/roster/josh-tsai/9044
+
+Record type: athlete
+Player: Ethan Walker
+Jersey number: 46
+Position: DB
+Academic year: Jr.
+Height: 6'1"
+Weight: 180 lbs
+Hometown: Vienna, Va.
+High school: Sidwell Friends School
+Profile URL: https://colbyathletics.com/sports/football/roster/ethan-walker/9045
+
+Record type: athlete
+Player: Aidan Cole
+Jersey number: 47
+Position: LB
+Academic year: So.
+Height: 6'2"
+Weight: 210 lbs
+Hometown: Marshfield, Mass.
+High school: Milton Academy
+Profile URL: https://colbyathletics.com/sports/football/roster/aidan-cole/8997
+
+Record type: athlete
+Player: Aidan Barber
+Jersey number: 48
+Position: LB
+Academic year: Fr.
+Height: 6'1"
+Weight: 210 lbs
+Hometown: Morristown, N.J.
+High school: Delbarton
+Profile URL: https://colbyathletics.com/sports/football/roster/aidan-barber/9053
+
+Record type: athlete
+Player: Robert Fallon
+Jersey number: 49
+Position: LB
+Academic year: Fr.
+Height: 6'1"
+Weight: 205 lbs
+Hometown: Milton, Mass.
+High school: Milton Academy
+Profile URL: https://colbyathletics.com/sports/football/roster/robert-fallon/9060
+
+Record type: athlete
+Player: Trevor Cash
+Jersey number: 52
+Position: DL
+Academic year: Fr.
+Height: 6'2"
+Weight: 285 lbs
+Hometown: Madison, Conn.
+High school: Daniel Hand
+Profile URL: https://colbyathletics.com/sports/football/roster/trevor-cash/9055
+
+Record type: athlete
+Player: Davaughn Russell
+Jersey number: 54
+Position: OL
+Academic year: Fr.
+Height: 6'1"
+Weight: 290 lbs
+Hometown: Miami, Fla.
+High school: Christopher Columbus
+Profile URL: https://colbyathletics.com/sports/football/roster/davaughn-russell/9070
+
+Record type: athlete
+Player: Ryan Bachmore
+Jersey number: 55
+Position: OL
+Academic year: Fr.
+Height: 6'0"
+Weight: 280 lbs
+Hometown: Bayport, N.Y.
+High school: Bayport Bluepoint
+Profile URL: https://colbyathletics.com/sports/football/roster/ryan-bachmore/9052
+
+Record type: athlete
+Player: Gamble Reed
+Jersey number: 56
+Position: DL
+Academic year: Sr.
+Height: 6'2"
+Weight: 225 lbs
+Hometown: Spring, Texas
+High school: The John Cooper School
+Profile URL: https://colbyathletics.com/sports/football/roster/gamble-reed/9030
+
+Record type: athlete
+Player: Michael Williams
+Jersey number: 57
+Position: LB
+Academic year: Sr.
+Height: 5'10"
+Weight: 210 lbs
+Hometown: Evanston, Ill.
+High school: Loyola Academy
+Profile URL: https://colbyathletics.com/sports/football/roster/michael-williams/9048
+
+Record type: athlete
+Player: Bryce Malary
+Jersey number: 58
+Position: OL
+Academic year: So.
+Height: 6'3"
+Weight: 280 lbs
+Hometown: Madison, Conn.
+High school: Daniel Hand
+Profile URL: https://colbyathletics.com/sports/football/roster/bryce-malary/9018
+
+Record type: athlete
+Player: Trey Stevens
+Jersey number: 59
+Position: DL
+Academic year: So.
+Height: 6'2"
+Weight: 230 lbs
+Hometown: Rye, N.Y.
+High school: Rye Country Day
+Profile URL: https://colbyathletics.com/sports/football/roster/trey-stevens/9039
+
+Record type: athlete
+Player: Sam Graziano
+Jersey number: 60
+Position: K/P
+Academic year: So.
+Height: 5'11"
+Weight: 180 lbs
+Hometown: Southport, Conn.
+High school: Fairfield Ludlowe
+Profile URL: https://colbyathletics.com/sports/football/roster/sam-graziano/9008
+
+Record type: athlete
+Player: Beau Newmarker
+Jersey number: 61
+Position: OL
+Academic year: Fr.
+Height: 5'11"
+Weight: 230 lbs
+Hometown: Dover, Mass.
+High school: Dover-Sherborn
+Profile URL: https://colbyathletics.com/sports/football/roster/beau-newmarker/9068
+
+Record type: athlete
+Player: Will Schneider
+Jersey number: 62
+Position: K
+Academic year: Fr.
+Height: 5'10"
+Weight: 175 lbs
+Hometown: New York, N.Y.
+High school: Choate Rosemary Hall
+Profile URL: https://colbyathletics.com/sports/football/roster/will-schneider/9071
+
+Record type: athlete
+Player: Philip Brady
+Jersey number: 63
+Position: OL
+Academic year: So.
+Height: 6'2"
+Weight: 260 lbs
+Hometown: Fairfield, Conn.
+High school: Fairfield Prep
+Profile URL: https://colbyathletics.com/sports/football/roster/philip-brady/8995
+
+Record type: athlete
+Player: Christian Gregory
+Jersey number: 64
+Position: OL
+Academic year: Jr.
+Height: 6'2"
+Weight: 280 lbs
+Hometown: Pottstown, Penn.
+High school: Owen J. Roberts
+Profile URL: https://colbyathletics.com/sports/football/roster/christian-gregory/9009
+
+Record type: athlete
+Player: Walker Adams
+Jersey number: 65
+Position: OL
+Academic year: Fr.
+Height: 6'3"
+Weight: 285 lbs
+Hometown: Dover, Mass.
+High school: Deerfield Academy
+Profile URL: https://colbyathletics.com/sports/football/roster/walker-adams/9051
+
+Record type: athlete
+Player: Nasir Lawson
+Jersey number: 68
+Position: OL
+Academic year: Sr.
+Height: 6'2"
+Weight: 265 lbs
+Hometown: Newtown, Penn.
+High school: Lawrenceville School
+Profile URL: https://colbyathletics.com/sports/football/roster/nasir-lawson/9016
+
+Record type: athlete
+Player: Nicolas Deshong
+Jersey number: 70
+Position: OL
+Academic year: So.
+Height: 6'3"
+Weight: 295 lbs
+Hometown: Cromwell, Conn.
+High school: Middletown
+Profile URL: https://colbyathletics.com/sports/football/roster/nicolas-deshong/8999
+
+Record type: athlete
+Player: Harrison Dewitt
+Jersey number: 72
+Position: OL
+Academic year: Fr.
+Height: 6'3"
+Weight: 265 lbs
+Hometown: Sudbury, Mass.
+High school: Belmont Hill School
+Profile URL: https://colbyathletics.com/sports/football/roster/harrison-dewitt/9059
+
+Record type: athlete
+Player: Jackson Hedin
+Jersey number: 73
+Position: OL
+Academic year: Fr.
+Height: 6'4"
+Weight: 310 lbs
+Hometown: Concord Township, Ohio
+High school: Hawken
+Profile URL: https://colbyathletics.com/sports/football/roster/jackson-hedin/9063
+
+Record type: athlete
+Player: Liam Welch
+Jersey number: 75
+Position: OL
+Academic year: So.
+Height: 6'3"
+Weight: 285 lbs
+Hometown: Longmeadow, Mass.
+High school: Longmeadow
+Profile URL: https://colbyathletics.com/sports/football/roster/liam-welch/9046
+
+Record type: athlete
+Player: Joelin Pimentel
+Jersey number: 76
+Position: OL
+Academic year: Sr.
+Height: 6'3"
+Weight: 270 lbs
+Hometown: Lawrence, Mass.
+High school: The Pingree School
+Profile URL: https://colbyathletics.com/sports/football/roster/joelin-pimentel/9027
+
+Record type: athlete
+Player: Chris Poulson
+Jersey number: 79
+Position: OL
+Academic year: So.
+Height: 6'5"
+Weight: 275 lbs
+Hometown: Doylestown, Pa.
+High school: Central Bucks East
+Profile URL: https://colbyathletics.com/sports/football/roster/chris-poulson/9028
+
+Record type: athlete
+Player: Jack Nye
+Jersey number: 80
+Position: WR
+Academic year: So.
+Height: 6'3"
+Weight: 220 lbs
+Hometown: Clinton, Conn.
+High school: The Morgan School
+Profile URL: https://colbyathletics.com/sports/football/roster/jack-nye/9024
+
+Record type: athlete
+Player: Elian Joseph
+Jersey number: 81
+Position: WR
+Academic year: Sr.
+Height: 5'10"
+Weight: 170 lbs
+Hometown: Bellevue, Wash.
+High school: Lakeside
+Profile URL: https://colbyathletics.com/sports/football/roster/elian-joseph/9013
+
+Record type: athlete
+Player: Avi Gotshalk
+Jersey number: 83
+Position: K/P
+Academic year: Fr.
+Height: 5'11"
+Weight: 155 lbs
+Hometown: Salt Lake City, Utah
+High school: Highland
+Profile URL: https://colbyathletics.com/sports/football/roster/avi-gotshalk/9062
+
+Record type: athlete
+Player: Trevor Gerrish
+Jersey number: 85
+Position: WR
+Academic year: Fr.
+Height: 6'5"
+Weight: 215 lbs
+Hometown: Brunswick, Maine
+High school: Brunswick
+Profile URL: https://colbyathletics.com/sports/football/roster/trevor-gerrish/9061
+
+Record type: athlete
+Player: Alex Clapp
+Jersey number: 86
+Position: WR
+Academic year: Fr.
+Height: 6'6"
+Weight: 225 lbs
+Hometown: Westerly, R.I.
+High school: Middlesex School
+Profile URL: https://colbyathletics.com/sports/football/roster/alex-clapp/9057
+
+Record type: athlete
+Player: Kieran Jacobson
+Jersey number: 87
+Position: TE
+Academic year: Fr.
+Height: 6'2"
+Weight: 205 lbs
+Hometown: Larchmont, N.Y.
+High school: Mamaroneck
+Profile URL: https://colbyathletics.com/sports/football/roster/kieran-jacobson/9064
+
+Record type: athlete
+Player: John Ogletree
+Jersey number: 88
+Position: TE
+Academic year: Jr.
+Height: 6'4"
+Weight: 225 lbs
+Hometown: Needham, Mass.
+High school: Williston Northampton School
+Profile URL: https://colbyathletics.com/sports/football/roster/john-ogletree/9026
+
+Record type: athlete
+Player: Tenzin Ghaponstang
+Jersey number: 89
+Position: DL
+Academic year: Jr.
+Height: 6'5"
+Weight: 245 lbs
+Hometown: Somerville, Mass.
+High school: Roxbury Latin
+Profile URL: https://colbyathletics.com/sports/football/roster/tenzin-ghaponstang/9007
+
+Record type: athlete
+Player: Bryan Joseph
+Jersey number: 90
+Position: DL
+Academic year: Fr.
+Height: 6'1"
+Weight: 310 lbs
+Hometown: Malden, Mass.
+High school: Dexter Southfield School
+Profile URL: https://colbyathletics.com/sports/football/roster/bryan-joseph/9065
+
+Record type: athlete
+Player: Cooper Bunnell
+Jersey number: 91
+Position: DL
+Academic year: So.
+Height: 6'0"
+Weight: 245 lbs
+Hometown: Rumson, N.J.
+High school: Rumson Fairhaven Regional
+Profile URL: https://colbyathletics.com/sports/football/roster/cooper-bunnell/8996
+
+Record type: athlete
+Player: Jason Stephens
+Jersey number: 92
+Position: DL
+Academic year: Fr.
+Height: 6'6"
+Weight: 260 lbs
+Hometown: Wellesley, Mass.
+High school: Wellesley
+Profile URL: https://colbyathletics.com/sports/football/roster/jason-stephens/9072
+
+Record type: athlete
+Player: Oliver Knight
+Jersey number: 94
+Position: DL
+Academic year: Fr.
+Height: 6'0"
+Weight: 275 lbs
+Hometown: Wellesley, Mass.
+High school: Wellesley
+Profile URL: https://colbyathletics.com/sports/football/roster/oliver-knight/9066
+
+Record type: athlete
+Player: Joshua Iyonsi
+Jersey number: 95
+Position: DL
+Academic year: Sr.
+Height: 6'3"
+Weight: 240 lbs
+Hometown: River Edge, N.J.
+High school: Lawrenceville School
+Profile URL: https://colbyathletics.com/sports/football/roster/joshua-iyonsi/9012
+
+Record type: athlete
+Player: Jack Mullen
+Jersey number: 96
+Position: DL
+Academic year: Sr.
+Height: 6'5"
+Weight: 255 lbs
+Hometown: Trumbull, Conn.
+High school: Fairfield Prep
+Profile URL: https://colbyathletics.com/sports/football/roster/jack-mullen/9023
+
+Record type: athlete
+Player: Ernest Obiorah
+Jersey number: 97
+Position: DL
+Academic year: So.
+Height: 6'4"
+Weight: 260 lbs
+Hometown: McDonough, Ga.
+High school: St. Paul's School
+Profile URL: https://colbyathletics.com/sports/football/roster/ernest-obiorah/9025
+
+Record type: athlete
+Player: Montrail Holmes
+Jersey number: 99
+Position: DL
+Academic year: Jr.
+Height: 6'2"
+Weight: 295 lbs
+Hometown: Tampa, Fla.
+High school: Carrolwood Day School
+Profile URL: https://colbyathletics.com/sports/football/roster/montrail-holmes/9011
+
+Record type: athlete
+Player: Bianca Beingolea
+Jersey number: 
+Position: Manager
+Academic year: Sr.
+Height: 
+Weight: 
+Hometown: San Joes, Costa Rica
+High school: CIT Technical
+Profile URL: https://colbyathletics.com/sports/football/roster/bianca-beingolea/9093
+
+Record type: athlete
+Player: Abby Chin
+Jersey number: 
+Position: Manager
+Academic year: Jr.
+Height: 
+Weight: 
+Hometown: Canton, Mass.
+High school: Canton
+Profile URL: https://colbyathletics.com/sports/football/roster/abby-chin/9091
+
+Record type: athlete
+Player: Hunter Kuftinec
+Jersey number: 
+Position: Manager
+Academic year: Jr.
+Height: 
+Weight: 
+Hometown: Carlisle, Mass.
+High school: Concord Carlisle
+Profile URL: https://colbyathletics.com/sports/football/roster/hunter-kuftinec/9077
+
+Record type: athlete
+Player: Campbell Stewart
+Jersey number: 
+Position: Manager
+Academic year: Jr.
+Height: 
+Weight: 
+Hometown: Annapolis, Md.
+High school: The Key School
+Profile URL: https://colbyathletics.com/sports/football/roster/campbell-stewart/9094
+
+Record type: athlete
+Player: Sofia VanHook
+Jersey number: 
+Position: Manger
+Academic year: Jr.
+Height: 
+Weight: 
+Hometown: Chapel Hill, N.C.
+High school: Chapel Hill
+Profile URL: https://colbyathletics.com/sports/football/roster/sofia-vanhook/9092
