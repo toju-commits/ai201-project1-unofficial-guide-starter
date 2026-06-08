@@ -1,4 +1,16 @@
 from pathlib import Path
+import warnings
+
+warnings.filterwarnings(
+    "ignore",
+    category=DeprecationWarning,
+    message=r".*asyncio\.iscoroutinefunction.*",
+)
+warnings.filterwarnings(
+    "ignore",
+    category=ResourceWarning,
+    message=r".*unclosed event loop.*",
+)
 
 import chromadb
 from sentence_transformers import SentenceTransformer
