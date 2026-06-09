@@ -14,6 +14,9 @@ The current corpus covers:
 
 The system currently contains **15 source documents** and **793 structure-aware chunks**.
 
+## Demo Video
+
+[Watch the 3–5 minute project demo](https://drive.google.com/file/d/1B72qeYyE0YvotyTmQgZwGl9Jyqf5YnCz/view?usp=drive_link)
 ---
 
 ## Domain
