@@ -83,6 +83,197 @@ The chunking pipeline therefore uses document-specific behavior:
 **Final chunk count:** 793 chunks across 15 documents.
 
 ---
+## Sample Chunks
+
+The following examples show the structure-aware chunks produced by the ingestion pipeline.
+
+### Sample Chunk 1 — Football Roster
+
+**Source document:** `2025 Football Roster - Colby College`
+
+```text
+Record type: athlete
+Player: Sean Trinder
+Jersey number: 0
+Position: WR
+Academic year: So.
+Height: 6'1"
+Weight: 200 lbs
+Hometown: Fair Haven, N.J.
+High school: Rumson Fair Haven Regional
+Profile URL: https://colbyathletics.com/sports/football/roster/sean-trinder/9043
+```
+
+### Sample Chunk 2 — Football Schedule
+
+**Source document:** `2026 Football Schedule - Colby College`
+
+```text
+School: Colby College
+Sport: Football
+Season: 2026
+Document type: schedule
+Source: 2026 Football Schedule - Colby College
+
+Nov 14 (Sat)
+1:00 PM
+NESCAC
+Bowdoin College
+Brunswick, ME
+```
+
+### Sample Chunk 3 — Football Receiving Statistics
+
+**Source document:** `2025 Football Cumulative Statistics - Colby College`
+
+```text
+Record type: Individual Receiving Statistics
+School: Colby College
+Sport: Football
+Season: 2025
+Player: Jack Nye
+Jersey number: 80
+GP: 9
+NO: 31
+YDS: 369
+AVG: 11.90
+TD: 1
+Long: 55
+AVG/G: 41.00
+```
+
+### Sample Chunk 4 — Men's Basketball Statistics
+
+**Source document:** `2025-26 Men's Basketball Cumulative Statistics - Colby College`
+
+```text
+Record type: Overall Scoring Statistics
+School: Colby College
+Sport: Men's Basketball
+Season: 2025-26
+Player: Dan Civello
+Jersey number: 6
+GP: 25
+GS: 25
+MIN: 665
+PTS: 457
+AVG: 18.3
+```
+
+### Sample Chunk 5 — Men's Soccer Statistics
+
+**Source document:** `2025 Men's Soccer Cumulative Statistics - Colby College`
+
+```text
+Record type: Individual Overall Offensive Statistics
+School: Colby College
+Sport: Men's Soccer
+Season: 2025
+Player: Jude Gussen
+Jersey number: 3
+GP: 15
+GS: 14
+MIN: 900
+G: 4
+A: 3
+PTS: 11
+SH: 40
+SOG: 12
+GW: 3
+```
+
+---
+
+## Retrieval Test Results
+
+### Retrieval Test 1 — Player Position
+
+**Query:**
+
+```text
+What position does Sean Trinder play?
+```
+
+**Top returned chunk:**
+
+```text
+Source: 2025 Football Roster - Colby College
+
+Record type: athlete
+Player: Sean Trinder
+Jersey number: 0
+Position: WR
+Academic year: So.
+Height: 6'1"
+Weight: 200 lbs
+```
+
+**Why this chunk is relevant:**
+
+The chunk is an exact player record for Sean Trinder and directly contains the requested `Position` field. Metadata routing restricted the query to roster documents, preventing unrelated schedule and statistics chunks from dominating retrieval.
+
+### Retrieval Test 2 — Football Schedule
+
+**Query:**
+
+```text
+When does Colby football play Bowdoin in 2026?
+```
+
+**Top returned chunk:**
+
+```text
+Source: 2026 Football Schedule - Colby College
+
+School: Colby College
+Sport: Football
+Season: 2026
+
+Nov 14 (Sat)
+1:00 PM
+NESCAC
+Bowdoin College
+Brunswick, ME
+```
+
+**Why this chunk is relevant:**
+
+The retrieved record contains the requested sport, season, opponent, date, time, and location. Source context was prepended before embedding, allowing the individual game record to match the full query rather than losing the connection to Colby football and the 2026 season.
+
+### Retrieval Test 3 — Receiving-Yard Leader
+
+**Query:**
+
+```text
+Who led the 2025 Colby football team in receiving yards?
+```
+
+**Top returned chunks:**
+
+```text
+Source: 2025 Football Cumulative Statistics - Colby College
+
+Player: Jack Nye
+YDS: 369
+```
+
+```text
+Source: 2025 Football Cumulative Statistics - Colby College
+
+Player: Sean Trinder
+YDS: 141
+```
+
+```text
+Source: 2025 Football Cumulative Statistics - Colby College
+
+Player: Cormac Wright
+YDS: 107
+```
+
+**Why these chunks are relevant:**
+
+This is an aggregation question, so one semantic result is not enough. The statistics router retrieves the full matching receiving-statistics category for the requested sport and season. The generator can then compare the athletes' `YDS` values and correctly identify the leader.
 
 ## Embedding Model
 
@@ -133,6 +324,78 @@ The generator uses Groq with a low temperature to reduce unnecessary variation.
 **How source attribution is surfaced:**
 
 Answers contain citations such as `[Source 1]`. The interface displays the matching official Colby Athletics page title, sport, season, and URL beneath the answer.
+
+## Example System Responses
+
+### Example 1 — Schedule Answer
+
+```text
+Question:
+When does Colby football play Bowdoin in 2026?
+
+Answer:
+Colby football plays Bowdoin on November 14, 2026, at 1:00 PM in Brunswick, ME [Source 1].
+
+Sources:
+[Source 1] 2026 Football Schedule - Colby College
+https://colbyathletics.com/sports/football/schedule
+```
+
+### Example 2 — Statistics Answer
+
+```text
+Question:
+Who led Colby men's basketball in scoring in 2025-26?
+
+Answer:
+Dan Civello led Colby men's basketball in scoring in the 2025-26 season with 457 points and an average of 18.3 points per game [Source 1].
+
+Sources:
+[Source 1] 2025-26 Men's Basketball Cumulative Statistics - Colby College
+https://colbyathletics.com/sports/mens-basketball/stats/2025-26
+```
+
+### Out-of-Scope Refusal
+
+```text
+Question:
+Who will be Colby's best football player next season?
+
+Answer:
+I could not find enough information in the available Colby Athletics sources.
+```
+
+---
+
+## Query Interface
+
+Mule Intelligence uses a Gradio web interface.
+
+### Input Field
+
+* A text box labeled **Ask Mule Intelligence**
+* Accepts a natural-language question about the supported Colby Athletics sources
+* The user can submit by clicking the primary button or pressing Enter
+
+### Output Fields
+
+* **Answer:** The grounded natural-language response
+* **Sources:** Official source title, sport, season, and URL
+* **Relevant official image:** An image associated with the retrieved source when usable image metadata is available
+
+### Sample Interaction Transcript
+
+```text
+User:
+Who led Colby men's soccer in points in 2025?
+
+Mule Intelligence:
+Jude Gussen led Colby men's soccer in points in 2025 with 11 points [Source 1].
+
+Sources:
+[Source 1] 2025 Men's Soccer Cumulative Statistics - Colby College
+https://colbyathletics.com/sports/mens-soccer/stats/2025
+```
 
 ---
 
@@ -195,16 +458,16 @@ This prevents the documents, chunks, and vector database from silently becoming 
 
 ## Evaluation Report
 
-| # | Question                                                 | Expected answer                                      | System response, summarized                                                          | Retrieval quality | Response accuracy |
+| # | Question                                                 | Expected answer                                      | System response                                                           | Retrieval quality | Response accuracy |
 | - | -------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------- | ----------------- |
-| 1 | What position does Sean Trinder play?                    | Wide receiver                                        | Identified Sean Trinder as a WR and cited the football roster.                       | Relevant          | Accurate          |
-| 2 | When does Colby football play Bowdoin in 2026?           | November 14, 2026 at 1:00 PM in Brunswick, Maine     | Returned the correct date, time, and location with a schedule citation.              | Relevant          | Accurate          |
-| 3 | Who led the 2025 Colby football team in receiving yards? | Jack Nye with 369 yards                              | Compared the receiving-statistics records and identified Jack Nye with 369 yards.    | Relevant          | Accurate          |
-| 4 | Who led Colby men's basketball in scoring in 2025-26?    | Dan Civello with 457 points and 18.3 points per game | Identified Dan Civello and returned both his total and per-game average.             | Relevant          | Accurate          |
-| 5 | Who led Colby men's soccer in points in 2025?            | Jude Gussen with 11 points                           | Compared the offensive-statistics records and identified Jude Gussen with 11 points. | Relevant          | Accurate          |
+| 1 | What position does Sean Trinder play?                    | Wide receiver                                        | Sean Trinder plays the position of WR (Wide Receiver) [Source 1].                       | Relevant          | Accurate          |
+| 2 | When does Colby football play Bowdoin in 2026?           | November 14, 2026 at 1:00 PM in Brunswick, Maine     | Colby football plays Bowdoin on November 14, 2026, at 1:00 PM in Brunswick, ME [Source 1].              | Relevant          | Accurate          |
+| 3 | Who led the 2025 Colby football team in receiving yards? | Jack Nye with 369 yards                              | Jack Nye led the 2025 Colby football team in receiving yards with 369 yards [Source 1].    | Relevant          | Accurate          |
+| 4 | Who led Colby men's basketball in scoring in 2025-26?    | Dan Civello with 457 points and 18.3 points per game | Dan Civello led Colby men's basketball in scoring in the 2025-26 season with 457 points and an average of 18.3 points per game [Source 1].             | Relevant          | Accurate          |
+| 5 | Who led Colby men's soccer in points in 2025?            | Jude Gussen with 11 points                           | Jude Gussen led Colby men's soccer in points in 2025 with 11 points [Source 1]. | Relevant          | Accurate          |
 
-**Retrieval quality:** Relevant / Partially relevant / Off-target
-**Response accuracy:** Accurate / Partially accurate / Inaccurate
+**Retrieval quality:** __Relevant__ / Partially relevant / Off-target
+**Response accuracy:** __Accurate__ / Partially accurate / Inaccurate
 
 Additional unsupported-question test:
 
