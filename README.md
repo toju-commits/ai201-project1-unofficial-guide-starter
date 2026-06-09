@@ -218,6 +218,21 @@ I could not find enough information in the available Colby Athletics sources.
 This confirmed that the assistant refused a prediction that was not supported by the corpus.
 
 ---
+### Informal User Testing
+
+I conducted an informal user test with family members using questions that were not part of the original evaluation set.
+
+One successful test involved a student-athlete who appears on both the football and basketball rosters. When asked for his jersey number, Mule Intelligence correctly returned both numbers and distinguished them by sport. This demonstrated that the system can retrieve and combine multiple records for the same person across different teams.
+
+The test also exposed limitations in reverse-lookup questions. For example:
+
+```text
+Who is number 95 on Colby football?
+```
+
+The relevant football roster record was present in the corpus, but the system did not reliably identify Joshua Iyonsi from the jersey number alone. This suggests that the current semantic retrieval and keyword-based routing perform better when a query includes a player name than when the system must search by a short numeric attribute.
+
+A future improvement would add structured metadata fields for jersey numbers and support exact-match or hybrid retrieval. The system could first filter by sport and document type, then search structured fields such as jersey number before falling back to semantic similarity.
 
 ## Failure Case Analysis
 
@@ -392,6 +407,9 @@ media/                  Image metadata
 * The application currently runs locally and has not yet been deployed.
 * The embedding model may struggle with highly ambiguous or underspecified questions.
 * Intent routing currently uses keyword-based rules and can be expanded.
+* Reverse lookups from short numeric attributes, such as jersey numbers, are not always reliable with semantic retrieval alone.
+* A person appearing across multiple sports may produce several valid records that require entity-aware grouping.
+* Some natural-language questions require query normalization or exact structured filtering rather than vector similarity.
 
 ---
 
